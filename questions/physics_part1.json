@@ -1,0 +1,327 @@
+[
+    {
+        "id": 1,
+        "question": "A projectile is launched at 45° with initial velocity 20 m/s. What is its range? (g = 10 m/s²)",
+        "options": [
+            "20 m",
+            "30 m",
+            "40 m",
+            "50 m"
+        ],
+        "correct": 2,
+        "explanation": "Range = v²sin(2θ)/g = 400×sin(90°)/10 = 400×1/10 = 40 m",
+        "topic_explanation": "Projectile motion: Range R = v₀²sin(2θ)/g. Maximum range at 45°. Time of flight: t = 2v₀sinθ/g. Maximum height: H = v₀²sin²θ/2g. Horizontal and vertical motions are independent."
+    },
+    {
+        "id": 2,
+        "question": "A 2 kg block on a frictionless surface is pushed by constant force 10 N for 3 s. What is its final velocity?",
+        "options": [
+            "5 m/s",
+            "10 m/s",
+            "15 m/s",
+            "20 m/s"
+        ],
+        "correct": 2,
+        "explanation": "a = F/m = 10/2 = 5 m/s². v = at = 5×3 = 15 m/s",
+        "topic_explanation": "Newton's second law: F = ma. For constant force: a = F/m (constant). Kinematic equations: v = v₀ + at, s = v₀t + ½at², v² = v₀² + 2as."
+    },
+    {
+        "id": 3,
+        "question": "Two charges +2Q and -Q are separated by distance d. Where is the electric field zero?",
+        "options": [
+            "d from +2Q, opposite side of -Q",
+            "2d from -Q, opposite side of +2Q",
+            "Between the charges",
+            "Cannot be zero anywhere"
+        ],
+        "correct": 1,
+        "explanation": "E = 0 when k(2Q)/x² = kQ/(x-d)². Solving: x = 2d from +2Q = 2d from -Q on far side.",
+        "topic_explanation": "Electric field superposition: E_net = ΣE_i. For point charges: E = kQ/r². Field zero where magnitudes equal, directions opposite. Between opposite charges, fields add. Outside, they can cancel."
+    },
+    {
+        "id": 4,
+        "question": "A car rounds a banked curve of radius 100 m at 20 m/s. What banking angle requires no friction?",
+        "options": [
+            "11.5°",
+            "21.8°",
+            "30.0°",
+            "45.0°"
+        ],
+        "correct": 1,
+        "explanation": "tan θ = v²/rg = 400/(100×10) = 0.4, θ = tan⁻¹(0.4) = 21.8°",
+        "topic_explanation": "Banked curves: For no friction, normal force provides centripetal force. tan θ = v²/rg. At this angle, car can round curve at specific speed without friction. Higher speed needs friction inward."
+    },
+    {
+        "id": 5,
+        "question": "A wave has frequency 500 Hz and wavelength 0.68 m. What is its speed?",
+        "options": [
+            "170 m/s",
+            "340 m/s",
+            "500 m/s",
+            "680 m/s"
+        ],
+        "correct": 1,
+        "explanation": "v = fλ = 500 × 0.68 = 340 m/s (speed of sound in air)",
+        "topic_explanation": "Wave equation: v = fλ. Speed depends on medium, not amplitude or frequency. Sound in air ~340 m/s, in water ~1500 m/s. Light in vacuum: 3×10⁸ m/s."
+    },
+    {
+        "id": 6,
+        "question": "A spring (k = 200 N/m) is compressed 0.1 m. What is the stored elastic potential energy?",
+        "options": [
+            "0.5 J",
+            "1.0 J",
+            "2.0 J",
+            "10 J"
+        ],
+        "correct": 1,
+        "explanation": "U = ½kx² = ½ × 200 × 0.01 = 1.0 J",
+        "topic_explanation": "Elastic potential energy: U = ½kx². Spring force: F = -kx (Hooke's law). Work to compress: W = ∫F dx = ½kx². Energy stored equals work done against spring force."
+    },
+    {
+        "id": 7,
+        "question": "In a transformer with 100 primary turns and 500 secondary turns, if primary voltage is 220V, secondary voltage is:",
+        "options": [
+            "44 V",
+            "220 V",
+            "1100 V",
+            "2200 V"
+        ],
+        "correct": 2,
+        "explanation": "V₂/V₁ = N₂/N₁, so V₂ = 220 × (500/100) = 1100 V",
+        "topic_explanation": "Transformer equation: V₂/V₁ = N₂/N₁ = I₁/I₂. Step-up increases voltage, decreases current. Power conserved (ideal): P₁ = P₂. Used for efficient power transmission."
+    },
+    {
+        "id": 8,
+        "question": "A 60 kg person stands on a scale in an elevator accelerating upward at 2 m/s². Scale reading is:",
+        "options": [
+            "480 N",
+            "588 N",
+            "600 N",
+            "720 N"
+        ],
+        "correct": 3,
+        "explanation": "N = m(g + a) = 60(10 + 2) = 720 N",
+        "topic_explanation": "Apparent weight in accelerating frame: N = m(g ± a). Upward acceleration increases apparent weight. Downward decreases it. Free fall: N = 0 (weightlessness)."
+    },
+    {
+        "id": 9,
+        "question": "Light travels from air (n=1) to glass (n=1.5) at 60° to normal. What is the refraction angle?",
+        "options": [
+            "35.3°",
+            "40.0°",
+            "45.0°",
+            "60.0°"
+        ],
+        "correct": 0,
+        "explanation": "n₁sin θ₁ = n₂sin θ₂; sin θ₂ = (1×sin 60°)/1.5 = 0.866/1.5 = 0.577; θ₂ = 35.3°",
+        "topic_explanation": "Snell's law: n₁sin θ₁ = n₂sin θ₂. Light bends toward normal when entering denser medium. Critical angle: sin θc = n₂/n₁ for total internal reflection when n₁ > n₂."
+    },
+    {
+        "id": 10,
+        "question": "A capacitor (C = 10 μF) is charged to 100 V. Energy stored is:",
+        "options": [
+            "0.05 J",
+            "0.5 J",
+            "5 J",
+            "50 J"
+        ],
+        "correct": 0,
+        "explanation": "U = ½CV² = ½ × 10×10⁻⁶ × 10⁴ = 0.05 J",
+        "topic_explanation": "Capacitor energy: U = ½CV² = ½QV = Q²/2C. Energy stored in electric field between plates. Parallel plate: C = ε₀A/d. Series: 1/C_total = Σ(1/C_i). Parallel: C_total = ΣC_i."
+    },
+    {
+        "id": 11,
+        "question": "A satellite orbits Earth at radius 2R (R = Earth radius). Its period compared to surface period is:",
+        "options": [
+            "√2 times",
+            "2 times",
+            "2√2 times",
+            "4 times"
+        ],
+        "correct": 2,
+        "explanation": "T ∝ r^(3/2). T₂/T₁ = (2R/R)^(3/2) = 2^(3/2) = 2√2",
+        "topic_explanation": "Kepler's third law: T² ∝ r³. For circular orbits: T = 2π√(r³/GM). Orbital velocity: v = √(GM/r). Higher orbits have longer periods, slower speeds."
+    },
+    {
+        "id": 12,
+        "question": "In photoelectric effect, increasing light intensity increases:",
+        "options": [
+            "Maximum kinetic energy of electrons",
+            "Number of emitted electrons",
+            "Work function",
+            "Threshold frequency"
+        ],
+        "correct": 1,
+        "explanation": "Intensity affects number of photons, thus number of emitted electrons, not their energy.",
+        "topic_explanation": "Photoelectric effect: E = hf = KE_max + φ. Intensity affects photon number, not energy. Frequency determines maximum KE. Below threshold frequency, no emission regardless of intensity."
+    },
+    {
+        "id": 13,
+        "question": "A wire carrying current I in magnetic field B experiences maximum force when angle between them is:",
+        "options": [
+            "0°",
+            "45°",
+            "90°",
+            "180°"
+        ],
+        "correct": 2,
+        "explanation": "F = BIL sin θ is maximum when sin θ = 1, i.e., θ = 90°",
+        "topic_explanation": "Magnetic force on current: F = IL × B = BIL sin θ. Maximum when perpendicular. Direction by right-hand rule. Parallel currents attract, antiparallel repel."
+    },
+    {
+        "id": 14,
+        "question": "Two objects of mass m and 2m collide elastically. If m moves at v initially, what fraction of energy transfers to 2m?",
+        "options": [
+            "1/3",
+            "2/3",
+            "8/9",
+            "1"
+        ],
+        "correct": 2,
+        "explanation": "For elastic collision, fraction transferred = 4m₁m₂/(m₁+m₂)² = 4×2/9 = 8/9",
+        "topic_explanation": "Elastic collisions conserve momentum and kinetic energy. Energy transfer maximized when masses equal. For m₁ → m₂ at rest: ΔE/E₀ = 4m₁m₂/(m₁+m₂)²."
+    },
+    {
+        "id": 15,
+        "question": "A pendulum has period 2s on Earth. On a planet with g = 2.5 m/s², its period is:",
+        "options": [
+            "1 s",
+            "2 s",
+            "3 s",
+            "4 s"
+        ],
+        "correct": 3,
+        "explanation": "T ∝ 1/√g. T₂ = T₁√(g₁/g₂) = 2√(10/2.5) = 2×2 = 4 s",
+        "topic_explanation": "Simple pendulum: T = 2π√(L/g). Period independent of mass and amplitude (small angles). Inversely proportional to √g. Used historically to measure g."
+    },
+    {
+        "id": 16,
+        "question": "In double-slit experiment, fringe width is 0.5 mm. If slit separation doubles, fringe width becomes:",
+        "options": [
+            "0.25 mm",
+            "0.5 mm",
+            "1.0 mm",
+            "2.0 mm"
+        ],
+        "correct": 0,
+        "explanation": "Fringe width β = λD/d. If d doubles, β halves to 0.25 mm",
+        "topic_explanation": "Young's double slit: Fringe width β = λD/d. Bright fringes at y = nλD/d. Demonstrates wave nature of light. Fringe width ∝ wavelength, screen distance; ∝ 1/slit separation."
+    },
+    {
+        "id": 17,
+        "question": "A heat engine operates between 600K and 300K. Maximum possible efficiency is:",
+        "options": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+        ],
+        "correct": 1,
+        "explanation": "Carnot efficiency = 1 - T_cold/T_hot = 1 - 300/600 = 0.5 = 50%",
+        "topic_explanation": "Carnot efficiency: η = 1 - Tc/Th. Maximum possible for any engine between two temperatures. Real engines less efficient. Second law: no 100% efficient heat engine."
+    },
+    {
+        "id": 18,
+        "question": "An object at 2f from a convex lens forms image at:",
+        "options": [
+            "f",
+            "2f",
+            "3f",
+            "Infinity"
+        ],
+        "correct": 1,
+        "explanation": "For convex lens: 1/f = 1/u + 1/v. When u = 2f, v = 2f (real, inverted, same size)",
+        "topic_explanation": "Lens formula: 1/f = 1/u + 1/v. Convex lens: u > 2f → diminished real image; u = 2f → same size at 2f; f < u < 2f → magnified real; u < f → virtual upright."
+    },
+    {
+        "id": 19,
+        "question": "A charge q moving at velocity v in magnetic field B has force F. If v doubles, force becomes:",
+        "options": [
+            "F/2",
+            "F",
+            "2F",
+            "4F"
+        ],
+        "correct": 2,
+        "explanation": "F = qvB sin θ. Force is proportional to velocity, so doubles to 2F",
+        "topic_explanation": "Lorentz force: F = q(v × B) = qvB sin θ. Perpendicular to both v and B. Causes circular motion. Radius: r = mv/qB. Used in mass spectrometers, cyclotrons."
+    },
+    {
+        "id": 20,
+        "question": "Sound intensity 10 m from a point source is I. At 20 m, intensity is:",
+        "options": [
+            "I/2",
+            "I/4",
+            "I/10",
+            "I/100"
+        ],
+        "correct": 1,
+        "explanation": "Intensity ∝ 1/r². At double distance: I₂ = I₁(r₁/r₂)² = I(10/20)² = I/4",
+        "topic_explanation": "Inverse square law: I ∝ 1/r² for point sources. Applies to sound, light, radiation. Power spreads over sphere area 4πr². Doubling distance quarters intensity."
+    },
+    {
+        "id": 21,
+        "question": "A rod of length L rotates about one end with angular velocity ω. Linear velocity at the other end is:",
+        "options": [
+            "ωL/2",
+            "ωL",
+            "ωL²",
+            "ω²L"
+        ],
+        "correct": 1,
+        "explanation": "v = ωr. At the far end, r = L, so v = ωL",
+        "topic_explanation": "Rotational kinematics: v = ωr, a_tangential = αr, a_centripetal = ω²r. Different points have different linear velocities but same angular velocity. Energy: KE = ½Iω²."
+    },
+    {
+        "id": 22,
+        "question": "In an AC circuit, voltage leads current by 90°. The circuit contains:",
+        "options": [
+            "Pure resistance",
+            "Pure inductance",
+            "Pure capacitance",
+            "Resistance and inductance"
+        ],
+        "correct": 1,
+        "explanation": "In pure inductor, voltage leads current by 90° (current lags voltage)",
+        "topic_explanation": "AC phase relationships: Resistor - in phase. Inductor - V leads I by 90°. Capacitor - I leads V by 90°. Mnemonic: ELI the ICE man (E=V). Impedance: Z = √(R² + (XL-XC)²)."
+    },
+    {
+        "id": 23,
+        "question": "The de Broglie wavelength of a particle is λ. If its momentum doubles, wavelength becomes:",
+        "options": [
+            "λ/4",
+            "λ/2",
+            "2λ",
+            "4λ"
+        ],
+        "correct": 1,
+        "explanation": "λ = h/p. If p doubles, λ halves to λ/2",
+        "topic_explanation": "de Broglie wavelength: λ = h/p = h/mv. All matter has wave properties. Significant for small particles (electrons). Explains electron orbitals, electron diffraction."
+    },
+    {
+        "id": 24,
+        "question": "A radioactive sample has half-life 10 days. After 30 days, what fraction remains?",
+        "options": [
+            "1/3",
+            "1/4",
+            "1/6",
+            "1/8"
+        ],
+        "correct": 3,
+        "explanation": "30 days = 3 half-lives. Remaining = (1/2)³ = 1/8",
+        "topic_explanation": "Radioactive decay: N = N₀(1/2)^(t/t½) = N₀e^(-λt). After n half-lives, 1/2ⁿ remains. Decay constant λ = ln2/t½. Activity = λN."
+    },
+    {
+        "id": 25,
+        "question": "Two resistors 4Ω and 6Ω in parallel have combined resistance:",
+        "options": [
+            "2.4Ω",
+            "5Ω",
+            "10Ω",
+            "24Ω"
+        ],
+        "correct": 0,
+        "explanation": "1/R = 1/4 + 1/6 = 3/12 + 2/12 = 5/12, so R = 12/5 = 2.4Ω",
+        "topic_explanation": "Parallel resistors: 1/R_total = Σ(1/R_i). Always less than smallest. For two: R = R₁R₂/(R₁+R₂). Series: R_total = ΣR_i. Current divides in parallel, voltage divides in series."
+    }
+]

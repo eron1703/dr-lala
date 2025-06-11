@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  dr-lala:
+    build: .
+    container_name: dr-lala-app
+    ports:
+      - "8888:8888"
+    restart: unless-stopped
+    volumes:
+      - ./questions:/app/questions:ro

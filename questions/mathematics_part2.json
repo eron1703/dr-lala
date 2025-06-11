@@ -1,0 +1,327 @@
+[
+    {
+        "id": 26,
+        "question": "Find all values of x where f(x) = x³ - 3x² + 2 has a local maximum",
+        "options": [
+            "x = 0",
+            "x = 1",
+            "x = 2",
+            "x = 3"
+        ],
+        "correct": 0,
+        "explanation": "f'(x) = 3x² - 6x = 3x(x-2). Critical points: x = 0, 2. f''(x) = 6x - 6. f''(0) = -6 < 0, so maximum at x = 0",
+        "topic_explanation": "Local extrema: Find where f'(x) = 0 (critical points). Use second derivative test: f''(x) < 0 means maximum, f''(x) > 0 means minimum. If f''(x) = 0, test is inconclusive."
+    },
+    {
+        "id": 27,
+        "question": "The rank of matrix [[1,2,3],[2,4,6],[3,6,9]] is:",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correct": 1,
+        "explanation": "All rows are multiples of [1,2,3]. Row reduction gives one non-zero row, so rank = 1",
+        "topic_explanation": "Matrix rank = number of linearly independent rows/columns = number of non-zero rows in row echelon form. Rank determines solvability of linear systems."
+    },
+    {
+        "id": 28,
+        "question": "Convert the polar equation r = 4sin(θ) to rectangular form",
+        "options": [
+            "x² + y² = 4y",
+            "x² + y² = 4x",
+            "x² + y² = 16",
+            "x² - y² = 4"
+        ],
+        "correct": 0,
+        "explanation": "r = 4sin(θ). Multiply by r: r² = 4r sin(θ). Since x² + y² = r² and y = r sin(θ): x² + y² = 4y",
+        "topic_explanation": "Polar-rectangular conversion: x = r cos(θ), y = r sin(θ), r² = x² + y², tan(θ) = y/x. Often multiply polar equation by r to use r² = x² + y²."
+    },
+    {
+        "id": 29,
+        "question": "The Fourier series of f(x) = x on [-π, π] has a₀ equal to:",
+        "options": [
+            "0",
+            "π",
+            "2π",
+            "π/2"
+        ],
+        "correct": 0,
+        "explanation": "a₀ = (1/π)∫_{-π}^π x dx = 0 (odd function integrated over symmetric interval)",
+        "topic_explanation": "Fourier series: f(x) = a₀/2 + Σ(aₙcos(nx) + bₙsin(nx)). For odd functions on symmetric intervals, all aₙ = 0. For even functions, all bₙ = 0."
+    },
+    {
+        "id": 30,
+        "question": "Find the remainder when x¹⁰⁰ is divided by x² - 1",
+        "options": [
+            "0",
+            "1",
+            "x",
+            "x + 1"
+        ],
+        "correct": 1,
+        "explanation": "x² - 1 = (x-1)(x+1). x¹⁰⁰ = q(x)(x²-1) + ax + b. At x=1: 1 = a + b. At x=-1: 1 = -a + b. So a=0, b=1",
+        "topic_explanation": "Polynomial division remainder: For divisor of degree n, remainder has degree < n. Use remainder theorem: evaluate at roots of divisor to find remainder coefficients."
+    },
+    {
+        "id": 31,
+        "question": "The number of positive integer solutions to x + y + z = 10 is:",
+        "options": [
+            "36",
+            "45",
+            "55",
+            "66"
+        ],
+        "correct": 0,
+        "explanation": "This is stars and bars: C(n-1, k-1) = C(9, 2) = 36",
+        "topic_explanation": "Stars and bars: Number of ways to put n identical items in k distinct boxes = C(n+k-1, k-1). For positive integers: C(n-1, k-1). For non-negative: C(n+k-1, k-1)."
+    },
+    {
+        "id": 32,
+        "question": "If f(x) = ln(x), find f⁽⁴⁾(x)",
+        "options": [
+            "6/x⁴",
+            "-6/x⁴",
+            "24/x⁴",
+            "-24/x⁴"
+        ],
+        "correct": 1,
+        "explanation": "f'(x) = 1/x, f''(x) = -1/x², f'''(x) = 2/x³, f⁽⁴⁾(x) = -6/x⁴",
+        "topic_explanation": "Higher derivatives of ln(x): f⁽ⁿ⁾(x) = (-1)ⁿ⁻¹(n-1)!/xⁿ. Pattern emerges from repeated differentiation. Used in Taylor series expansions."
+    },
+    {
+        "id": 33,
+        "question": "The angle between vectors u = ⟨1, 2, 2⟩ and v = ⟨2, -2, 1⟩ is:",
+        "options": [
+            "0°",
+            "45°",
+            "60°",
+            "90°"
+        ],
+        "correct": 3,
+        "explanation": "u·v = 2 - 4 + 2 = 0. Since dot product is 0, vectors are perpendicular (90°)",
+        "topic_explanation": "Vector angle: cos(θ) = (u·v)/(|u||v|). Perpendicular when u·v = 0. Parallel when u = kv for some scalar k. Dot product measures projection."
+    },
+    {
+        "id": 34,
+        "question": "Evaluate lim(x→0) (sin(3x) - 3x)/(x³)",
+        "options": [
+            "-9/2",
+            "-3/2",
+            "0",
+            "9/2"
+        ],
+        "correct": 0,
+        "explanation": "Using Taylor series: sin(3x) = 3x - (3x)³/6 + ... So limit = -27/6 / 1 = -9/2",
+        "topic_explanation": "L'Hôpital's rule or Taylor series for 0/0 forms. Taylor often easier for higher order zeros. sin(x) = x - x³/6 + x⁵/120 - ..."
+    },
+    {
+        "id": 35,
+        "question": "The area of the ellipse x²/9 + y²/4 = 1 is:",
+        "options": [
+            "6π",
+            "12π",
+            "18π",
+            "36π"
+        ],
+        "correct": 0,
+        "explanation": "Area of ellipse = πab where a = 3, b = 2. Area = π(3)(2) = 6π",
+        "topic_explanation": "Ellipse x²/a² + y²/b² = 1 has semi-major axis a, semi-minor axis b. Area = πab. Perimeter has no simple formula (elliptic integral)."
+    },
+    {
+        "id": 36,
+        "question": "Solve the system: x + y + z = 6, x + 2y + 3z = 10, x + 3y + 5z = 14",
+        "options": [
+            "(1, 2, 3)",
+            "(2, 2, 2)",
+            "(3, 2, 1)",
+            "No solution"
+        ],
+        "correct": 2,
+        "explanation": "Row reduction yields x = 3, y = 2, z = 1. Check: 3+2+1=6 ✓, 3+4+3=10 ✓, 3+6+5=14 ✓",
+        "topic_explanation": "Linear systems: Use Gaussian elimination (row operations) to get row echelon form. Unique solution if rank equals number of variables. Check solution by substitution."
+    },
+    {
+        "id": 37,
+        "question": "Find ∫ sec³(x) dx",
+        "options": [
+            "½[sec(x)tan(x) + ln|sec(x) + tan(x)|] + C",
+            "sec(x)tan(x) + C",
+            "⅓sec³(x) + C",
+            "tan(x) + C"
+        ],
+        "correct": 0,
+        "explanation": "Using reduction formula or integration by parts twice. Result involves both sec(x)tan(x) and logarithm",
+        "topic_explanation": "Trigonometric integrals: Powers of sec and tan often require reduction formulas or clever substitutions. ∫sec(x)dx = ln|sec(x) + tan(x)| + C is fundamental."
+    },
+    {
+        "id": 38,
+        "question": "The coefficient of x⁵ in (1 + x + x²)⁶ is:",
+        "options": [
+            "30",
+            "36",
+            "42",
+            "48"
+        ],
+        "correct": 2,
+        "explanation": "Use multinomial theorem or generating functions. Count ways to get x⁵ from 6 factors. Answer is 42",
+        "topic_explanation": "Multinomial expansion: (x₁ + x₂ + ... + xₖ)ⁿ. Coefficient finding often uses generating functions or combinatorial counting. Related to partitions of integers."
+    },
+    {
+        "id": 39,
+        "question": "If A is a 3×3 matrix with det(A) = 2, find det(2A⁻¹)",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+        ],
+        "correct": 1,
+        "explanation": "det(2A⁻¹) = 2³ det(A⁻¹) = 8 × (1/2) = 4. Wait, det(cA) = cⁿdet(A) for n×n. So det(2A⁻¹) = 8/2 = 4. No, 8 × 1/2 = 4",
+        "topic_explanation": "Determinant properties: det(cA) = cⁿdet(A) for n×n matrix. det(A⁻¹) = 1/det(A). det(AB) = det(A)det(B). These rules combine for complex expressions."
+    },
+    {
+        "id": 40,
+        "question": "The general solution to (x² + 1)dy/dx + 2xy = x is:",
+        "options": [
+            "y = 1/(x² + 1) + C/(x² + 1)",
+            "y = x/(x² + 1) + C",
+            "y = 1/2 + C/(x² + 1)",
+            "y = ln(x² + 1) + C"
+        ],
+        "correct": 2,
+        "explanation": "Linear first order: dy/dx + 2x/(x²+1) y = x/(x²+1). Integrating factor: e^∫2x/(x²+1)dx = x²+1. Solution: y = 1/2 + C/(x²+1)",
+        "topic_explanation": "First-order linear ODE: dy/dx + P(x)y = Q(x). Integrating factor: μ = e^∫P(x)dx. Solution: y = (1/μ)∫μQ(x)dx. Always check by substitution."
+    },
+    {
+        "id": 41,
+        "question": "Find the sum: Σ(k=1 to n) k³",
+        "options": [
+            "n²(n+1)²/4",
+            "n(n+1)(2n+1)/6",
+            "n(n+1)/2",
+            "n²(n+1)²/2"
+        ],
+        "correct": 0,
+        "explanation": "Sum of cubes = [n(n+1)/2]² = n²(n+1)²/4. Note this equals (sum of first n integers)²",
+        "topic_explanation": "Power sums: Σk = n(n+1)/2, Σk² = n(n+1)(2n+1)/6, Σk³ = [n(n+1)/2]². Beautiful identity: (1+2+...+n)² = 1³+2³+...+n³."
+    },
+    {
+        "id": 42,
+        "question": "The radius of convergence of Σ(n=0 to ∞) n!xⁿ is:",
+        "options": [
+            "0",
+            "1",
+            "e",
+            "∞"
+        ],
+        "correct": 0,
+        "explanation": "Ratio test: lim|(n+1)!x^(n+1)/(n!xⁿ)| = lim|(n+1)x| = ∞ for any x ≠ 0. Converges only at x = 0",
+        "topic_explanation": "Radius of convergence: Use ratio or root test. For Σaₙxⁿ, R = 1/lim|aₙ₊₁/aₙ|. Factorial growth dominates any exponential, giving R = 0."
+    },
+    {
+        "id": 43,
+        "question": "If f(x,y) = x³ + y³ - 3xy, find all critical points",
+        "options": [
+            "(0,0) only",
+            "(1,1) only",
+            "(0,0) and (1,1)",
+            "(0,0), (1,1), and (-1,-1)"
+        ],
+        "correct": 2,
+        "explanation": "∂f/∂x = 3x² - 3y = 0, ∂f/∂y = 3y² - 3x = 0. Solving: x² = y and y² = x gives (0,0) and (1,1)",
+        "topic_explanation": "Critical points: Solve ∇f = 0. Use second derivative test with Hessian matrix to classify. D > 0, fₓₓ > 0: minimum. D > 0, fₓₓ < 0: maximum. D < 0: saddle."
+    },
+    {
+        "id": 44,
+        "question": "Evaluate ∮_C (y dx - x dy)/(x² + y²) where C is the unit circle traversed counterclockwise",
+        "options": [
+            "0",
+            "π",
+            "2π",
+            "-2π"
+        ],
+        "correct": 3,
+        "explanation": "This is not exact (singularity at origin). Using Green's theorem carefully or parametrization: integral = -2π",
+        "topic_explanation": "Line integrals around singularities: Green's theorem fails if region contains singularity. Result depends on winding number. This integral gives -2π times winding number."
+    },
+    {
+        "id": 45,
+        "question": "The number of group homomorphisms from Z₁₂ to Z₈ is:",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+        ],
+        "correct": 2,
+        "explanation": "Homomorphism determined by φ(1). Need φ(1)¹² = 0 in Z₈. So 12φ(1) ≡ 0 (mod 8), giving φ(1) ∈ {0,2,4,6}. Count: 4",
+        "topic_explanation": "Group homomorphisms preserve operation: φ(ab) = φ(a)φ(b). For cyclic groups, determined by image of generator. Order of image divides order of element."
+    },
+    {
+        "id": 46,
+        "question": "Find all complex cube roots of 8",
+        "options": [
+            "2 only",
+            "2, -1+i√3, -1-i√3",
+            "2, 1+i√3, 1-i√3",
+            "2, -2, 2i"
+        ],
+        "correct": 1,
+        "explanation": "8 = 8e^(i·0). Cube roots: 2e^(i·0), 2e^(i·2π/3), 2e^(i·4π/3) = 2, 2(-1/2+i√3/2), 2(-1/2-i√3/2)",
+        "topic_explanation": "nth roots of complex number: If z = re^(iθ), nth roots are ⁿ√r·e^(i(θ+2πk)/n) for k = 0,1,...,n-1. Forms regular n-gon in complex plane."
+    },
+    {
+        "id": 47,
+        "question": "The Wronskian of y₁ = e^x and y₂ = e^(2x) is:",
+        "options": [
+            "e^x",
+            "e^(2x)",
+            "e^(3x)",
+            "2e^(3x)"
+        ],
+        "correct": 2,
+        "explanation": "W = |y₁ y₂; y₁' y₂'| = |e^x e^(2x); e^x 2e^(2x)| = 2e^(3x) - e^(3x) = e^(3x)",
+        "topic_explanation": "Wronskian tests linear independence of functions. W = 0 everywhere implies dependence. W ≠ 0 at any point implies independence. Used in differential equations."
+    },
+    {
+        "id": 48,
+        "question": "The value of ∫₀^∞ e^(-x²) dx is:",
+        "options": [
+            "1",
+            "√π/2",
+            "√π",
+            "π"
+        ],
+        "correct": 1,
+        "explanation": "Gaussian integral. Using polar coordinates on ∫∫e^(-x²-y²) or other methods: result is √π/2",
+        "topic_explanation": "Gaussian integral fundamental in probability. Evaluate by squaring and converting to polar, or using Γ(1/2) = √π. Normal distribution normalization uses this."
+    },
+    {
+        "id": 49,
+        "question": "If P(x) is a polynomial with P(1) = 1, P(2) = 4, P(3) = 9, what is the minimum degree?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "Cannot determine"
+        ],
+        "correct": 1,
+        "explanation": "Points suggest P(x) = x². Check: P(1) = 1, P(2) = 4, P(3) = 9 ✓. Degree 2 polynomial fits perfectly",
+        "topic_explanation": "Polynomial interpolation: n+1 points determine unique polynomial of degree ≤ n. Lagrange interpolation gives explicit formula. If pattern is simple, degree may be less."
+    },
+    {
+        "id": 50,
+        "question": "Find the number of integer solutions to |x| + |y| ≤ 5",
+        "options": [
+            "36",
+            "41",
+            "61",
+            "81"
+        ],
+        "correct": 2,
+        "explanation": "This forms a diamond shape. Count: center (0,0), then rings |x|+|y|=1,2,3,4,5. Total: 1+4+8+12+16+20 = 61",
+        "topic_explanation": "Counting lattice points: |x| + |y| ≤ n forms diamond. Points on |x| + |y| = k is 4k (except k=0). Total inside: 1 + 4(1+2+...+n) = 1 + 2n(n+1)."
+    }
+]

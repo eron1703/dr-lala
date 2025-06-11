@@ -1,0 +1,1097 @@
+[
+    {
+        "id": 1,
+        "question": "Calculate the pH of a 0.001 M HCl solution at 25°C.",
+        "options": ["pH = 1", "pH = 2", "pH = 3", "pH = 4"],
+        "correct": 2,
+        "explanation": "HCl is a strong acid, completely dissociates. [H+] = 0.001 M = 10⁻³ M, so pH = -log(10⁻³) = 3",
+        "topic_explanation": "pH = -log[H+]. Strong acids like HCl completely dissociate in water. For weak acids, use Ka to calculate [H+]. Remember: pH + pOH = 14 at 25°C."
+    },
+    {
+        "id": 2,
+        "question": "For the equilibrium N₂ + 3H₂ ⇌ 2NH₃, if pressure is increased, the equilibrium will:",
+        "options": [
+            "Shift left because there are more moles of gas on the left",
+            "Shift right because there are fewer moles of gas on the right",
+            "Not shift because pressure doesn't affect equilibrium",
+            "Shift to increase temperature"
+        ],
+        "correct": 1,
+        "explanation": "Left side has 4 moles of gas, right has 2. Increasing pressure favors the side with fewer gas moles (right).",
+        "topic_explanation": "Le Chatelier's principle: systems at equilibrium respond to minimize disturbance. For pressure changes, equilibrium shifts toward side with fewer gas molecules. Temperature changes favor endothermic (if heated) or exothermic (if cooled) direction."
+    },
+    {
+        "id": 3,
+        "question": "An element has the electron configuration [Ar]3d¹⁰4s²4p³. It belongs to:",
+        "options": ["Group 13", "Group 14", "Group 15", "Group 16"],
+        "correct": 2,
+        "explanation": "4s²4p³ = 5 valence electrons, which is Group 15 (nitrogen family).",
+        "topic_explanation": "Group number = valence electrons for main group elements. Group 15 elements (N, P, As, Sb, Bi) have ns²np³ configuration. Transition metals counted differently."
+    },
+    {
+        "id": 4,
+        "question": "Which has the largest atomic radius?",
+        "options": ["Na", "Mg", "K", "Ca"],
+        "correct": 2,
+        "explanation": "K is in period 4, while Na is in period 3. Atomic radius increases down a group.",
+        "topic_explanation": "Atomic radius trends: Increases down a group (more electron shells), decreases across a period (increasing nuclear charge pulls electrons closer). K > Na > Ca > Mg."
+    },
+    {
+        "id": 5,
+        "question": "The first ionization energy is highest for:",
+        "options": ["Na", "Mg", "Al", "Ar"],
+        "correct": 3,
+        "explanation": "Noble gases have highest ionization energy due to stable electron configuration.",
+        "topic_explanation": "Ionization energy: energy to remove outermost electron. Increases across period (stronger nuclear charge), decreases down group (electrons farther from nucleus). Noble gases highest, alkali metals lowest."
+    },
+    {
+        "id": 6,
+        "question": "How many unpaired electrons are in Fe³⁺? (Fe atomic number = 26)",
+        "options": ["3", "4", "5", "6"],
+        "correct": 2,
+        "explanation": "Fe³⁺ has configuration [Ar]3d⁵, with 5 unpaired electrons in d orbitals.",
+        "topic_explanation": "Fe: [Ar]3d⁶4s². Fe³⁺ loses 3e⁻ (2 from 4s, 1 from 3d): [Ar]3d⁵. According to Hund's rule, these 5 electrons occupy separate d orbitals with parallel spins."
+    },
+    {
+        "id": 7,
+        "question": "Which quantum number determines the shape of an orbital?",
+        "options": ["n", "l", "ml", "ms"],
+        "correct": 1,
+        "explanation": "The angular momentum quantum number (l) determines orbital shape.",
+        "topic_explanation": "Quantum numbers: n (principal, size), l (angular momentum, shape: s=0, p=1, d=2, f=3), ml (magnetic, orientation), ms (spin, ±½). l determines whether orbital is spherical (s), dumbbell (p), etc."
+    },
+    {
+        "id": 8,
+        "question": "The bond angle in NH₃ is less than 109.5° due to:",
+        "options": [
+            "sp² hybridization",
+            "Lone pair repulsion",
+            "Double bonds",
+            "Resonance"
+        ],
+        "correct": 1,
+        "explanation": "Lone pair on N causes greater repulsion, reducing bond angle from tetrahedral.",
+        "topic_explanation": "VSEPR theory: Lone pairs occupy more space than bonding pairs. NH₃ has tetrahedral electron geometry but pyramidal molecular shape. Lone pair compresses H-N-H angles to ~107°."
+    },
+    {
+        "id": 9,
+        "question": "Which molecule has the shortest C-C bond?",
+        "options": ["C₂H₆", "C₂H₄", "C₂H₂", "C₆H₆"],
+        "correct": 2,
+        "explanation": "C₂H₂ (acetylene) has a triple bond, which is the shortest C-C bond.",
+        "topic_explanation": "Bond order affects bond length: Triple bond < Double bond < Single bond. C≡C (~1.20 Å) < C=C (~1.34 Å) < C-C (~1.54 Å). Higher bond order means stronger, shorter bonds."
+    },
+    {
+        "id": 10,
+        "question": "For weak acid HA with Ka = 1.8 × 10⁻⁵, what is pKa?",
+        "options": ["4.24", "4.74", "5.26", "5.74"],
+        "correct": 1,
+        "explanation": "pKa = -log(1.8 × 10⁻⁵) = -log(1.8) - log(10⁻⁵) = -0.26 + 5 = 4.74",
+        "topic_explanation": "pKa = -log(Ka). Lower pKa means stronger acid. Useful for buffers: pH = pKa at half-neutralization point. Common to memorize: acetic acid pKa ≈ 4.76."
+    },
+    {
+        "id": 11,
+        "question": "A buffer solution contains equal concentrations of acetic acid and acetate. The pH equals:",
+        "options": ["0", "7", "pKa", "14"],
+        "correct": 2,
+        "explanation": "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). When [A⁻] = [HA], pH = pKa",
+        "topic_explanation": "Henderson-Hasselbalch equation: pH = pKa + log([conjugate base]/[weak acid]). When ratio = 1, log(1) = 0, so pH = pKa. This is the most effective buffer point."
+    },
+    {
+        "id": 12,
+        "question": "If Ksp of AgCl = 1.8 × 10⁻¹⁰, its solubility in mol/L is:",
+        "options": [
+            "1.34 × 10⁻⁵",
+            "1.8 × 10⁻¹⁰",
+            "9 × 10⁻⁶",
+            "3.24 × 10⁻²⁰"
+        ],
+        "correct": 0,
+        "explanation": "Ksp = [Ag⁺][Cl⁻] = s². So s = √(1.8 × 10⁻¹⁰) = 1.34 × 10⁻⁵",
+        "topic_explanation": "For AB type salts: Ksp = [A⁺][B⁻] = s². For A₂B or AB₂: account for stoichiometry. Common ion effect decreases solubility. Temperature usually increases solubility."
+    },
+    {
+        "id": 13,
+        "question": "The hybridization of sulfur in SF₆ is:",
+        "options": ["sp³", "sp³d", "sp³d²", "sp²"],
+        "correct": 2,
+        "explanation": "SF₆ is octahedral with 6 bond pairs, requiring sp³d² hybridization.",
+        "topic_explanation": "Hybridization from electron pairs: 2 (sp), 3 (sp²), 4 (sp³), 5 (sp³d), 6 (sp³d²). Count all electron pairs (bonding + lone). SF₆ has 6 bonds, no lone pairs → octahedral."
+    },
+    {
+        "id": 14,
+        "question": "Which has the highest lattice energy?",
+        "options": ["NaCl", "KCl", "MgO", "CaO"],
+        "correct": 2,
+        "explanation": "MgO has highest lattice energy due to small size and 2+ charges on both ions.",
+        "topic_explanation": "Lattice energy ∝ (charge product)/(ion size). MgO: both ions have 2+ charge and are small. Higher lattice energy means more stable crystal, higher melting point, lower solubility."
+    },
+    {
+        "id": 15,
+        "question": "In BF₃, the B-F bond has what character?",
+        "options": [
+            "Pure single bond",
+            "Some double bond character",
+            "Pure double bond",
+            "Triple bond character"
+        ],
+        "correct": 1,
+        "explanation": "Back-bonding from F lone pairs to empty B p-orbital gives partial double bond character.",
+        "topic_explanation": "BF₃: B has empty p-orbital, F has lone pairs. π back-bonding occurs, shortening B-F bonds. This stabilizes BF₃ and explains why it's weaker Lewis acid than expected."
+    },
+    {
+        "id": 16,
+        "question": "Which molecule is polar?",
+        "options": ["CO₂", "BF₃", "NH₃", "CH₄"],
+        "correct": 2,
+        "explanation": "NH₃ has pyramidal shape with lone pair, creating a dipole moment.",
+        "topic_explanation": "Polarity requires: 1) Polar bonds, 2) Asymmetric shape. CO₂ (linear), BF₃ (trigonal planar), CH₄ (tetrahedral) are symmetric. NH₃ pyramidal shape doesn't cancel dipoles."
+    },
+    {
+        "id": 17,
+        "question": "The strongest intermolecular force in HF is:",
+        "options": [
+            "London dispersion",
+            "Dipole-dipole",
+            "Hydrogen bonding",
+            "Ion-dipole"
+        ],
+        "correct": 2,
+        "explanation": "HF forms strong hydrogen bonds due to highly electronegative F.",
+        "topic_explanation": "Hydrogen bonding occurs with H bonded to N, O, or F. HF has strongest H-bonds due to F's high electronegativity. Order: Ion-dipole > H-bonding > Dipole-dipole > London."
+    },
+    {
+        "id": 18,
+        "question": "Which is the strongest acid?",
+        "options": ["HF", "HCl", "HBr", "HI"],
+        "correct": 3,
+        "explanation": "Acid strength increases down the group: HI > HBr > HCl > HF",
+        "topic_explanation": "For HX acids, bond strength decreases down group (larger atoms, weaker bonds). Easier to release H⁺. HF is weak due to strong H-F bond despite F's electronegativity."
+    },
+    {
+        "id": 19,
+        "question": "The conjugate base of HSO₄⁻ is:",
+        "options": ["H₂SO₄", "SO₄²⁻", "H₃O⁺", "OH⁻"],
+        "correct": 1,
+        "explanation": "Conjugate base forms when acid loses H⁺: HSO₄⁻ → SO₄²⁻ + H⁺",
+        "topic_explanation": "Conjugate acid-base pairs differ by one H⁺. Acid → Conjugate base + H⁺. Strong acids have weak conjugate bases. HSO₄⁻ can act as both acid (→SO₄²⁻) and base (→H₂SO₄)."
+    },
+    {
+        "id": 20,
+        "question": "At equivalence point in titration of weak acid with strong base, pH is:",
+        "options": ["< 7", "= 7", "> 7", "= pKa"],
+        "correct": 2,
+        "explanation": "At equivalence point, only conjugate base present, which hydrolyzes to give pH > 7",
+        "topic_explanation": "Weak acid + strong base → conjugate base (weak base) + water. Conjugate base hydrolyzes: A⁻ + H₂O ⇌ HA + OH⁻, producing OH⁻, making solution basic."
+    },
+    {
+        "id": 21,
+        "question": "Common ion effect causes:",
+        "options": [
+            "Increased solubility",
+            "Decreased solubility",
+            "No change in solubility",
+            "Increased Ksp"
+        ],
+        "correct": 1,
+        "explanation": "Common ion shifts equilibrium left, decreasing solubility.",
+        "topic_explanation": "Adding a common ion (from another source) shifts dissolution equilibrium left by Le Chatelier's principle. Example: AgCl less soluble in NaCl solution due to Cl⁻ common ion."
+    },
+    {
+        "id": 22,
+        "question": "For reaction with ΔG° > 0, the equilibrium constant K is:",
+        "options": ["K > 1", "K = 1", "K < 1", "K = 0"],
+        "correct": 2,
+        "explanation": "ΔG° = -RT ln K. If ΔG° > 0, then ln K < 0, so K < 1",
+        "topic_explanation": "Relationship: ΔG° = -RT ln K. Negative ΔG° means spontaneous forward reaction, K > 1. Positive ΔG° means non-spontaneous forward, K < 1, reactants favored at equilibrium."
+    },
+    {
+        "id": 23,
+        "question": "For an exothermic reaction, increasing temperature:",
+        "options": [
+            "Increases K",
+            "Decreases K",
+            "No effect on K",
+            "Increases activation energy"
+        ],
+        "correct": 1,
+        "explanation": "For exothermic reactions, heat is a product. Increasing T shifts equilibrium left, decreasing K.",
+        "topic_explanation": "Van't Hoff equation: ln(K₂/K₁) = -ΔH°/R(1/T₂ - 1/T₁). Exothermic: ΔH° < 0, so increasing T decreases K. Endothermic: ΔH° > 0, increasing T increases K."
+    },
+    {
+        "id": 24,
+        "question": "If reaction rate doubles when concentration doubles, the order is:",
+        "options": ["0", "1", "2", "3"],
+        "correct": 1,
+        "explanation": "Rate ∝ [A]ⁿ. If doubling [A] doubles rate: 2 = 2ⁿ, so n = 1",
+        "topic_explanation": "Rate = k[A]ⁿ. Order determines concentration effect: Zero order (rate independent), First order (linear), Second order (quadratic). Determine experimentally, not from stoichiometry."
+    },
+    {
+        "id": 25,
+        "question": "The half-life of a first-order reaction with k = 0.693 min⁻¹ is:",
+        "options": ["0.5 min", "1 min", "2 min", "0.693 min"],
+        "correct": 1,
+        "explanation": "For first-order: t₁/₂ = 0.693/k = 0.693/0.693 = 1 min",
+        "topic_explanation": "Half-life formulas: Zero order: t₁/₂ = [A]₀/2k. First order: t₁/₂ = 0.693/k (independent of concentration). Second order: t₁/₂ = 1/k[A]₀."
+    },
+    {
+        "id": 26,
+        "question": "How many structural isomers exist for C₄H₁₀?",
+        "options": ["1", "2", "3", "4"],
+        "correct": 1,
+        "explanation": "C₄H₁₀ has 2 structural isomers: n-butane (straight chain) and isobutane (branched).",
+        "topic_explanation": "Structural isomers have same molecular formula but different connectivity. C₄H₁₀: n-butane (CH₃CH₂CH₂CH₃) and isobutane ((CH₃)₃CH). As carbon number increases, isomers increase rapidly."
+    },
+    {
+        "id": 27,
+        "question": "In electrolysis of molten NaCl, what forms at the cathode?",
+        "options": [
+            "Sodium metal",
+            "Chlorine gas",
+            "Oxygen gas",
+            "Hydrogen gas"
+        ],
+        "correct": 0,
+        "explanation": "At cathode (negative): Na⁺ + e⁻ → Na (reduction). Chlorine forms at anode.",
+        "topic_explanation": "Electrolysis: Cathode (reduction) attracts cations, Anode (oxidation) attracts anions. Molten NaCl: Na⁺ → Na at cathode, 2Cl⁻ → Cl₂ at anode. In aqueous solution, water may react instead."
+    },
+    {
+        "id": 28,
+        "question": "Calculate the mass of water produced when 10g H₂ reacts completely with excess O₂. (H=1, O=16)",
+        "options": ["45g", "90g", "180g", "360g"],
+        "correct": 1,
+        "explanation": "2H₂ + O₂ → 2H₂O. 10g H₂ = 5 mol. 5 mol H₂ produces 5 mol H₂O = 5 × 18g = 90g",
+        "topic_explanation": "Stoichiometry steps: 1) Balance equation, 2) Convert mass to moles, 3) Use mole ratio, 4) Convert moles to mass. Here: 10g H₂ ÷ 2g/mol = 5 mol H₂ → 5 mol H₂O × 18g/mol = 90g."
+    },
+    {
+        "id": 29,
+        "question": "Resonance structures differ in:",
+        "options": [
+            "Atom positions",
+            "Electron positions",
+            "Number of electrons",
+            "Molecular formula"
+        ],
+        "correct": 1,
+        "explanation": "Resonance structures have same atom positions but different electron distributions.",
+        "topic_explanation": "Resonance: electron delocalization represented by multiple structures. Rules: 1) Same atom positions, 2) Same number of electrons, 3) Only move π electrons and lone pairs. Real structure is hybrid."
+    },
+    {
+        "id": 30,
+        "question": "The bond order in O₂²⁻ is:",
+        "options": ["1", "1.5", "2", "2.5"],
+        "correct": 0,
+        "explanation": "O₂ has bond order 2; O₂²⁻ has 2 more electrons in antibonding orbitals: (10-8)/2 = 1",
+        "topic_explanation": "Bond order = (bonding e⁻ - antibonding e⁻)/2. O₂: (10-6)/2 = 2. O₂²⁻ adds 2e⁻ to π* antibonding: (10-8)/2 = 1. Lower bond order means weaker, longer bond."
+    },
+    {
+        "id": 31,
+        "question": "Which exhibits coordinate covalent bonding?",
+        "options": ["H₂O", "NH₄⁺", "CH₄", "HCl"],
+        "correct": 1,
+        "explanation": "In NH₄⁺, nitrogen donates both electrons to form bond with H⁺.",
+        "topic_explanation": "Coordinate (dative) bond: one atom provides both electrons. Common in: Lewis acid-base adducts (BF₃-NH₃), complex ions ([Cu(H₂O)₄]²⁺), protonated bases (NH₄⁺)."
+    },
+    {
+        "id": 32,
+        "question": "ΔH for a reaction can be calculated using:",
+        "options": [
+            "Hess's Law",
+            "Le Chatelier's Principle",
+            "Ideal Gas Law",
+            "Dalton's Law"
+        ],
+        "correct": 0,
+        "explanation": "Hess's Law: ΔH is same regardless of pathway, allowing calculation from known reactions.",
+        "topic_explanation": "Hess's Law applications: 1) Add/subtract known reactions to get target, 2) ΔH°f products - ΔH°f reactants, 3) Bond energies: bonds broken - bonds formed. State functions path-independent."
+    },
+    {
+        "id": 33,
+        "question": "Entropy increases in which process?",
+        "options": [
+            "Freezing water",
+            "Dissolving salt in water",
+            "Crystallization",
+            "Gas condensation"
+        ],
+        "correct": 1,
+        "explanation": "Dissolving increases disorder as ions spread throughout solution.",
+        "topic_explanation": "Entropy (S) measures disorder. Increases: solid→liquid→gas, dissolving, mixing, temperature increase. Decreases: freezing, crystallization, gas compression. ΔS°univ > 0 for spontaneous processes."
+    },
+    {
+        "id": 34,
+        "question": "For spontaneous reaction at all temperatures:",
+        "options": [
+            "ΔH > 0, ΔS > 0",
+            "ΔH < 0, ΔS > 0",
+            "ΔH < 0, ΔS < 0",
+            "ΔH > 0, ΔS < 0"
+        ],
+        "correct": 1,
+        "explanation": "ΔG = ΔH - TΔS. For ΔG < 0 at all T: need ΔH < 0 and ΔS > 0",
+        "topic_explanation": "Gibbs free energy determines spontaneity. Four cases: 1) ΔH<0, ΔS>0: always spontaneous, 2) ΔH>0, ΔS<0: never spontaneous, 3&4) Temperature dependent when signs same."
+    },
+    {
+        "id": 35,
+        "question": "Activation energy can be determined from:",
+        "options": [
+            "Equilibrium constant",
+            "Arrhenius plot",
+            "pH measurement",
+            "Titration curve"
+        ],
+        "correct": 1,
+        "explanation": "Arrhenius equation: ln k vs 1/T gives slope = -Ea/R",
+        "topic_explanation": "Arrhenius equation: k = Ae^(-Ea/RT) or ln k = ln A - Ea/RT. Plot ln k vs 1/T gives straight line with slope = -Ea/R. Higher Ea means stronger temperature dependence."
+    },
+    {
+        "id": 36,
+        "question": "Catalyst increases reaction rate by:",
+        "options": [
+            "Increasing temperature",
+            "Increasing concentration",
+            "Lowering activation energy",
+            "Changing equilibrium position"
+        ],
+        "correct": 2,
+        "explanation": "Catalysts provide alternative pathway with lower activation energy.",
+        "topic_explanation": "Catalysts: 1) Lower Ea, 2) Not consumed, 3) Don't change equilibrium position (affect forward and reverse equally), 4) May be homogeneous (same phase) or heterogeneous (different phase)."
+    },
+    {
+        "id": 37,
+        "question": "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, the reducing agent is:",
+        "options": ["Zn", "Cu²⁺", "Zn²⁺", "Cu"],
+        "correct": 0,
+        "explanation": "Zn loses electrons (oxidized), so it's the reducing agent.",
+        "topic_explanation": "Redox terminology: Oxidation = loss of electrons, Reduction = gain of electrons. Reducing agent gets oxidized (loses e⁻), Oxidizing agent gets reduced (gains e⁻). OIL RIG mnemonic."
+    },
+    {
+        "id": 38,
+        "question": "If E°(Cu²⁺/Cu) = +0.34V and E°(Zn²⁺/Zn) = -0.76V, the cell potential is:",
+        "options": ["0.42V", "1.10V", "-0.42V", "-1.10V"],
+        "correct": 1,
+        "explanation": "E°cell = E°cathode - E°anode = 0.34 - (-0.76) = 1.10V",
+        "topic_explanation": "Galvanic cell: Higher E° = cathode (reduction), Lower E° = anode (oxidation). E°cell = E°cathode - E°anode. Positive E°cell means spontaneous reaction (galvanic cell)."
+    },
+    {
+        "id": 39,
+        "question": "The oxidation state of Cr in Cr₂O₇²⁻ is:",
+        "options": ["+3", "+4", "+6", "+7"],
+        "correct": 2,
+        "explanation": "2Cr + 7(-2) = -2, so 2Cr = +12, Cr = +6",
+        "topic_explanation": "Oxidation state rules: 1) Elements = 0, 2) O = -2 (except peroxides), 3) H = +1 (except hydrides), 4) Sum = charge. For Cr₂O₇²⁻: 2x + 7(-2) = -2, x = +6."
+    },
+    {
+        "id": 40,
+        "question": "How many electrons are transferred in: MnO₄⁻ → Mn²⁺ (acidic)?",
+        "options": ["2", "3", "5", "7"],
+        "correct": 2,
+        "explanation": "Mn goes from +7 to +2, gaining 5 electrons.",
+        "topic_explanation": "Half-reaction balancing (acidic): 1) Balance atoms except O and H, 2) Add H₂O for O, 3) Add H⁺ for H, 4) Add e⁻ for charge. MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O."
+    },
+    {
+        "id": 41,
+        "question": "Faraday's constant represents:",
+        "options": [
+            "Charge of one electron",
+            "Charge of one mole of electrons",
+            "Avogadro's number",
+            "Gas constant"
+        ],
+        "correct": 1,
+        "explanation": "F = 96,485 C/mol, the charge of one mole of electrons.",
+        "topic_explanation": "Faraday's constant: F = NAe = 96,485 C/mol. Used in electrochemistry: Q = nF (charge = moles e⁻ × F). Relates electrical measurements to chemical amounts."
+    },
+    {
+        "id": 42,
+        "question": "To electroplate 10.8g of silver (Ag = 108), the charge needed is:",
+        "options": ["0.1 F", "0.5 F", "1 F", "2 F"],
+        "correct": 0,
+        "explanation": "10.8g = 0.1 mol Ag. Ag⁺ + e⁻ → Ag needs 0.1 mol e⁻ = 0.1 F",
+        "topic_explanation": "Electroplating calculations: 1) Moles of metal = mass/molar mass, 2) Moles e⁻ = moles metal × charge on ion, 3) Charge = moles e⁻ × F. Time = Charge/Current."
+    },
+    {
+        "id": 43,
+        "question": "Which can act as both oxidizing and reducing agent?",
+        "options": ["F⁻", "H₂O₂", "MnO₄⁻", "F₂"],
+        "correct": 1,
+        "explanation": "H₂O₂ can be oxidized to O₂ or reduced to H₂O.",
+        "topic_explanation": "Species with intermediate oxidation states can go both ways. H₂O₂: O is -1, can go to 0 (O₂) or -2 (H₂O). F₂ only oxidizes, F⁻ only reduces. MnO₄⁻ typically only oxidizes."
+    },
+    {
+        "id": 44,
+        "question": "A positive E°cell indicates:",
+        "options": [
+            "Non-spontaneous reaction",
+            "Spontaneous reaction",
+            "Equilibrium",
+            "Endothermic reaction"
+        ],
+        "correct": 1,
+        "explanation": "ΔG° = -nFE°. Positive E° means negative ΔG°, spontaneous.",
+        "topic_explanation": "Relationships: ΔG° = -nFE° = -RT ln K. Positive E° → Negative ΔG° → K > 1 → Spontaneous. At equilibrium: E = 0, ΔG = 0. Nernst equation for non-standard conditions."
+    },
+    {
+        "id": 45,
+        "question": "The Nernst equation relates cell potential to:",
+        "options": [
+            "Temperature only",
+            "Pressure only",
+            "Concentration",
+            "Activation energy"
+        ],
+        "correct": 2,
+        "explanation": "E = E° - (RT/nF)lnQ, where Q involves concentrations.",
+        "topic_explanation": "Nernst equation: E = E° - (0.0592/n)logQ at 25°C. Shows how cell potential changes with concentration. As cell runs, Q increases, E decreases until E = 0 at equilibrium."
+    },
+    {
+        "id": 46,
+        "question": "What is the general formula for alkanes?",
+        "options": ["CnH2n+2", "CnH2n", "CnH2n-2", "CnHn"],
+        "correct": 0,
+        "explanation": "Alkanes are saturated hydrocarbons with formula CnH2n+2.",
+        "topic_explanation": "Hydrocarbon formulas: Alkanes CnH2n+2 (saturated), Alkenes CnH2n (one double bond), Alkynes CnH2n-2 (one triple bond). Each π bond or ring reduces H by 2."
+    },
+    {
+        "id": 47,
+        "question": "Which factor does NOT affect the rate of dissolving?",
+        "options": [
+            "Temperature",
+            "Stirring",
+            "Surface area",
+            "Color of solute"
+        ],
+        "correct": 3,
+        "explanation": "Color is a physical property that doesn't affect dissolution rate.",
+        "topic_explanation": "Dissolution rate factors: 1) Temperature (higher = faster), 2) Stirring (brings fresh solvent), 3) Surface area (smaller particles = faster), 4) Solvent-solute interactions. Color is unrelated."
+    },
+    {
+        "id": 48,
+        "question": "How many moles are in 44g of CO₂? (C=12, O=16)",
+        "options": ["0.5", "1", "2", "44"],
+        "correct": 1,
+        "explanation": "Molar mass CO₂ = 12 + 2(16) = 44 g/mol. 44g ÷ 44g/mol = 1 mol",
+        "topic_explanation": "Mole calculations: n = mass/molar mass. Always calculate molar mass first. CO₂: 12 + 32 = 44 g/mol. This is why 44g CO₂ = exactly 1 mole."
+    },
+    {
+        "id": 49,
+        "question": "In a redox reaction, oxidation involves:",
+        "options": [
+            "Gain of electrons",
+            "Loss of electrons",
+            "Gain of protons",
+            "Loss of neutrons"
+        ],
+        "correct": 1,
+        "explanation": "Oxidation is loss of electrons (OIL RIG: Oxidation Is Loss).",
+        "topic_explanation": "Redox definitions: 1) Electron transfer: oxidation = loss, reduction = gain, 2) Oxidation number: increases in oxidation, decreases in reduction, 3) Oxygen: gain O = oxidation (historical)."
+    },
+    {
+        "id": 50,
+        "question": "According to Le Chatelier's principle, increasing pressure on a gaseous equilibrium will:",
+        "options": [
+            "Favor the side with more moles of gas",
+            "Favor the side with fewer moles of gas",
+            "Have no effect",
+            "Stop the reaction"
+        ],
+        "correct": 1,
+        "explanation": "System responds to minimize disturbance by shifting toward fewer gas molecules.",
+        "topic_explanation": "Le Chatelier's principle: System at equilibrium responds to minimize stress. Pressure increase → shift to fewer moles. Only affects reactions with different gas moles on each side."
+    },
+    {
+        "id": 51,
+        "question": "The effective nuclear charge (Zeff) increases:",
+        "options": [
+            "Down a group",
+            "From right to left in a period",
+            "From left to right in a period",
+            "With increasing atomic radius"
+        ],
+        "correct": 2,
+        "explanation": "Zeff increases across a period as protons increase but shielding remains similar.",
+        "topic_explanation": "Zeff = Z - S (nuclear charge - shielding). Across period: Z increases, inner electrons constant, so Zeff increases. Down group: both Z and shielding increase, Zeff increases slowly."
+    },
+    {
+        "id": 52,
+        "question": "Which element has the highest electronegativity?",
+        "options": ["F", "O", "Cl", "N"],
+        "correct": 0,
+        "explanation": "Fluorine has the highest electronegativity (3.98 on Pauling scale).",
+        "topic_explanation": "Electronegativity: atom's ability to attract electrons in a bond. Trends: increases across period, decreases down group. F > O > Cl = N. Used to predict bond polarity."
+    },
+    {
+        "id": 53,
+        "question": "The lanthanide contraction causes:",
+        "options": [
+            "Increased atomic radius",
+            "Similar sizes of 4d and 5d elements",
+            "Lower ionization energy",
+            "Decreased nuclear charge"
+        ],
+        "correct": 1,
+        "explanation": "Poor shielding by 4f electrons causes 5d elements to be similar in size to 4d.",
+        "topic_explanation": "Lanthanide contraction: 4f electrons shield poorly, so atoms contract more than expected. Result: 5d transition metals (Hf-Au) similar size to 4d (Zr-Ag), affecting properties."
+    },
+    {
+        "id": 54,
+        "question": "Which ion is isoelectronic with Ar?",
+        "options": ["Na⁺", "Mg²⁺", "Al³⁺", "S²⁻"],
+        "correct": 3,
+        "explanation": "S²⁻ has 18 electrons (16 + 2), same as Ar.",
+        "topic_explanation": "Isoelectronic species have same number of electrons. Ar has 18e⁻. Cations: K⁺, Ca²⁺ (lose to get 18). Anions: Cl⁻, S²⁻ (gain to get 18). Size: anions > neutral > cations."
+    },
+    {
+        "id": 55,
+        "question": "The number of radial nodes in a 3s orbital is:",
+        "options": ["0", "1", "2", "3"],
+        "correct": 2,
+        "explanation": "Number of radial nodes = n - l - 1 = 3 - 0 - 1 = 2",
+        "topic_explanation": "Nodes are regions of zero probability. Total nodes = n - 1. Angular nodes = l. Radial nodes = n - l - 1. For 3s: n=3, l=0, so 2 radial nodes, 0 angular nodes."
+    },
+    {
+        "id": 56,
+        "question": "Dipole moment is measured in:",
+        "options": ["Coulombs", "Debye", "Volts", "Amperes"],
+        "correct": 1,
+        "explanation": "Dipole moment is measured in Debye (D) units.",
+        "topic_explanation": "Dipole moment μ = charge × distance. SI unit: C·m, but Debye commonly used (1 D = 3.336 × 10⁻³⁰ C·m). Indicates molecular polarity. Water ~1.85 D, CO₂ = 0 D."
+    },
+    {
+        "id": 57,
+        "question": "Which crystal structure has the highest packing efficiency?",
+        "options": [
+            "Simple cubic",
+            "Body-centered cubic",
+            "Face-centered cubic",
+            "Hexagonal"
+        ],
+        "correct": 2,
+        "explanation": "FCC and HCP both have 74% packing efficiency, highest for spheres.",
+        "topic_explanation": "Packing efficiency: Simple cubic (52%), BCC (68%), FCC = HCP (74%). FCC has atoms at corners and face centers. Coordination numbers: SC(6), BCC(8), FCC(12)."
+    },
+    {
+        "id": 58,
+        "question": "The VSEPR shape of XeF₄ is:",
+        "options": ["Tetrahedral", "Square planar", "See-saw", "Square pyramidal"],
+        "correct": 1,
+        "explanation": "XeF₄ has 6 electron pairs (4 bonds, 2 lone pairs) arranged octahedrally, giving square planar shape.",
+        "topic_explanation": "VSEPR for AX₄E₂: Start with octahedral electron geometry. Two lone pairs go opposite (minimize repulsion), leaving 4 F atoms in square plane. Other examples: ICl₄⁻, BrF₄⁻."
+    },
+    {
+        "id": 59,
+        "question": "Which gas law relates pressure and temperature at constant volume?",
+        "options": ["Boyle's Law", "Charles's Law", "Gay-Lussac's Law", "Avogadro's Law"],
+        "correct": 2,
+        "explanation": "Gay-Lussac's Law: P₁/T₁ = P₂/T₂ at constant volume.",
+        "topic_explanation": "Gas laws: Boyle's (P₁V₁ = P₂V₂), Charles's (V₁/T₁ = V₂/T₂), Gay-Lussac's (P₁/T₁ = P₂/T₂), Combined (P₁V₁/T₁ = P₂V₂/T₂). Temperature must be in Kelvin."
+    },
+    {
+        "id": 60,
+        "question": "The van der Waals constant 'a' corrects for:",
+        "options": [
+            "Molecular volume",
+            "Intermolecular attractions",
+            "Temperature",
+            "Pressure"
+        ],
+        "correct": 1,
+        "explanation": "Constant 'a' corrects for intermolecular attractive forces.",
+        "topic_explanation": "Van der Waals equation: (P + a/V²)(V - b) = RT. 'a' corrects for attractions (reduces pressure), 'b' corrects for molecular volume. Real gases deviate from ideal at high P, low T."
+    },
+    {
+        "id": 61,
+        "question": "Which quantum number can have negative values?",
+        "options": ["n", "l", "ml", "ms"],
+        "correct": 2,
+        "explanation": "ml (magnetic quantum number) ranges from -l to +l.",
+        "topic_explanation": "Quantum number ranges: n = 1,2,3... (positive integers), l = 0 to n-1, ml = -l to +l (includes negative), ms = ±½. ml determines orbital orientation in space."
+    },
+    {
+        "id": 62,
+        "question": "The shape of dz² orbital is:",
+        "options": [
+            "Spherical",
+            "Dumbbell",
+            "Four-lobed",
+            "Dumbbell with torus"
+        ],
+        "correct": 3,
+        "explanation": "dz² has unique shape: dumbbell along z-axis with donut (torus) in xy-plane.",
+        "topic_explanation": "d orbitals: Four are cloverleaf-shaped (dxy, dxz, dyz, dx²-y²), one is unique (dz²). All have same energy in isolated atom. Crystal field splits energies based on ligand positions."
+    },
+    {
+        "id": 63,
+        "question": "Paramagnetism is due to:",
+        "options": [
+            "Paired electrons",
+            "Unpaired electrons",
+            "Nuclear spin",
+            "Electron pairs"
+        ],
+        "correct": 1,
+        "explanation": "Unpaired electrons have magnetic moments that align with external field.",
+        "topic_explanation": "Magnetism types: Diamagnetic (all paired, weakly repelled), Paramagnetic (unpaired electrons, weakly attracted), Ferromagnetic (unpaired + coupling, strongly attracted). O₂ is paramagnetic."
+    },
+    {
+        "id": 64,
+        "question": "In a bomb calorimeter, which is kept constant?",
+        "options": ["Temperature", "Pressure", "Volume", "Enthalpy"],
+        "correct": 2,
+        "explanation": "Bomb calorimeter operates at constant volume.",
+        "topic_explanation": "Calorimetry: Bomb (constant volume, measures ΔU), Coffee cup (constant pressure, measures ΔH). For reactions with gases: ΔH = ΔU + ΔnRT where Δn = moles gas products - reactants."
+    },
+    {
+        "id": 65,
+        "question": "The wavelength of maximum emission for blackbody radiation:",
+        "options": [
+            "Increases with temperature",
+            "Decreases with temperature",
+            "Is independent of temperature",
+            "Oscillates with temperature"
+        ],
+        "correct": 1,
+        "explanation": "Wien's law: λmax ∝ 1/T, so wavelength decreases as temperature increases.",
+        "topic_explanation": "Wien's displacement law: λmaxT = 2.898 × 10⁻³ m·K. Hotter objects emit shorter wavelengths. Sun (5800K) peaks in visible, room temperature objects emit infrared."
+    },
+    {
+        "id": 66,
+        "question": "Which intermolecular force is responsible for high boiling point of water?",
+        "options": [
+            "London dispersion",
+            "Dipole-dipole",
+            "Hydrogen bonding",
+            "Ionic bonding"
+        ],
+        "correct": 2,
+        "explanation": "Hydrogen bonding between water molecules requires significant energy to break.",
+        "topic_explanation": "Water's anomalies due to H-bonding: High boiling point (100°C vs -60°C expected), ice less dense than liquid, high specific heat, high surface tension. Each water can form 4 H-bonds."
+    },
+    {
+        "id": 67,
+        "question": "The ion product of water (Kw) at 25°C is:",
+        "options": ["1.0 × 10⁻⁷", "1.0 × 10⁻¹⁴", "1.0 × 10⁻¹⁰", "1.0 × 10⁻²¹"],
+        "correct": 1,
+        "explanation": "Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25°C.",
+        "topic_explanation": "Water autoionization: 2H₂O ⇌ H₃O⁺ + OH⁻. Kw increases with temperature (endothermic). At 25°C: [H⁺] = [OH⁻] = 10⁻⁷ M in pure water, pH = 7."
+    },
+    {
+        "id": 68,
+        "question": "Which indicator is suitable for strong acid-strong base titration?",
+        "options": [
+            "Methyl orange only",
+            "Phenolphthalein only",
+            "Either methyl orange or phenolphthalein",
+            "Neither"
+        ],
+        "correct": 2,
+        "explanation": "Strong acid-strong base has equivalence point at pH 7, sharp change allows either indicator.",
+        "topic_explanation": "Indicator selection: Choose indicator with color change near equivalence point. SA-SB: pH 7 (any), WA-SB: pH > 7 (phenolphthalein), SA-WB: pH < 7 (methyl orange)."
+    },
+    {
+        "id": 69,
+        "question": "The coordination number of Na⁺ in rock salt (NaCl) structure is:",
+        "options": ["4", "6", "8", "12"],
+        "correct": 1,
+        "explanation": "Each Na⁺ is surrounded by 6 Cl⁻ ions in octahedral arrangement.",
+        "topic_explanation": "Common structures: Rock salt (6:6 coordination), CsCl (8:8), Fluorite CaF₂ (8:4), Zinc blende ZnS (4:4). Coordination number depends on size ratio of ions."
+    },
+    {
+        "id": 70,
+        "question": "Which molecule has zero dipole moment despite having polar bonds?",
+        "options": ["H₂O", "NH₃", "CO₂", "HCl"],
+        "correct": 2,
+        "explanation": "CO₂ is linear, so two C=O dipoles cancel each other.",
+        "topic_explanation": "Molecular dipole = vector sum of bond dipoles. Zero dipole requires symmetry: linear (CO₂, BeF₂), trigonal planar (BF₃), tetrahedral (CH₄), octahedral (SF₆)."
+    },
+    {
+        "id": 71,
+        "question": "The critical temperature is the temperature above which:",
+        "options": [
+            "Solid cannot exist",
+            "Liquid cannot exist",
+            "Gas cannot be liquefied",
+            "Plasma forms"
+        ],
+        "correct": 2,
+        "explanation": "Above critical temperature, no amount of pressure can liquefy a gas.",
+        "topic_explanation": "Critical point: Temperature and pressure where liquid-gas boundary disappears. Above Tc, only supercritical fluid exists. Water: Tc = 374°C, Pc = 218 atm. CO₂: Tc = 31°C (supercritical CO₂ used as solvent)."
+    },
+    {
+        "id": 72,
+        "question": "In the Born-Haber cycle, lattice energy is:",
+        "options": [
+            "Energy to form gaseous ions from solid",
+            "Energy released when gaseous ions form solid",
+            "Energy to melt the solid",
+            "Energy to vaporize the solid"
+        ],
+        "correct": 1,
+        "explanation": "Lattice energy is energy released when gaseous ions combine to form solid crystal.",
+        "topic_explanation": "Born-Haber cycle uses Hess's law to find lattice energy. Steps: sublimation, dissociation, ionization, electron affinity, lattice formation. Higher charge and smaller size increase lattice energy."
+    },
+    {
+        "id": 73,
+        "question": "The Aufbau principle states that electrons:",
+        "options": [
+            "Pair with opposite spins",
+            "Occupy orbitals singly first",
+            "Fill lower energy orbitals first",
+            "Have wave-particle duality"
+        ],
+        "correct": 2,
+        "explanation": "Aufbau: electrons fill orbitals in order of increasing energy.",
+        "topic_explanation": "Three rules for electron configuration: 1) Aufbau - lowest energy first, 2) Pauli exclusion - max 2 electrons with opposite spins, 3) Hund's - maximize unpaired electrons in degenerate orbitals."
+    },
+    {
+        "id": 74,
+        "question": "Which compound shows optical isomerism?",
+        "options": [
+            "CH₃CH₂OH",
+            "CH₃CHClBr",
+            "CH₂Cl₂",
+            "CCl₄"
+        ],
+        "correct": 1,
+        "explanation": "CH₃CHClBr has chiral carbon with 4 different groups.",
+        "topic_explanation": "Optical isomerism requires chirality (non-superimposable mirror images). Usually needs carbon with 4 different groups. Enantiomers rotate plane-polarized light in opposite directions."
+    },
+    {
+        "id": 75,
+        "question": "The heat capacity at constant pressure (Cp) is greater than Cv because:",
+        "options": [
+            "Pressure is higher",
+            "Work is done during expansion",
+            "Temperature changes more",
+            "Volume is constant"
+        ],
+        "correct": 1,
+        "explanation": "At constant pressure, system does expansion work, requiring additional heat.",
+        "topic_explanation": "Cp - Cv = R for ideal gas. At constant P, heat goes to both internal energy change and expansion work. At constant V, all heat goes to internal energy. Cp/Cv = γ (heat capacity ratio)."
+    },
+    {
+        "id": 76,
+        "question": "Which crystal defect involves missing atoms in the lattice?",
+        "options": [
+            "Interstitial defect",
+            "Schottky defect",
+            "Frenkel defect",
+            "Edge dislocation"
+        ],
+        "correct": 1,
+        "explanation": "Schottky defect involves equal numbers of missing cations and anions to maintain neutrality.",
+        "topic_explanation": "Point defects: Schottky (paired vacancies), Frenkel (ion displaced to interstitial site), Interstitial (extra atom in void). Schottky common in ionic crystals with similar-sized ions (NaCl)."
+    },
+    {
+        "id": 77,
+        "question": "The pH at which an amino acid has no net charge is its:",
+        "options": [
+            "pKa",
+            "pKb",
+            "Isoelectric point",
+            "Equivalence point"
+        ],
+        "correct": 2,
+        "explanation": "Isoelectric point (pI) is the pH where amino acid exists as zwitterion with net charge zero.",
+        "topic_explanation": "At pI: NH3+ and COO- groups balance. For simple amino acids: pI = (pKa1 + pKa2)/2. Acidic amino acids have lower pI, basic have higher. Important for protein separation."
+    },
+    {
+        "id": 78,
+        "question": "Which law relates the rate constant to temperature?",
+        "options": [
+            "Henry's Law",
+            "Raoult's Law",
+            "Arrhenius equation",
+            "Beer's Law"
+        ],
+        "correct": 2,
+        "explanation": "Arrhenius equation: k = Ae^(-Ea/RT) shows exponential temperature dependence of rate.",
+        "topic_explanation": "Arrhenius equation components: k = rate constant, A = frequency factor, Ea = activation energy, R = gas constant, T = temperature (K). Plot ln k vs 1/T gives straight line with slope -Ea/R."
+    },
+    {
+        "id": 79,
+        "question": "In a galvanic cell, oxidation occurs at the:",
+        "options": [
+            "Cathode",
+            "Anode",
+            "Salt bridge",
+            "Both electrodes"
+        ],
+        "correct": 1,
+        "explanation": "Anode is where oxidation occurs; electrons are produced and flow to cathode.",
+        "topic_explanation": "Electrochemical cells: Anode (oxidation, negative in galvanic) → electrons flow through wire → Cathode (reduction, positive in galvanic). Salt bridge maintains electrical neutrality. AN OX, RED CAT mnemonic."
+    },
+    {
+        "id": 80,
+        "question": "The unit cell of a face-centered cubic structure contains how many atoms?",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+        ],
+        "correct": 2,
+        "explanation": "FCC: 8 corner atoms (1/8 each) + 6 face atoms (1/2 each) = 1 + 3 = 4 atoms.",
+        "topic_explanation": "Unit cell atom counting: Corner atoms shared by 8 cells (1/8), Face atoms by 2 cells (1/2), Edge atoms by 4 cells (1/4). FCC examples: Cu, Au, Al, Pb."
+    },
+    {
+        "id": 81,
+        "question": "Which quantum mechanical model explains chemical bonding?",
+        "options": [
+            "Bohr model",
+            "Valence bond theory",
+            "Rutherford model",
+            "Thomson model"
+        ],
+        "correct": 1,
+        "explanation": "Valence bond theory explains bonding through orbital overlap and electron pairing.",
+        "topic_explanation": "VB theory: Bonds form when atomic orbitals overlap and electrons pair with opposite spins. Explains hybridization, bond angles, and molecular shapes. Complemented by molecular orbital theory."
+    },
+    {
+        "id": 82,
+        "question": "The process of a solid converting directly to gas is:",
+        "options": [
+            "Evaporation",
+            "Condensation",
+            "Sublimation",
+            "Deposition"
+        ],
+        "correct": 2,
+        "explanation": "Sublimation is the direct transition from solid to gas phase, skipping liquid.",
+        "topic_explanation": "Phase transitions: Sublimation (solid→gas), Deposition (gas→solid), occur when vapor pressure of solid exceeds atmospheric pressure before melting point. Examples: dry ice, iodine, naphthalene."
+    },
+    {
+        "id": 83,
+        "question": "Which acid-base theory defines acids as proton donors?",
+        "options": [
+            "Arrhenius theory",
+            "Brønsted-Lowry theory",
+            "Lewis theory",
+            "Hard-soft theory"
+        ],
+        "correct": 1,
+        "explanation": "Brønsted-Lowry theory: acids are proton (H+) donors, bases are proton acceptors.",
+        "topic_explanation": "Acid-base theories: Arrhenius (H+/OH- in water), Brønsted-Lowry (proton transfer), Lewis (electron pair acceptor/donor). Each theory progressively broader in scope."
+    },
+    {
+        "id": 84,
+        "question": "The chelate effect results in:",
+        "options": [
+            "Decreased stability",
+            "Increased stability",
+            "Color change",
+            "Precipitation"
+        ],
+        "correct": 1,
+        "explanation": "Chelating ligands form more stable complexes than monodentate ligands due to entropy.",
+        "topic_explanation": "Chelate effect: Polydentate ligands form rings with metal, increasing complex stability. Entropy favors chelates (fewer particles in solution). EDTA classic example of hexadentate chelating agent."
+    },
+    {
+        "id": 85,
+        "question": "Which colligative property is used to determine molecular weight?",
+        "options": [
+            "Vapor pressure",
+            "Boiling point elevation",
+            "Osmotic pressure",
+            "All of the above"
+        ],
+        "correct": 3,
+        "explanation": "All colligative properties depend on particle number, so all can determine molecular weight.",
+        "topic_explanation": "Colligative properties: ΔTb = Kb·m, ΔTf = Kf·m, π = MRT. Osmotic pressure most sensitive for macromolecules. Van't Hoff factor accounts for dissociation."
+    },
+    {
+        "id": 86,
+        "question": "The Heisenberg uncertainty principle states that:",
+        "options": [
+            "Energy is quantized",
+            "Position and momentum cannot be simultaneously known exactly",
+            "Electrons have wave properties",
+            "Orbitals have specific shapes"
+        ],
+        "correct": 1,
+        "explanation": "Δx·Δp ≥ ℏ/2: uncertainty in position times uncertainty in momentum has a minimum value.",
+        "topic_explanation": "Uncertainty principle: Fundamental limit to precision of simultaneous measurements. Consequence of wave nature of matter. Important at atomic scale, negligible for macroscopic objects."
+    },
+    {
+        "id": 87,
+        "question": "Which type of isomerism occurs in [Co(NH3)4Cl2]Cl?",
+        "options": [
+            "Optical isomerism",
+            "Geometrical isomerism",
+            "Linkage isomerism",
+            "Ionization isomerism"
+        ],
+        "correct": 1,
+        "explanation": "Square planar [Co(NH3)4Cl2]+ can exist as cis (adjacent Cl) or trans (opposite Cl) isomers.",
+        "topic_explanation": "Coordination isomerism types: Geometrical (cis/trans), Optical (non-superimposable mirror images), Linkage (ambidentate ligands), Ionization (exchange between coordination sphere and counter ions)."
+    },
+    {
+        "id": 88,
+        "question": "The Clausius-Clapeyron equation relates:",
+        "options": [
+            "Pressure and volume",
+            "Temperature and volume",
+            "Vapor pressure and temperature",
+            "Pressure and moles"
+        ],
+        "correct": 2,
+        "explanation": "Clausius-Clapeyron equation describes how vapor pressure changes with temperature.",
+        "topic_explanation": "ln(P2/P1) = -ΔHvap/R(1/T2 - 1/T1). Used to find vapor pressure at different temperatures or heat of vaporization. Assumes ΔHvap constant over temperature range."
+    },
+    {
+        "id": 89,
+        "question": "Which spectroscopy uses nuclear spin?",
+        "options": [
+            "UV-Vis",
+            "IR",
+            "NMR",
+            "Mass spectrometry"
+        ],
+        "correct": 2,
+        "explanation": "NMR (Nuclear Magnetic Resonance) spectroscopy uses nuclear spin in magnetic field.",
+        "topic_explanation": "NMR principles: Nuclei with odd mass/atomic number have spin. In magnetic field, spins align with/against field. Radio waves cause transitions. Chemical shift depends on electron environment."
+    },
+    {
+        "id": 90,
+        "question": "The second law of thermodynamics states that:",
+        "options": [
+            "Energy is conserved",
+            "Entropy of universe increases",
+            "Enthalpy is constant",
+            "Temperature is absolute"
+        ],
+        "correct": 1,
+        "explanation": "The entropy of an isolated system (universe) always increases in spontaneous processes.",
+        "topic_explanation": "Second law: ΔSuniverse > 0 for spontaneous processes. Explains directionality of processes, heat engine efficiency limits, and why perpetual motion machines are impossible."
+    },
+    {
+        "id": 91,
+        "question": "Which catalyst type forms an intermediate with reactants?",
+        "options": [
+            "Heterogeneous catalyst",
+            "Homogeneous catalyst",
+            "Enzyme",
+            "Both B and C"
+        ],
+        "correct": 3,
+        "explanation": "Homogeneous catalysts and enzymes form intermediates; heterogeneous catalysts use surface adsorption.",
+        "topic_explanation": "Catalyst types: Homogeneous (same phase, forms complex), Heterogeneous (different phase, surface reaction), Enzymes (biological, highly specific). All lower activation energy without being consumed."
+    },
+    {
+        "id": 92,
+        "question": "The lanthanide elements are characterized by filling of:",
+        "options": [
+            "3d orbitals",
+            "4d orbitals",
+            "4f orbitals",
+            "5f orbitals"
+        ],
+        "correct": 2,
+        "explanation": "Lanthanides (Ce-Lu) involve progressive filling of 4f orbitals.",
+        "topic_explanation": "Lanthanides: 4f orbitals fill after 6s. Poor shielding by f electrons causes lanthanide contraction. Similar chemistry due to buried f electrons. Used in magnets, catalysts, phosphors."
+    },
+    {
+        "id": 93,
+        "question": "Which intermolecular force is weakest?",
+        "options": [
+            "Hydrogen bonding",
+            "Dipole-dipole",
+            "London dispersion",
+            "Ion-dipole"
+        ],
+        "correct": 2,
+        "explanation": "London dispersion forces are weakest, arising from temporary dipoles.",
+        "topic_explanation": "Intermolecular force strength: Ion-dipole > Hydrogen bonding > Dipole-dipole > London dispersion. All molecules have London forces. Strength increases with molecular size/polarizability."
+    },
+    {
+        "id": 94,
+        "question": "Buffer capacity is maximum when:",
+        "options": [
+            "pH = pKa",
+            "pH = 7",
+            "[acid] = 0",
+            "[base] = 0"
+        ],
+        "correct": 0,
+        "explanation": "Buffer capacity is maximum when pH = pKa, where [acid] = [conjugate base].",
+        "topic_explanation": "Buffer capacity: ability to resist pH change. Maximum when [HA] = [A-], giving equal capacity for added acid or base. Effective range: pKa ± 1. Choose buffer with pKa near desired pH."
+    },
+    {
+        "id": 95,
+        "question": "The first ionization energy generally increases:",
+        "options": [
+            "Down a group",
+            "From right to left in period",
+            "Across a period",
+            "With increasing atomic size"
+        ],
+        "correct": 2,
+        "explanation": "Ionization energy increases across period due to increasing nuclear charge.",
+        "topic_explanation": "IE trends: Increases across period (stronger nuclear attraction), decreases down group (electrons farther away). Exceptions: Be>B (s vs p orbital), N>O (half-filled p subshell stability)."
+    },
+    {
+        "id": 96,
+        "question": "Which reaction type has ΔS > 0?",
+        "options": [
+            "Gas condensation",
+            "Crystallization",
+            "Dissolution of gas",
+            "Solid dissolving in water"
+        ],
+        "correct": 3,
+        "explanation": "Solid dissolving increases disorder as ordered crystal becomes dispersed ions/molecules.",
+        "topic_explanation": "Entropy changes: Increase (solid→liquid→gas, mixing, dissolution of solids, increased moles of gas). Decrease (condensation, crystallization, gas dissolution, decreased moles of gas)."
+    },
+    {
+        "id": 97,
+        "question": "The magnetic moment of a complex depends on:",
+        "options": [
+            "Oxidation state only",
+            "Number of unpaired electrons",
+            "Coordination number",
+            "Ligand size"
+        ],
+        "correct": 1,
+        "explanation": "Magnetic moment μ = √[n(n+2)] BM, where n is number of unpaired electrons.",
+        "topic_explanation": "Magnetism in complexes: Paramagnetic (unpaired e-), Diamagnetic (all paired). Crystal field splitting determines pairing. Strong field ligands cause pairing (low spin), weak field gives high spin."
+    },
+    {
+        "id": 98,
+        "question": "Which technique separates based on boiling point?",
+        "options": [
+            "Crystallization",
+            "Distillation",
+            "Extraction",
+            "Chromatography"
+        ],
+        "correct": 1,
+        "explanation": "Distillation separates liquids based on different boiling points/volatilities.",
+        "topic_explanation": "Separation techniques: Distillation (boiling point), Crystallization (solubility), Extraction (partition coefficient), Chromatography (adsorption/partition). Fractional distillation for close boiling points."
+    },
+    {
+        "id": 99,
+        "question": "The rate law for elementary reactions can be determined from:",
+        "options": [
+            "Stoichiometry",
+            "Temperature",
+            "Catalyst presence",
+            "Product concentration"
+        ],
+        "correct": 0,
+        "explanation": "For elementary reactions only, rate law follows stoichiometry directly.",
+        "topic_explanation": "Elementary reactions occur in single step, so molecularity = order. For A + 2B → products: rate = k[A][B]². Complex reactions have multiple steps; rate law must be determined experimentally."
+    },
+    {
+        "id": 100,
+        "question": "Which noble gas compound was first synthesized?",
+        "options": [
+            "HeF2",
+            "XeF2",
+            "XePtF6",
+            "KrF2"
+        ],
+        "correct": 2,
+        "explanation": "XePtF6 was first noble gas compound synthesized by Bartlett in 1962.",
+        "topic_explanation": "Noble gas chemistry: Long thought inert. Bartlett noticed O2PtF6 existed and IE(Xe) ≈ IE(O2), so tried Xe + PtF6. Now many Xe compounds known (XeF2, XeF4, XeF6). Only heavy noble gases form compounds."
+    }
+]

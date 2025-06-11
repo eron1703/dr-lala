@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GMU Medical Exam Practice</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f0f2f5;
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 100%;
+            min-height: 100vh;
+            background-color: white;
+            padding: 15px;
+        }
+
+        h1 {
+            color: #075e54;
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #667781;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .progress {
+            background-color: #e9edef;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            height: 8px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: #25d366;
+            transition: width 0.3s;
+        }
+
+        .question-card {
+            background-color: #ffffff;
+            border: 1px solid #e9edef;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .question-number {
+            font-weight: bold;
+            color: #075e54;
+            font-size: 16px;
+        }
+
+        .subject-tag {
+            background-color: #dcf8c6;
+            color: #075e54;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .question-text {
+            font-size: 16px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .options {
+            list-style: none;
+        }
+
+        .option {
+            margin-bottom: 10px;
+        }
+
+        .option-label {
+            display: block;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border: 2px solid #e9edef;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 15px;
+            position: relative;
+        }
+
+        .option-label:active {
+            transform: scale(0.98);
+        }
+
+        .option input[type="radio"] {
+            position: absolute;
+            opacity: 0;
+        }
+
+        .option input[type="radio"]:checked + .option-label {
+            border-color: #25d366;
+            background-color: #dcf8c6;
+        }
+
+        .option.correct .option-label {
+            border-color: #25d366;
+            background-color: #dcf8c6;
+        }
+
+        .option.incorrect .option-label {
+            border-color: #f44336;
+            background-color: #ffebee;
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+            padding: 15px;
+            border-top: 1px solid #e9edef;
+            display: flex;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        .btn {
+            flex: 1;
+            background-color: #25d366;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            background-color: #667781;
+        }
+
+        .score-card {
+            background-color: #dcf8c6;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0 80px 0;
+        }
+
+        .score-card h2 {
+            color: #075e54;
+            margin-bottom: 10px;
+        }
+
+        .score-details {
+            font-size: 24px;
+            font-weight: bold;
+            color: #075e54;
+            margin: 10px 0;
+        }
+
+        .start-screen {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .start-screen h2 {
+            color: #075e54;
+            margin-bottom: 20px;
+        }
+
+        .subject-selection {
+            margin: 20px 0;
+        }
+
+        .subject-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+            border: 2px solid #e9edef;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .subject-btn.active {
+            background-color: #dcf8c6;
+            border-color: #25d366;
+        }
+
+        .subject-btn.required {
+            background-color: #e3f2fd;
+            border-color: #2196f3;
+        }
+
+        .explanation {
+            margin-top: 15px;
+            padding: 12px;
+            background-color: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            border-radius: 4px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .explanation.show {
+            display: block;
+        }
+
+        .timer {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #075e54;
+            margin-bottom: 15px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 360px) {
+            .question-text {
+                font-size: 15px;
+            }
+            .option-label {
+                font-size: 14px;
+                padding: 12px;
+            }
+        }
+
+        /* Remove margins for better mobile fit */
+        .container {
+            padding-bottom: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>GMU Medical Exam Practice</h1>
+        <p class="subtitle">Quick practice for tomorrow's test</p>
+
+        <div class="start-screen" id="startScreen">
+            <h2>Select Your Subjects</h2>
+            <p style="margin-bottom: 20px; color: #667781;">Mathematics is required. Choose 2 sciences:</p>
+            
+            <div class="subject-selection">
+                <button class="subject-btn required" disabled>✓ Mathematics (Required)</button>
+                <button class="subject-btn" data-subject="biology" onclick="toggleSubject(this)">Biology</button>
+                <button class="subject-btn" data-subject="chemistry" onclick="toggleSubject(this)">Chemistry</button>
+                <button class="subject-btn" data-subject="physics" onclick="toggleSubject(this)">Physics</button>
+            </div>
+            
+            <button class="btn" onclick="startQuiz()">Start Practice (15 Questions)</button>
+        </div>
+
+        <div id="quizContainer" style="display: none;">
+            <div class="timer" id="timer">00:00</div>
+            
+            <div class="progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            
+            <div id="questionContainer"></div>
+        </div>
+
+        <div class="controls" id="controls" style="display: none;">
+            <button class="btn btn-secondary" id="prevBtn" onclick="previousQuestion()">← Previous</button>
+            <button class="btn" id="checkBtn" onclick="checkAnswer()">Check</button>
+            <button class="btn" id="nextBtn" onclick="nextQuestion()" style="display: none;">Next →</button>
+        </div>
+    </div>
+
+    <script>
+        // HIGH DIFFICULTY questions for medical entrance (1100+ EmSAT score level)
+        const questions = {
+            biology: [
+                {
+                    question: "A piece of potato tissue showed no change in mass when placed in 0.25 mol/dm³ sucrose solution. What happens when placed in 0.1 mol/dm³ sucrose solution?",
+                    options: [
+                        "Mass increases because water potential of cells decreased",
+                        "Mass decreases because water potential of cells increased",
+                        "Mass increases because solution is hypotonic to cells",
+                        "Mass decreases because solution is hypertonic to cells"
+                    ],
+                    correct: 2,
+                    explanation: "0.1 mol/dm³ is less concentrated (hypotonic), so water moves into cells by osmosis, increasing mass."
+                },
+                {
+                    question: "In the cardiac cycle, when the pressure in the left ventricle exceeds aortic pressure, which occurs?",
+                    options: [
+                        "AV valves open, semilunar valves close",
+                        "AV valves close, semilunar valves open",
+                        "Both valves open simultaneously",
+                        "Both valves close simultaneously"
+                    ],
+                    correct: 1,
+                    explanation: "When ventricular pressure > aortic pressure, semilunar valves open for ejection; AV valves remain closed to prevent backflow."
+                },
+                {
+                    question: "A cell with 2n=24 undergoes meiosis. How many chromosomes are in each cell at metaphase II?",
+                    options: [
+                        "6 chromosomes",
+                        "12 chromosomes",
+                        "24 chromosomes",
+                        "48 chromosomes"
+                    ],
+                    correct: 1,
+                    explanation: "After meiosis I, cells are haploid (n=12). At metaphase II, they still have 12 chromosomes (as sister chromatids)."
+                },
+                {
+                    question: "If a man with blood type AB marries a woman with blood type O, what blood types are possible in their children?",
+                    options: [
+                        "Only A or B",
+                        "Only AB",
+                        "A, B, or AB",
+                        "A, B, AB, or O"
+                    ],
+                    correct: 0,
+                    explanation: "AB (IAIB) × O (ii) can only produce IAi (type A) or IBi (type B) children."
+                },
+                {
+                    question: "During aerobic respiration, most ATP is produced during which stage?",
+                    options: [
+                        "Glycolysis in cytoplasm",
+                        "Krebs cycle in matrix",
+                        "Electron transport chain in cristae",
+                        "Link reaction in matrix"
+                    ],
+                    correct: 2,
+                    explanation: "ETC produces ~32-34 ATP through oxidative phosphorylation, while glycolysis produces 2 and Krebs cycle produces 2."
+                }
+            ],
+            chemistry: [
+                {
+                    question: "Calculate the pH of a 0.001 M HCl solution at 25°C.",
+                    options: [
+                        "pH = 1",
+                        "pH = 2",
+                        "pH = 3",
+                        "pH = 4"
+                    ],
+                    correct: 2,
+                    explanation: "HCl is a strong acid, completely dissociates. [H+] = 0.001 M = 10⁻³ M, so pH = -log(10⁻³) = 3"
+                },
+                {
+                    question: "For the equilibrium N₂ + 3H₂ ⇌ 2NH₃, if pressure is increased, the equilibrium will:",
+                    options: [
+                        "Shift left because there are more moles of gas on the left",
+                        "Shift right because there are fewer moles of gas on the right",
+                        "Not shift because pressure doesn't affect equilibrium",
+                        "Shift to increase temperature"
+                    ],
+                    correct: 1,
+                    explanation: "Left side has 4 moles of gas, right has 2. Increasing pressure favors the side with fewer gas moles (right)."
+                },
+                {
+                    question: "How many structural isomers exist for C₄H₁₀?",
+                    options: [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+                    correct: 1,
+                    explanation: "C₄H₁₀ has 2 structural isomers: n-butane (straight chain) and isobutane (branched)."
+                },
+                {
+                    question: "In electrolysis of molten NaCl, what forms at the cathode?",
+                    options: [
+                        "Sodium metal",
+                        "Chlorine gas",
+                        "Oxygen gas",
+                        "Hydrogen gas"
+                    ],
+                    correct: 0,
+                    explanation: "At cathode (negative): Na⁺ + e⁻ → Na (reduction). Chlorine forms at anode."
+                },
+                {
+                    question: "Calculate the mass of water produced when 10g H₂ reacts completely with excess O₂. (H=1, O=16)",
+                    options: [
+                        "45g",
+                        "90g",
+                        "180g",
+                        "360g"
+                    ],
+                    correct: 1,
+                    explanation: "2H₂ + O₂ → 2H₂O. 10g H₂ = 5 mol. 5 mol H₂ produces 5 mol H₂O = 5 × 18g = 90g"
+                }
+            ],
+            physics: [
+                {
+                    question: "A projectile is fired at 30° with initial velocity 40 m/s. What is its maximum height? (g = 10 m/s²)",
+                    options: ["10 m", "20 m", "40 m", "80 m"],
+                    correct: 1,
+                    explanation: "H = (v₀²sin²θ)/2g = (40² × sin²30°)/20 = (1600 × 0.25)/20 = 20 m"
+                },
+                {
+                    question: "Three resistors (2Ω, 3Ω, 6Ω) are in parallel. What is the equivalent resistance?",
+                    options: ["0.5 Ω", "1 Ω", "1.5 Ω", "11 Ω"],
+                    correct: 1,
+                    explanation: "1/R = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1, so R = 1 Ω"
+                },
+                {
+                    question: "A converging lens has focal length 20 cm. An object at 30 cm forms an image at what distance?",
+                    options: ["12 cm", "30 cm", "60 cm", "120 cm"],
+                    correct: 2,
+                    explanation: "Using 1/f = 1/u + 1/v: 1/20 = 1/30 + 1/v, so 1/v = 1/20 - 1/30 = 1/60, v = 60 cm"
+                },
+                {
+                    question: "In photoelectric effect, if work function = 2.3 eV and photon energy = 4.0 eV, find maximum KE of electrons:",
+                    options: ["1.7 eV", "2.3 eV", "4.0 eV", "6.3 eV"],
+                    correct: 0,
+                    explanation: "KEmax = Ephoton - Work function = 4.0 - 2.3 = 1.7 eV"
+                },
+                {
+                    question: "A transformer has 1000 primary turns and 100 secondary turns. If primary voltage is 220V, find secondary voltage:",
+                    options: ["22 V", "220 V", "2200 V", "22000 V"],
+                    correct: 0,
+                    explanation: "Vs/Vp = Ns/Np, so Vs = Vp × (Ns/Np) = 220 × (100/1000) = 22 V"
+                }
+            ],
+            math: [
+                {
+                    question: "Find the derivative of f(x) = 3x² - 4x + 5",
+                    options: ["6x - 4", "6x + 4", "3x - 4", "x² - 4"],
+                    correct: 0,
+                    explanation: "f'(x) = d/dx(3x²) - d/dx(4x) + d/dx(5) = 6x - 4 + 0 = 6x - 4"
+                },
+                {
+                    question: "Solve: log₂(x) + log₂(x-2) = 3",
+                    options: ["x = 2", "x = 3", "x = 4", "x = 8"],
+                    correct: 2,
+                    explanation: "log₂[x(x-2)] = 3, so x(x-2) = 8. x² - 2x - 8 = 0, (x-4)(x+2) = 0. Since x > 2, x = 4"
+                },
+                {
+                    question: "Find the area between y = x² and y = 2x from x = 0 to x = 2",
+                    options: ["2/3", "4/3", "8/3", "16/3"],
+                    correct: 1,
+                    explanation: "Area = ∫₀²(2x - x²)dx = [x² - x³/3]₀² = 4 - 8/3 = 4/3"
+                },
+                {
+                    question: "In how many ways can 5 people be arranged in a line?",
+                    options: ["25", "60", "120", "3125"],
+                    correct: 2,
+                    explanation: "This is 5! = 5 × 4 × 3 × 2 × 1 = 120"
+                },
+                {
+                    question: "If vectors A = 3i + 4j and B = 4i - 3j, find A·B",
+                    options: ["0", "7", "12", "25"],
+                    correct: 0,
+                    explanation: "A·B = (3)(4) + (4)(-3) = 12 - 12 = 0 (vectors are perpendicular)"
+                }
+            ]
+        };
+
+        let selectedSubjects = ['math'];
+        let currentQuestions = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let answered = {};
+        let startTime;
+        let timerInterval;
+
+        function toggleSubject(btn) {
+            const subject = btn.dataset.subject;
+            const activeSciences = document.querySelectorAll('.subject-btn.active').length;
+            
+            if (btn.classList.contains('active')) {
+                btn.classList.remove('active');
+                selectedSubjects = selectedSubjects.filter(s => s !== subject);
+            } else if (activeSciences < 2) {
+                btn.classList.add('active');
+                selectedSubjects.push(subject);
+            } else {
+                alert('Please select only 2 science subjects');
+            }
+        }
+
+        function startQuiz() {
+            const sciences = selectedSubjects.filter(s => s !== 'math');
+            if (sciences.length !== 2) {
+                alert('Please select exactly 2 science subjects');
+                return;
+            }
+
+            // Get 5 questions from each selected subject
+            currentQuestions = [];
+            selectedSubjects.forEach(subject => {
+                const subjectQuestions = questions[subject];
+                currentQuestions = currentQuestions.concat(subjectQuestions);
+            });
+
+            // Shuffle questions
+            currentQuestions.sort(() => Math.random() - 0.5);
+            
+            // Take only 15 questions for mobile
+            currentQuestions = currentQuestions.slice(0, 15);
+
+            document.getElementById('startScreen').style.display = 'none';
+            document.getElementById('quizContainer').style.display = 'block';
+            document.getElementById('controls').style.display = 'flex';
+            
+            startTime = Date.now();
+            timerInterval = setInterval(updateTimer, 1000);
+            
+            displayQuestion();
+        }
+
+        function updateTimer() {
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            const minutes = Math.floor(elapsed / 60);
+            const seconds = elapsed % 60;
+            document.getElementById('timer').textContent = 
+                `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+
+        function displayQuestion() {
+            const question = currentQuestions[currentQuestionIndex];
+            const container = document.getElementById('questionContainer');
+            
+            let subject = 'Math';
+            for (let s in questions) {
+                if (questions[s].includes(question)) {
+                    subject = s.charAt(0).toUpperCase() + s.slice(1);
+                    break;
+                }
+            }
+            
+            container.innerHTML = `
+                <div class="question-card">
+                    <div class="question-header">
+                        <span class="question-number">Question ${currentQuestionIndex + 1} of ${currentQuestions.length}</span>
+                        <span class="subject-tag">${subject}</span>
+                    </div>
+                    <p class="question-text">${question.question}</p>
+                    <ul class="options">
+                        ${question.options.map((option, index) => `
+                            <li class="option" data-index="${index}">
+                                <input type="radio" name="answer" value="${index}" id="option${index}">
+                                <label class="option-label" for="option${index}">
+                                    ${String.fromCharCode(65 + index)}. ${option}
+                                </label>
+                            </li>
+                        `).join('')}
+                    </ul>
+                    <div class="explanation" id="explanation">${question.explanation}</div>
+                </div>
+            `;
+
+            // Restore previous answer
+            if (answered[currentQuestionIndex] !== undefined) {
+                document.querySelector(`input[value="${answered[currentQuestionIndex]}"]`).checked = true;
+                showResult(false);
+            }
+
+            updateButtons();
+            updateProgress();
+        }
+
+        function updateButtons() {
+            document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
+            document.getElementById('checkBtn').style.display = 
+                answered[currentQuestionIndex] !== undefined ? 'none' : 'block';
+            document.getElementById('nextBtn').style.display = 
+                answered[currentQuestionIndex] !== undefined ? 'block' : 'none';
+            
+            if (currentQuestionIndex === currentQuestions.length - 1 && 
+                answered[currentQuestionIndex] !== undefined) {
+                document.getElementById('nextBtn').textContent = 'Finish';
+            } else {
+                document.getElementById('nextBtn').textContent = 'Next →';
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestionIndex + 1) / currentQuestions.length) * 100;
+            document.getElementById('progressBar').style.width = `${progress}%`;
+        }
+
+        function checkAnswer() {
+            const selected = document.querySelector('input[name="answer"]:checked');
+            if (!selected) {
+                alert('Please select an answer');
+                return;
+            }
+
+            answered[currentQuestionIndex] = parseInt(selected.value);
+            showResult(true);
+        }
+
+        function showResult(updateScore) {
+            const question = currentQuestions[currentQuestionIndex];
+            const selectedIndex = answered[currentQuestionIndex];
+            
+            document.querySelectorAll('.option').forEach((option, index) => {
+                option.querySelector('input').disabled = true;
+                if (index === question.correct) {
+                    option.classList.add('correct');
+                } else if (index === selectedIndex && index !== question.correct) {
+                    option.classList.add('incorrect');
+                }
+            });
+
+            document.getElementById('explanation').classList.add('show');
+
+            if (updateScore && selectedIndex === question.correct) {
+                score++;
+            }
+
+            updateButtons();
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < currentQuestions.length - 1) {
+                currentQuestionIndex++;
+                displayQuestion();
+            } else {
+                finishQuiz();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+
+        function finishQuiz() {
+            clearInterval(timerInterval);
+            
+            const totalQuestions = currentQuestions.length;
+            const percentage = Math.round((score / totalQuestions) * 100);
+            
+            document.getElementById('quizContainer').innerHTML = `
+                <div class="score-card">
+                    <h2>Practice Complete!</h2>
+                    <div class="score-details">${score}/${totalQuestions}</div>
+                    <p>${percentage}% Correct</p>
+                    <p style="margin-top: 15px; color: #667781;">
+                        ${percentage >= 70 ? 'Great job! You\'re well prepared!' : 'Keep practicing, you\'ve got this!'}
+                    </p>
+                </div>
+            `;
+            
+            document.getElementById('controls').innerHTML = `
+                <button class="btn" onclick="location.reload()">Practice Again</button>
+            `;
+        }
+    </script>
+</body>
+</html>

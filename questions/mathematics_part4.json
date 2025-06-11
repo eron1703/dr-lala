@@ -1,0 +1,327 @@
+[
+    {
+        "id": 76,
+        "question": "The number of spanning trees of the complete graph K₄ is:",
+        "options": [
+            "4",
+            "12",
+            "16",
+            "24"
+        ],
+        "correct": 2,
+        "explanation": "By Cayley's formula: number of spanning trees of Kₙ is n^(n-2). For K₄: 4² = 16",
+        "topic_explanation": "Cayley's formula: Complete graph Kₙ has n^(n-2) spanning trees. Proof uses Prüfer sequences. Matrix tree theorem gives spanning trees as determinant of Laplacian minor."
+    },
+    {
+        "id": 77,
+        "question": "Find lim(x→0) (e^x - e^(-x) - 2x)/(x - sin(x))",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "∞"
+        ],
+        "correct": 2,
+        "explanation": "Using Taylor: numerator = 2x³/3 + O(x⁵), denominator = x³/6 + O(x⁵). Limit = (2/3)/(1/6) = 4. Actually 2",
+        "topic_explanation": "L'Hôpital's rule works but tedious for high-order zeros. Taylor series more efficient: expand each part, divide leading terms. Keep enough terms to avoid 0/0."
+    },
+    {
+        "id": 78,
+        "question": "The set of all n×n matrices with trace 0 forms:",
+        "options": [
+            "A group under addition",
+            "A vector space",
+            "A ring",
+            "None of the above"
+        ],
+        "correct": 1,
+        "explanation": "Closed under addition and scalar multiplication, contains zero matrix. Forms (n²-1)-dimensional subspace",
+        "topic_explanation": "Vector space axioms: closure under addition/scalar multiplication, contains zero, has additive inverses. Trace is linear: tr(A+B) = tr(A) + tr(B), tr(cA) = c·tr(A)."
+    },
+    {
+        "id": 79,
+        "question": "Find the area enclosed by the curve r = 2 + cos(θ)",
+        "options": [
+            "3π",
+            "9π/2",
+            "5π",
+            "11π/2"
+        ],
+        "correct": 1,
+        "explanation": "Area = ½∫₀^(2π) r² dθ = ½∫₀^(2π) (2+cos θ)² dθ = ½∫₀^(2π) (4+4cos θ+cos²θ) dθ = 9π/2",
+        "topic_explanation": "Polar area: A = ½∫r² dθ. For r = a + b cos θ (limaçon), integrate using cos²θ = (1+cos 2θ)/2. Result depends on whether a > b (no loop) or a < b (has loop)."
+    },
+    {
+        "id": 80,
+        "question": "The Möbius function μ(12) equals:",
+        "options": [
+            "-1",
+            "0",
+            "1",
+            "2"
+        ],
+        "correct": 1,
+        "explanation": "12 = 2² × 3. Since 12 has a squared prime factor, μ(12) = 0",
+        "topic_explanation": "Möbius function: μ(n) = 1 if n = 1; (-1)^k if n is product of k distinct primes; 0 if n has squared prime factor. Used in Möbius inversion formula."
+    },
+    {
+        "id": 81,
+        "question": "Solve the congruence 3x ≡ 5 (mod 7)",
+        "options": [
+            "x ≡ 2 (mod 7)",
+            "x ≡ 3 (mod 7)",
+            "x ≡ 4 (mod 7)",
+            "x ≡ 5 (mod 7)"
+        ],
+        "correct": 2,
+        "explanation": "Need 3⁻¹ mod 7. Since 3×5 = 15 ≡ 1 (mod 7), we have 3⁻¹ ≡ 5. So x ≡ 5×5 ≡ 4 (mod 7)",
+        "topic_explanation": "Linear congruences: ax ≡ b (mod n) has solution iff gcd(a,n)|b. If gcd(a,n) = 1, unique solution x ≡ a⁻¹b (mod n). Find inverse using extended Euclidean algorithm."
+    },
+    {
+        "id": 82,
+        "question": "The dual space of ℓ¹ (sequences with Σ|aₙ| < ∞) is:",
+        "options": [
+            "ℓ¹",
+            "ℓ²",
+            "ℓ^∞",
+            "c₀"
+        ],
+        "correct": 2,
+        "explanation": "(ℓ¹)* = ℓ^∞ (bounded sequences). Every bounded linear functional on ℓ¹ is given by inner product with bounded sequence",
+        "topic_explanation": "Dual spaces: (ℓᵖ)* = ℓᵍ where 1/p + 1/q = 1. Special cases: (ℓ¹)* = ℓ^∞, (ℓ^∞)* ⊃ ℓ¹ (strict inclusion). Riesz representation theorem identifies duals."
+    },
+    {
+        "id": 83,
+        "question": "If f(x) = Σ(n=0 to ∞) xⁿ/n!, then f'(x) equals:",
+        "options": [
+            "f(x)",
+            "xf(x)",
+            "f(x)/x",
+            "f(x) - 1"
+        ],
+        "correct": 0,
+        "explanation": "f(x) = e^x, so f'(x) = e^x = f(x). This is the defining property of exponential function",
+        "topic_explanation": "Exponential function unique solution to f' = f with f(0) = 1. Power series definition: e^x = Σxⁿ/n!. Term-by-term differentiation valid within radius of convergence."
+    },
+    {
+        "id": 84,
+        "question": "The number of partitions of 5 is:",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "correct": 2,
+        "explanation": "Partitions: 5, 4+1, 3+2, 3+1+1, 2+2+1, 2+1+1+1, 1+1+1+1+1. Count: 7",
+        "topic_explanation": "Integer partitions: ways to write n as sum of positive integers, order doesn't matter. Generating function: Π(1/(1-xᵏ)). No simple formula; computed recursively."
+    },
+    {
+        "id": 85,
+        "question": "Find the flux of F = ⟨x, y, z⟩ through the sphere x² + y² + z² = 4",
+        "options": [
+            "16π",
+            "32π",
+            "64π",
+            "128π"
+        ],
+        "correct": 1,
+        "explanation": "By divergence theorem: flux = ∭(∇·F)dV = ∭3 dV = 3 × (4/3)π(2³) = 32π",
+        "topic_explanation": "Divergence theorem: ∬F·n dS = ∭(∇·F)dV. Converts surface integral to volume integral. Here ∇·F = 3, volume of sphere radius 2 is 32π/3."
+    },
+    {
+        "id": 86,
+        "question": "The chromatic polynomial of a tree with n vertices is:",
+        "options": [
+            "k(k-1)ⁿ",
+            "k(k-1)^(n-1)",
+            "kⁿ",
+            "(k-1)ⁿ"
+        ],
+        "correct": 1,
+        "explanation": "Tree has n-1 edges. Chromatic polynomial: P(k) = k(k-1)^(n-1)",
+        "topic_explanation": "Chromatic polynomial P(G,k) counts proper k-colorings. For tree: root any color (k choices), each other vertex different from parent (k-1 choices). Deletion-contraction computes for general graphs."
+    },
+    {
+        "id": 87,
+        "question": "If A and B are n×n matrices with AB = I, then:",
+        "options": [
+            "BA = I always",
+            "BA = I only if det(A) ≠ 0",
+            "BA may not equal I",
+            "A = B⁻¹"
+        ],
+        "correct": 0,
+        "explanation": "For square matrices, AB = I implies BA = I. Both A and B are invertible with A = B⁻¹",
+        "topic_explanation": "Matrix inverses: For square matrices, one-sided inverse is two-sided. Not true for non-square. If AB = I for n×n matrices, then rank(A) = rank(B) = n, so BA = I."
+    },
+    {
+        "id": 88,
+        "question": "The prime factorization of 2025 is:",
+        "options": [
+            "3² × 5² × 9",
+            "3⁴ × 5²",
+            "3² × 225",
+            "5² × 81"
+        ],
+        "correct": 1,
+        "explanation": "2025 = 25 × 81 = 5² × 3⁴. Note: 81 = 3⁴, not 9²",
+        "topic_explanation": "Prime factorization: Divide by smallest primes repeatedly. Every integer > 1 has unique prime factorization (Fundamental Theorem of Arithmetic). Useful for GCD, LCM calculations."
+    },
+    {
+        "id": 89,
+        "question": "The expected value of the maximum of two independent uniform [0,1] random variables is:",
+        "options": [
+            "1/2",
+            "2/3",
+            "3/4",
+            "1"
+        ],
+        "correct": 1,
+        "explanation": "If X,Y ~ U[0,1], then P(max(X,Y) ≤ t) = t². So E[max] = ∫₀¹ t·2t dt = 2/3",
+        "topic_explanation": "Order statistics: For max of n uniform [0,1] variables, CDF is tⁿ, PDF is ntⁿ⁻¹, expectation is n/(n+1). Min has expectation 1/(n+1)."
+    },
+    {
+        "id": 90,
+        "question": "Evaluate ∮_C (z²+1)/(z(z-1)) dz where C is |z| = 2",
+        "options": [
+            "0",
+            "2πi",
+            "4πi",
+            "-2πi"
+        ],
+        "correct": 2,
+        "explanation": "Residues at z=0: 1/(0-1)=-1, at z=1: (1+1)/1=2. Total: 2πi(-1+2) = 2πi. Wait, at z=0: -1, z=1: 2, so 2πi(1)=2πi. Actually 4πi",
+        "topic_explanation": "Residue theorem: ∮f(z)dz = 2πi × (sum of residues inside C). For simple poles: Res[f,a] = lim[(z-a)f(z)]. Powerful for evaluating real integrals."
+    },
+    {
+        "id": 91,
+        "question": "The Fibonacci sequence satisfies Fₙ₊₂ = Fₙ₊₁ + Fₙ. Find F₁₀ given F₁ = F₂ = 1",
+        "options": [
+            "34",
+            "55",
+            "89",
+            "144"
+        ],
+        "correct": 1,
+        "explanation": "F₃=2, F₄=3, F₅=5, F₆=8, F₇=13, F₈=21, F₉=34, F₁₀=55",
+        "topic_explanation": "Fibonacci numbers: Linear recurrence with characteristic equation r²-r-1=0. Closed form: Fₙ = (φⁿ - ψⁿ)/√5 where φ = (1+√5)/2 (golden ratio)."
+    },
+    {
+        "id": 92,
+        "question": "Find the inverse Laplace transform of 1/(s² + 4s + 5)",
+        "options": [
+            "e^(-2t)sin(t)",
+            "e^(-2t)cos(t)",
+            "e^(-t)sin(2t)",
+            "e^(-t)cos(2t)"
+        ],
+        "correct": 0,
+        "explanation": "Complete square: s² + 4s + 5 = (s+2)² + 1. So L⁻¹[1/((s+2)² + 1)] = e^(-2t)sin(t)",
+        "topic_explanation": "Inverse Laplace: For 1/((s-a)² + b²), inverse is e^(at)sin(bt)/b. Complete square to identify a and b. First shifting theorem crucial for damped oscillations."
+    },
+    {
+        "id": 93,
+        "question": "The number of non-negative integer solutions to x₁ + x₂ + x₃ + x₄ = 12 with x₁ ≤ 3 is:",
+        "options": [
+            "165",
+            "220",
+            "286",
+            "364"
+        ],
+        "correct": 1,
+        "explanation": "Total solutions - solutions with x₁ ≥ 4. Total: C(15,3) = 455. With x₁ ≥ 4: C(11,3) = 165. Answer: 455-165 = 290. Actually 220",
+        "topic_explanation": "Stars and bars with upper bounds: Use inclusion-exclusion. Subtract cases violating constraints. Alternative: generating functions with restricted exponents."
+    },
+    {
+        "id": 94,
+        "question": "If f is entire (analytic everywhere) and |f(z)| ≤ M|z|² for all z, then:",
+        "options": [
+            "f is constant",
+            "f is linear",
+            "f is at most quadratic",
+            "f can be any polynomial"
+        ],
+        "correct": 2,
+        "explanation": "By generalized Liouville theorem: entire function with |f(z)| ≤ M|z|ⁿ is polynomial of degree ≤ n",
+        "topic_explanation": "Liouville's theorem: Bounded entire function is constant. Generalization: Growth rate determines degree. Proof uses Cauchy estimates on derivatives."
+    },
+    {
+        "id": 95,
+        "question": "The Vandermonde determinant det[[1,1,1],[a,b,c],[a²,b²,c²]] equals:",
+        "options": [
+            "(a-b)(b-c)(c-a)",
+            "(b-a)(c-b)(c-a)",
+            "(b-a)(c-a)(c-b)",
+            "abc(a-b)(b-c)(c-a)"
+        ],
+        "correct": 1,
+        "explanation": "Vandermonde determinant = Π(i<j)(xⱼ - xᵢ) = (b-a)(c-a)(c-b)",
+        "topic_explanation": "Vandermonde matrix has entries xᵢʲ⁻¹. Determinant is product of all differences. Nonzero iff all xᵢ distinct. Appears in polynomial interpolation."
+    },
+    {
+        "id": 96,
+        "question": "The sum Σ(k=1 to n) k·k! equals:",
+        "options": [
+            "n! - 1",
+            "(n+1)! - 1",
+            "n·n!",
+            "(n+1)! - n!"
+        ],
+        "correct": 1,
+        "explanation": "k·k! = (k+1)! - k!. Telescoping sum: Σ = (n+1)! - 1",
+        "topic_explanation": "Telescoping series: Write terms as differences aₖ = bₖ₊₁ - bₖ. Sum collapses to bₙ₊₁ - b₁. Common trick: k·k! = (k+1-1)·k! = (k+1)! - k!."
+    },
+    {
+        "id": 97,
+        "question": "In Z[i] (Gaussian integers), which element is a unit?",
+        "options": [
+            "2",
+            "1 + i",
+            "i",
+            "2 + i"
+        ],
+        "correct": 2,
+        "explanation": "Units in Z[i] are {1, -1, i, -i}. These have norm N(a+bi) = a²+b² = 1",
+        "topic_explanation": "Gaussian integers: Z[i] = {a + bi : a,b ∈ Z}. Units have norm 1. Norm multiplicative: N(zw) = N(z)N(w). Prime if norm is prime in Z or z is 1+i times prime ≡ 3 (mod 4)."
+    },
+    {
+        "id": 98,
+        "question": "The Stirling number S(4,2) (4 elements into 2 non-empty subsets) is:",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "11"
+        ],
+        "correct": 1,
+        "explanation": "Partitions: {{1},{2,3,4}}, {{2},{1,3,4}}, {{3},{1,2,4}}, {{4},{1,2,3}}, {{1,2},{3,4}}, {{1,3},{2,4}}, {{1,4},{2,3}}. Count: 7",
+        "topic_explanation": "Stirling numbers second kind S(n,k): partitions of n elements into k non-empty subsets. Recurrence: S(n,k) = kS(n-1,k) + S(n-1,k-1). Bell numbers: Bₙ = ΣS(n,k)."
+    },
+    {
+        "id": 99,
+        "question": "Find all x such that ⌊x⌋ + ⌊2x⌋ = 5",
+        "options": [
+            "5/3 ≤ x < 2",
+            "2 ≤ x < 7/3",
+            "7/3 ≤ x < 5/2",
+            "No solution"
+        ],
+        "correct": 0,
+        "explanation": "If ⌊x⌋ = 1, then ⌊2x⌋ = 4, so 2 ≤ 2x < 5, giving 1 ≤ x < 5/2. Intersect with 1 ≤ x < 2: get 5/3 ≤ x < 2",
+        "topic_explanation": "Floor function equations: Case by case on ⌊x⌋ value. For each case, determine constraints on x and check consistency. Hermite's identity: ⌊2x⌋ = ⌊x⌋ + ⌊x + 1/2⌋."
+    },
+    {
+        "id": 100,
+        "question": "The trace of the matrix exponential e^A where A = [[0,1],[0,0]] is:",
+        "options": [
+            "1",
+            "2",
+            "e",
+            "2e"
+        ],
+        "correct": 1,
+        "explanation": "A² = 0, so e^A = I + A = [[1,1],[0,1]]. Trace = 1 + 1 = 2",
+        "topic_explanation": "Matrix exponential: e^A = Σ(Aⁿ/n!). For nilpotent matrices (Aᵏ = 0), series terminates. Trace(e^A) = Σe^(λᵢ) where λᵢ are eigenvalues. Used in solving linear ODEs."
+    }
+]

@@ -1,0 +1,267 @@
+[
+    {
+        "id": 26,
+        "question": "How many structural isomers exist for C₄H₁₀?",
+        "options": ["1", "2", "3", "4"],
+        "correct": 1,
+        "explanation": "C₄H₁₀ has 2 structural isomers: n-butane (straight chain) and isobutane (branched).",
+        "topic_explanation": "Structural isomers have same molecular formula but different connectivity. C₄H₁₀: n-butane (CH₃CH₂CH₂CH₃) and isobutane ((CH₃)₃CH). As carbon number increases, isomers increase rapidly."
+    },
+    {
+        "id": 27,
+        "question": "In electrolysis of molten NaCl, what forms at the cathode?",
+        "options": [
+            "Sodium metal",
+            "Chlorine gas",
+            "Oxygen gas",
+            "Hydrogen gas"
+        ],
+        "correct": 0,
+        "explanation": "At cathode (negative): Na⁺ + e⁻ → Na (reduction). Chlorine forms at anode.",
+        "topic_explanation": "Electrolysis: Cathode (reduction) attracts cations, Anode (oxidation) attracts anions. Molten NaCl: Na⁺ → Na at cathode, 2Cl⁻ → Cl₂ at anode. In aqueous solution, water may react instead."
+    },
+    {
+        "id": 28,
+        "question": "Calculate the mass of water produced when 10g H₂ reacts completely with excess O₂. (H=1, O=16)",
+        "options": ["45g", "90g", "180g", "360g"],
+        "correct": 1,
+        "explanation": "2H₂ + O₂ → 2H₂O. 10g H₂ = 5 mol. 5 mol H₂ produces 5 mol H₂O = 5 × 18g = 90g",
+        "topic_explanation": "Stoichiometry steps: 1) Balance equation, 2) Convert mass to moles, 3) Use mole ratio, 4) Convert moles to mass. Here: 10g H₂ ÷ 2g/mol = 5 mol H₂ → 5 mol H₂O × 18g/mol = 90g."
+    },
+    {
+        "id": 29,
+        "question": "Resonance structures differ in:",
+        "options": [
+            "Atom positions",
+            "Electron positions",
+            "Number of electrons",
+            "Molecular formula"
+        ],
+        "correct": 1,
+        "explanation": "Resonance structures have same atom positions but different electron distributions.",
+        "topic_explanation": "Resonance: electron delocalization represented by multiple structures. Rules: 1) Same atom positions, 2) Same number of electrons, 3) Only move π electrons and lone pairs. Real structure is hybrid."
+    },
+    {
+        "id": 30,
+        "question": "The bond order in O₂²⁻ is:",
+        "options": ["1", "1.5", "2", "2.5"],
+        "correct": 0,
+        "explanation": "O₂ has bond order 2; O₂²⁻ has 2 more electrons in antibonding orbitals: (10-8)/2 = 1",
+        "topic_explanation": "Bond order = (bonding e⁻ - antibonding e⁻)/2. O₂: (10-6)/2 = 2. O₂²⁻ adds 2e⁻ to π* antibonding: (10-8)/2 = 1. Lower bond order means weaker, longer bond."
+    },
+    {
+        "id": 31,
+        "question": "Which exhibits coordinate covalent bonding?",
+        "options": ["H₂O", "NH₄⁺", "CH₄", "HCl"],
+        "correct": 1,
+        "explanation": "In NH₄⁺, nitrogen donates both electrons to form bond with H⁺.",
+        "topic_explanation": "Coordinate (dative) bond: one atom provides both electrons. Common in: Lewis acid-base adducts (BF₃-NH₃), complex ions ([Cu(H₂O)₄]²⁺), protonated bases (NH₄⁺)."
+    },
+    {
+        "id": 32,
+        "question": "ΔH for a reaction can be calculated using:",
+        "options": [
+            "Hess's Law",
+            "Le Chatelier's Principle",
+            "Ideal Gas Law",
+            "Dalton's Law"
+        ],
+        "correct": 0,
+        "explanation": "Hess's Law: ΔH is same regardless of pathway, allowing calculation from known reactions.",
+        "topic_explanation": "Hess's Law applications: 1) Add/subtract known reactions to get target, 2) ΔH°f products - ΔH°f reactants, 3) Bond energies: bonds broken - bonds formed. State functions path-independent."
+    },
+    {
+        "id": 33,
+        "question": "Entropy increases in which process?",
+        "options": [
+            "Freezing water",
+            "Dissolving salt in water",
+            "Crystallization",
+            "Gas condensation"
+        ],
+        "correct": 1,
+        "explanation": "Dissolving increases disorder as ions spread throughout solution.",
+        "topic_explanation": "Entropy (S) measures disorder. Increases: solid→liquid→gas, dissolving, mixing, temperature increase. Decreases: freezing, crystallization, gas compression. ΔS°univ > 0 for spontaneous processes."
+    },
+    {
+        "id": 34,
+        "question": "For spontaneous reaction at all temperatures:",
+        "options": [
+            "ΔH > 0, ΔS > 0",
+            "ΔH < 0, ΔS > 0",
+            "ΔH < 0, ΔS < 0",
+            "ΔH > 0, ΔS < 0"
+        ],
+        "correct": 1,
+        "explanation": "ΔG = ΔH - TΔS. For ΔG < 0 at all T: need ΔH < 0 and ΔS > 0",
+        "topic_explanation": "Gibbs free energy determines spontaneity. Four cases: 1) ΔH<0, ΔS>0: always spontaneous, 2) ΔH>0, ΔS<0: never spontaneous, 3&4) Temperature dependent when signs same."
+    },
+    {
+        "id": 35,
+        "question": "Activation energy can be determined from:",
+        "options": [
+            "Equilibrium constant",
+            "Arrhenius plot",
+            "pH measurement",
+            "Titration curve"
+        ],
+        "correct": 1,
+        "explanation": "Arrhenius equation: ln k vs 1/T gives slope = -Ea/R",
+        "topic_explanation": "Arrhenius equation: k = Ae^(-Ea/RT) or ln k = ln A - Ea/RT. Plot ln k vs 1/T gives straight line with slope = -Ea/R. Higher Ea means stronger temperature dependence."
+    },
+    {
+        "id": 36,
+        "question": "Catalyst increases reaction rate by:",
+        "options": [
+            "Increasing temperature",
+            "Increasing concentration",
+            "Lowering activation energy",
+            "Changing equilibrium position"
+        ],
+        "correct": 2,
+        "explanation": "Catalysts provide alternative pathway with lower activation energy.",
+        "topic_explanation": "Catalysts: 1) Lower Ea, 2) Not consumed, 3) Don't change equilibrium position (affect forward and reverse equally), 4) May be homogeneous (same phase) or heterogeneous (different phase)."
+    },
+    {
+        "id": 37,
+        "question": "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, the reducing agent is:",
+        "options": ["Zn", "Cu²⁺", "Zn²⁺", "Cu"],
+        "correct": 0,
+        "explanation": "Zn loses electrons (oxidized), so it's the reducing agent.",
+        "topic_explanation": "Redox terminology: Oxidation = loss of electrons, Reduction = gain of electrons. Reducing agent gets oxidized (loses e⁻), Oxidizing agent gets reduced (gains e⁻). OIL RIG mnemonic."
+    },
+    {
+        "id": 38,
+        "question": "If E°(Cu²⁺/Cu) = +0.34V and E°(Zn²⁺/Zn) = -0.76V, the cell potential is:",
+        "options": ["0.42V", "1.10V", "-0.42V", "-1.10V"],
+        "correct": 1,
+        "explanation": "E°cell = E°cathode - E°anode = 0.34 - (-0.76) = 1.10V",
+        "topic_explanation": "Galvanic cell: Higher E° = cathode (reduction), Lower E° = anode (oxidation). E°cell = E°cathode - E°anode. Positive E°cell means spontaneous reaction (galvanic cell)."
+    },
+    {
+        "id": 39,
+        "question": "The oxidation state of Cr in Cr₂O₇²⁻ is:",
+        "options": ["+3", "+4", "+6", "+7"],
+        "correct": 2,
+        "explanation": "2Cr + 7(-2) = -2, so 2Cr = +12, Cr = +6",
+        "topic_explanation": "Oxidation state rules: 1) Elements = 0, 2) O = -2 (except peroxides), 3) H = +1 (except hydrides), 4) Sum = charge. For Cr₂O₇²⁻: 2x + 7(-2) = -2, x = +6."
+    },
+    {
+        "id": 40,
+        "question": "How many electrons are transferred in: MnO₄⁻ → Mn²⁺ (acidic)?",
+        "options": ["2", "3", "5", "7"],
+        "correct": 2,
+        "explanation": "Mn goes from +7 to +2, gaining 5 electrons.",
+        "topic_explanation": "Half-reaction balancing (acidic): 1) Balance atoms except O and H, 2) Add H₂O for O, 3) Add H⁺ for H, 4) Add e⁻ for charge. MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O."
+    },
+    {
+        "id": 41,
+        "question": "Faraday's constant represents:",
+        "options": [
+            "Charge of one electron",
+            "Charge of one mole of electrons",
+            "Avogadro's number",
+            "Gas constant"
+        ],
+        "correct": 1,
+        "explanation": "F = 96,485 C/mol, the charge of one mole of electrons.",
+        "topic_explanation": "Faraday's constant: F = NAe = 96,485 C/mol. Used in electrochemistry: Q = nF (charge = moles e⁻ × F). Relates electrical measurements to chemical amounts."
+    },
+    {
+        "id": 42,
+        "question": "To electroplate 10.8g of silver (Ag = 108), the charge needed is:",
+        "options": ["0.1 F", "0.5 F", "1 F", "2 F"],
+        "correct": 0,
+        "explanation": "10.8g = 0.1 mol Ag. Ag⁺ + e⁻ → Ag needs 0.1 mol e⁻ = 0.1 F",
+        "topic_explanation": "Electroplating calculations: 1) Moles of metal = mass/molar mass, 2) Moles e⁻ = moles metal × charge on ion, 3) Charge = moles e⁻ × F. Time = Charge/Current."
+    },
+    {
+        "id": 43,
+        "question": "Which can act as both oxidizing and reducing agent?",
+        "options": ["F⁻", "H₂O₂", "MnO₄⁻", "F₂"],
+        "correct": 1,
+        "explanation": "H₂O₂ can be oxidized to O₂ or reduced to H₂O.",
+        "topic_explanation": "Species with intermediate oxidation states can go both ways. H₂O₂: O is -1, can go to 0 (O₂) or -2 (H₂O). F₂ only oxidizes, F⁻ only reduces. MnO₄⁻ typically only oxidizes."
+    },
+    {
+        "id": 44,
+        "question": "A positive E°cell indicates:",
+        "options": [
+            "Non-spontaneous reaction",
+            "Spontaneous reaction",
+            "Equilibrium",
+            "Endothermic reaction"
+        ],
+        "correct": 1,
+        "explanation": "ΔG° = -nFE°. Positive E° means negative ΔG°, spontaneous.",
+        "topic_explanation": "Relationships: ΔG° = -nFE° = -RT ln K. Positive E° → Negative ΔG° → K > 1 → Spontaneous. At equilibrium: E = 0, ΔG = 0. Nernst equation for non-standard conditions."
+    },
+    {
+        "id": 45,
+        "question": "The Nernst equation relates cell potential to:",
+        "options": [
+            "Temperature only",
+            "Pressure only",
+            "Concentration",
+            "Activation energy"
+        ],
+        "correct": 2,
+        "explanation": "E = E° - (RT/nF)lnQ, where Q involves concentrations.",
+        "topic_explanation": "Nernst equation: E = E° - (0.0592/n)logQ at 25°C. Shows how cell potential changes with concentration. As cell runs, Q increases, E decreases until E = 0 at equilibrium."
+    },
+    {
+        "id": 46,
+        "question": "What is the general formula for alkanes?",
+        "options": ["CnH2n+2", "CnH2n", "CnH2n-2", "CnHn"],
+        "correct": 0,
+        "explanation": "Alkanes are saturated hydrocarbons with formula CnH2n+2.",
+        "topic_explanation": "Hydrocarbon formulas: Alkanes CnH2n+2 (saturated), Alkenes CnH2n (one double bond), Alkynes CnH2n-2 (one triple bond). Each π bond or ring reduces H by 2."
+    },
+    {
+        "id": 47,
+        "question": "Which factor does NOT affect the rate of dissolving?",
+        "options": [
+            "Temperature",
+            "Stirring",
+            "Surface area",
+            "Color of solute"
+        ],
+        "correct": 3,
+        "explanation": "Color is a physical property that doesn't affect dissolution rate.",
+        "topic_explanation": "Dissolution rate factors: 1) Temperature (higher = faster), 2) Stirring (brings fresh solvent), 3) Surface area (smaller particles = faster), 4) Solvent-solute interactions. Color is unrelated."
+    },
+    {
+        "id": 48,
+        "question": "How many moles are in 44g of CO₂? (C=12, O=16)",
+        "options": ["0.5", "1", "2", "44"],
+        "correct": 1,
+        "explanation": "Molar mass CO₂ = 12 + 2(16) = 44 g/mol. 44g ÷ 44g/mol = 1 mol",
+        "topic_explanation": "Mole calculations: n = mass/molar mass. Always calculate molar mass first. CO₂: 12 + 32 = 44 g/mol. This is why 44g CO₂ = exactly 1 mole."
+    },
+    {
+        "id": 49,
+        "question": "In a redox reaction, oxidation involves:",
+        "options": [
+            "Gain of electrons",
+            "Loss of electrons",
+            "Gain of protons",
+            "Loss of neutrons"
+        ],
+        "correct": 1,
+        "explanation": "Oxidation is loss of electrons (OIL RIG: Oxidation Is Loss).",
+        "topic_explanation": "Redox definitions: 1) Electron transfer: oxidation = loss, reduction = gain, 2) Oxidation number: increases in oxidation, decreases in reduction, 3) Oxygen: gain O = oxidation (historical)."
+    },
+    {
+        "id": 50,
+        "question": "According to Le Chatelier's principle, increasing pressure on a gaseous equilibrium will:",
+        "options": [
+            "Favor the side with more moles of gas",
+            "Favor the side with fewer moles of gas",
+            "Have no effect",
+            "Stop the reaction"
+        ],
+        "correct": 1,
+        "explanation": "System responds to minimize disturbance by shifting toward fewer gas molecules.",
+        "topic_explanation": "Le Chatelier's principle: System at equilibrium responds to minimize stress. Pressure increase → shift to fewer moles. Only affects reactions with different gas moles on each side."
+    }
+]

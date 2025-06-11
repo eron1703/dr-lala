@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "question": "A piece of potato tissue showed no change in mass when placed in 0.25 mol/dm³ sucrose solution. What happens when placed in 0.1 mol/dm³ sucrose solution?",
+    "options": [
+      "Mass increases because water potential of cells decreased",
+      "Mass decreases because water potential of cells increased",
+      "Mass increases because solution is hypotonic to cells",
+      "Mass decreases because solution is hypertonic to cells"
+    ],
+    "correct": 2,
+    "explanation": "0.1 mol/dm³ is less concentrated (hypotonic), so water moves into cells by osmosis, increasing mass.",
+    "topic_explanation": "Osmosis is the movement of water across a semi-permeable membrane from high water potential to low water potential. When cells are placed in hypotonic solutions (lower solute concentration), water enters the cells causing them to swell."
+  },
+  {
+    "id": 2,
+    "question": "During aerobic respiration, how many ATP molecules are produced from one glucose molecule through oxidative phosphorylation?",
+    "options": [
+      "2 ATP",
+      "4 ATP",
+      "32-34 ATP",
+      "38 ATP"
+    ],
+    "correct": 2,
+    "explanation": "Oxidative phosphorylation in the electron transport chain produces 32-34 ATP per glucose.",
+    "topic_explanation": "Cellular respiration has three stages: glycolysis (2 ATP), Krebs cycle (2 ATP), and oxidative phosphorylation (32-34 ATP). The electron transport chain uses energy from NADH and FADH2 to pump protons and generate ATP."
+  },
+  {
+    "id": 3,
+    "question": "Which enzyme unwinds the DNA double helix during replication?",
+    "options": [
+      "DNA polymerase",
+      "Helicase",
+      "Ligase",
+      "Primase"
+    ],
+    "correct": 1,
+    "explanation": "Helicase breaks hydrogen bonds between base pairs to unwind the DNA double helix.",
+    "topic_explanation": "DNA replication requires several enzymes: Helicase unwinds the double helix, primase synthesizes RNA primers, DNA polymerase adds nucleotides, and ligase joins Okazaki fragments on the lagging strand."
+  },
+  {
+    "id": 4,
+    "question": "In the cardiac cycle, when pressure in the left ventricle exceeds aortic pressure:",
+    "options": [
+      "AV valves open",
+      "Semilunar valves open",
+      "All valves close",
+      "Atria contract"
+    ],
+    "correct": 1,
+    "explanation": "When ventricular pressure > aortic pressure, semilunar valves open for ejection.",
+    "topic_explanation": "The cardiac cycle has two main phases: systole (contraction) and diastole (relaxation). During ventricular systole, when ventricular pressure exceeds arterial pressure, semilunar valves open and blood is ejected."
+  },
+  {
+    "id": 5,
+    "question": "A cell with 2n=24 undergoes meiosis. How many chromosomes are in each cell at metaphase II?",
+    "options": [
+      "6",
+      "12",
+      "24",
+      "48"
+    ],
+    "correct": 1,
+    "explanation": "After meiosis I, cells are haploid (n=12). At metaphase II, still 12 chromosomes.",
+    "topic_explanation": "Meiosis produces four haploid cells from one diploid cell. Meiosis I separates homologous chromosomes, reducing chromosome number by half. Meiosis II separates sister chromatids like mitosis."
+  },
+  {
+    "id": 6,
+    "question": "The sodium-potassium pump maintains cell potential by:",
+    "options": [
+      "Moving 2 Na⁺ out and 3 K⁺ in",
+      "Moving 3 Na⁺ out and 2 K⁺ in",
+      "Moving 3 Na⁺ in and 2 K⁺ out",
+      "Moving equal amounts of Na⁺ and K⁺"
+    ],
+    "correct": 1,
+    "explanation": "The pump moves 3 Na⁺ out and 2 K⁺ in, using ATP, maintaining negative resting potential.",
+    "topic_explanation": "The Na⁺/K⁺-ATPase pump is crucial for maintaining resting potential (-70mV). It creates unequal ion distribution: high K⁺ inside, high Na⁺ outside. This electrogenic pump contributes to the negative charge inside cells."
+  },
+  {
+    "id": 7,
+    "question": "Which blood type is considered the universal plasma donor?",
+    "options": [
+      "Type O",
+      "Type A",
+      "Type B",
+      "Type AB"
+    ],
+    "correct": 3,
+    "explanation": "Type AB plasma lacks anti-A and anti-B antibodies, making it safe for all recipients.",
+    "topic_explanation": "Blood type is determined by antigens on red blood cells. Type O has no antigens (universal RBC donor), while Type AB has both A and B antigens but no antibodies in plasma (universal plasma donor)."
+  },
+  {
+    "id": 8,
+    "question": "In competitive inhibition, the inhibitor:",
+    "options": [
+      "Binds to the allosteric site",
+      "Competes with substrate for the active site",
+      "Changes the shape of the enzyme permanently",
+      "Increases the rate of reaction"
+    ],
+    "correct": 1,
+    "explanation": "Competitive inhibitors have similar structure to substrate and compete for the active site.",
+    "topic_explanation": "Enzyme inhibition can be competitive (inhibitor binds active site) or non-competitive (inhibitor binds elsewhere). Competitive inhibition can be overcome by increasing substrate concentration."
+  },
+  {
+    "id": 9,
+    "question": "During translation, tRNA anticodons bind to mRNA codons at the:",
+    "options": [
+      "A site only",
+      "P site only",
+      "E site only",
+      "A and P sites"
+    ],
+    "correct": 3,
+    "explanation": "tRNA enters at A site, moves to P site during peptide bond formation, then exits at E site.",
+    "topic_explanation": "Ribosomes have three sites: A (aminoacyl) site receives incoming tRNA, P (peptidyl) site holds growing peptide chain, E (exit) site releases empty tRNA. Translation proceeds as tRNAs move through these sites."
+  },
+  {
+    "id": 10,
+    "question": "The Bohr effect describes how:",
+    "options": [
+      "O₂ binding increases hemoglobin's affinity for CO₂",
+      "CO₂ and H⁺ decrease hemoglobin's affinity for O₂",
+      "Temperature affects gas solubility",
+      "Pressure affects gas exchange"
+    ],
+    "correct": 1,
+    "explanation": "High CO₂ and H⁺ (low pH) reduce hemoglobin's oxygen affinity, promoting O₂ release.",
+    "topic_explanation": "The Bohr effect facilitates oxygen delivery to active tissues. High CO₂ and low pH in metabolically active tissues cause hemoglobin to release oxygen more readily. This is shown by rightward shift of oxygen dissociation curve."
+  },
+  {
+    "id": 11,
+    "question": "Which hormone directly stimulates water reabsorption in the collecting duct?",
+    "options": [
+      "Aldosterone",
+      "ADH",
+      "Renin",
+      "ANP"
+    ],
+    "correct": 1,
+    "explanation": "ADH (antidiuretic hormone) increases water permeability in collecting ducts.",
+    "topic_explanation": "ADH (vasopressin) from posterior pituitary inserts aquaporin-2 channels in collecting duct cells. This increases water reabsorption, concentrating urine. Aldosterone affects sodium reabsorption, not water directly."
+  },
+  {
+    "id": 12,
+    "question": "Sex-linked recessive traits appear more frequently in males because:",
+    "options": [
+      "Males have stronger gene expression",
+      "Males have only one X chromosome",
+      "The Y chromosome activates these genes",
+      "Males have weaker immune systems"
+    ],
+    "correct": 1,
+    "explanation": "Males (XY) need only one recessive allele on X to express the trait; females need two.",
+    "topic_explanation": "Sex-linked inheritance involves genes on sex chromosomes. Males are hemizygous for X-linked genes (only one copy), so recessive alleles are always expressed. Females need two recessive alleles to show the trait."
+  },
+  {
+    "id": 13,
+    "question": "Which organelle is responsible for protein glycosylation?",
+    "options": [
+      "Rough ER",
+      "Smooth ER",
+      "Golgi apparatus",
+      "Lysosomes"
+    ],
+    "correct": 2,
+    "explanation": "The Golgi apparatus modifies proteins by adding carbohydrate groups (glycosylation).",
+    "topic_explanation": "Protein processing pathway: Rough ER synthesizes proteins, which are then transported to Golgi apparatus for modifications including glycosylation, phosphorylation, and sulfation before being packaged for transport."
+  },
+  {
+    "id": 14,
+    "question": "In gel electrophoresis, DNA fragments separate based on:",
+    "options": [
+      "Charge only",
+      "Size only",
+      "Size and charge",
+      "Base composition"
+    ],
+    "correct": 1,
+    "explanation": "All DNA has same charge/mass ratio; separation is by size through gel pores.",
+    "topic_explanation": "DNA is negatively charged due to phosphate groups. In gel electrophoresis, smaller fragments move faster through gel pores than larger ones. All DNA has uniform charge density, so separation is purely by size."
+  },
+  {
+    "id": 15,
+    "question": "During an action potential, repolarization occurs due to:",
+    "options": [
+      "Na⁺ influx",
+      "K⁺ efflux",
+      "Ca²⁺ influx",
+      "Cl⁻ influx"
+    ],
+    "correct": 1,
+    "explanation": "K⁺ channels open during repolarization, allowing K⁺ to leave, restoring negative potential.",
+    "topic_explanation": "Action potential phases: 1) Depolarization - Na⁺ channels open, Na⁺ enters. 2) Repolarization - Na⁺ channels close, K⁺ channels open, K⁺ exits. 3) Hyperpolarization - excess K⁺ efflux before channels close."
+  },
+  {
+    "id": 16,
+    "question": "The lac operon is an example of:",
+    "options": [
+      "Positive regulation only",
+      "Negative regulation only",
+      "Both positive and negative regulation",
+      "Post-transcriptional regulation"
+    ],
+    "correct": 2,
+    "explanation": "Lac operon has negative regulation (repressor) and positive regulation (CAP-cAMP).",
+    "topic_explanation": "The lac operon controls lactose metabolism in bacteria. Negative control: repressor blocks transcription without lactose. Positive control: CAP-cAMP enhances transcription when glucose is low."
+  },
+  {
+    "id": 17,
+    "question": "Which antibody class crosses the placenta?",
+    "options": [
+      "IgA",
+      "IgD",
+      "IgG",
+      "IgM"
+    ],
+    "correct": 2,
+    "explanation": "IgG is the only antibody class that crosses the placenta, providing passive immunity.",
+    "topic_explanation": "Antibody classes have different functions: IgG - most abundant, crosses placenta; IgM - first response, pentamer; IgA - in secretions; IgE - allergic reactions; IgD - on B cells."
+  },
+  {
+    "id": 18,
+    "question": "Crossing over during meiosis occurs at:",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Prophase II",
+      "Metaphase II"
+    ],
+    "correct": 0,
+    "explanation": "Crossing over occurs during prophase I when homologous chromosomes pair up.",
+    "topic_explanation": "During prophase I, homologous chromosomes undergo synapsis (pairing). Crossing over at chiasmata exchanges genetic material between non-sister chromatids, creating genetic variation."
+  },
+  {
+    "id": 19,
+    "question": "In the nephron, most glucose reabsorption occurs in the:",
+    "options": [
+      "Glomerulus",
+      "Proximal convoluted tubule",
+      "Loop of Henle",
+      "Distal convoluted tubule"
+    ],
+    "correct": 1,
+    "explanation": "About 100% of filtered glucose is reabsorbed in the proximal convoluted tubule.",
+    "topic_explanation": "The proximal convoluted tubule reabsorbs 65% of filtered water and sodium, 100% of glucose and amino acids. This occurs via secondary active transport using sodium-glucose co-transporters."
+  },
+  {
+    "id": 20,
+    "question": "LH surge triggers:",
+    "options": [
+      "Menstruation",
+      "Ovulation",
+      "Implantation",
+      "Fertilization"
+    ],
+    "correct": 1,
+    "explanation": "The LH surge around day 14 triggers ovulation in the menstrual cycle.",
+    "topic_explanation": "Menstrual cycle hormones: FSH stimulates follicle growth, rising estrogen triggers LH surge, LH surge causes ovulation, corpus luteum produces progesterone to maintain endometrium."
+  },
+  {
+    "id": 21,
+    "question": "Which process produces lactate in muscle cells during intense exercise?",
+    "options": [
+      "Aerobic respiration",
+      "Anaerobic fermentation",
+      "Beta oxidation",
+      "Gluconeogenesis"
+    ],
+    "correct": 1,
+    "explanation": "Anaerobic fermentation converts pyruvate to lactate when oxygen is limited.",
+    "topic_explanation": "During intense exercise, oxygen delivery can't meet demand. Cells switch to anaerobic metabolism: pyruvate is converted to lactate to regenerate NAD+ for glycolysis to continue producing ATP."
+  },
+  {
+    "id": 22,
+    "question": "The quaternary structure of hemoglobin consists of:",
+    "options": [
+      "One polypeptide chain",
+      "Two identical subunits",
+      "Four identical subunits",
+      "Two alpha and two beta subunits"
+    ],
+    "correct": 3,
+    "explanation": "Hemoglobin has quaternary structure with 2 alpha and 2 beta polypeptide subunits.",
+    "topic_explanation": "Protein structure levels: Primary (amino acid sequence), Secondary (alpha helices, beta sheets), Tertiary (3D folding), Quaternary (multiple polypeptides). Hemoglobin is α₂β₂ tetramer."
+  },
+  {
+    "id": 23,
+    "question": "Surfactant in alveoli functions to:",
+    "options": [
+      "Increase surface tension",
+      "Decrease surface tension",
+      "Transport oxygen",
+      "Fight infections"
+    ],
+    "correct": 1,
+    "explanation": "Surfactant reduces surface tension, preventing alveolar collapse.",
+    "topic_explanation": "Pulmonary surfactant is a phospholipid-protein complex produced by type II pneumocytes. It reduces surface tension at air-liquid interface, preventing alveolar collapse and reducing work of breathing."
+  },
+  {
+    "id": 24,
+    "question": "The pacemaker of the heart is the:",
+    "options": [
+      "AV node",
+      "SA node",
+      "Bundle of His",
+      "Purkinje fibers"
+    ],
+    "correct": 1,
+    "explanation": "The SA (sinoatrial) node initiates each heartbeat as the natural pacemaker.",
+    "topic_explanation": "Cardiac conduction system: SA node (pacemaker) → AV node (delay) → Bundle of His → Bundle branches → Purkinje fibers. SA node has fastest intrinsic rate (~70 bpm), setting heart rhythm."
+  },
+  {
+    "id": 25,
+    "question": "In a dihybrid cross (AaBb × AaBb), what fraction of offspring will be homozygous recessive for both traits?",
+    "options": [
+      "1/4",
+      "1/8",
+      "1/16",
+      "3/16"
+    ],
+    "correct": 2,
+    "explanation": "Probability of aabb = 1/4 × 1/4 = 1/16 in a dihybrid cross.",
+    "topic_explanation": "Dihybrid crosses follow independent assortment. For each trait: AA (1/4), Aa (1/2), aa (1/4). For two traits independently: P(aabb) = P(aa) × P(bb) = 1/4 × 1/4 = 1/16."
+  },
+  {
+    "id": 26,
+    "question": "Which type of mutation causes a frameshift?",
+    "options": [
+      "Substitution of one base",
+      "Insertion of three bases",
+      "Deletion of two bases",
+      "Inversion of a sequence"
+    ],
+    "correct": 2,
+    "explanation": "Deletion of 2 bases shifts the reading frame (not a multiple of 3).",
+    "topic_explanation": "Frameshift mutations occur when insertions or deletions are not multiples of 3. This shifts the reading frame, changing all downstream codons and usually creating a premature stop codon."
+  },
+  {
+    "id": 27,
+    "question": "In PCR, Taq polymerase is used because it:",
+    "options": [
+      "Works at room temperature",
+      "Is heat-stable",
+      "Has 3' to 5' exonuclease activity",
+      "Can use RNA as template"
+    ],
+    "correct": 1,
+    "explanation": "Taq polymerase from thermophilic bacteria withstands the high temperatures of PCR.",
+    "topic_explanation": "PCR cycles through: 1) Denaturation (95°C) - DNA strands separate, 2) Annealing (50-65°C) - primers bind, 3) Extension (72°C) - Taq polymerase adds nucleotides. Regular polymerases would denature."
+  },
+  {
+    "id": 28,
+    "question": "Telomerase activity is highest in:",
+    "options": [
+      "Nerve cells",
+      "Muscle cells",
+      "Stem cells",
+      "Red blood cells"
+    ],
+    "correct": 2,
+    "explanation": "Stem cells maintain telomerase activity for continued division capability.",
+    "topic_explanation": "Telomeres are protective DNA caps that shorten with each division. Most adult cells lack telomerase, limiting divisions. Stem cells and cancer cells maintain telomerase for unlimited division potential."
+  },
+  {
+    "id": 29,
+    "question": "The hormone that stimulates gluconeogenesis and increases blood glucose is:",
+    "options": [
+      "Insulin",
+      "Glucagon",
+      "Thyroxine",
+      "Growth hormone"
+    ],
+    "correct": 1,
+    "explanation": "Glucagon promotes gluconeogenesis in the liver, raising blood glucose levels.",
+    "topic_explanation": "Blood glucose regulation: Insulin (lowers glucose) - promotes uptake and storage. Glucagon (raises glucose) - promotes gluconeogenesis and glycogenolysis. They work antagonistically to maintain homeostasis."
+  },
+  {
+    "id": 30,
+    "question": "In DNA fingerprinting, VNTRs are useful because they:",
+    "options": [
+      "Code for important proteins",
+      "Are highly conserved",
+      "Vary greatly between individuals",
+      "Are found only in criminals"
+    ],
+    "correct": 2,
+    "explanation": "Variable Number Tandem Repeats vary between individuals, making them useful for identification.",
+    "topic_explanation": "VNTRs are repetitive DNA sequences where the number of repeats varies between individuals. This polymorphism creates unique patterns when analyzed, like a genetic fingerprint for identification."
+  },
+  {
+    "id": 31,
+    "question": "In the nitrogen cycle, nitrification converts:",
+    "options": [
+      "N₂ to NH₃",
+      "NH₃ to NO₃⁻",
+      "NO₃⁻ to N₂",
+      "Proteins to NH₃"
+    ],
+    "correct": 1,
+    "explanation": "Nitrification is the oxidation of ammonia to nitrite then nitrate by bacteria.",
+    "topic_explanation": "Nitrogen cycle steps: 1) Nitrogen fixation (N₂→NH₃), 2) Nitrification (NH₃→NO₂⁻→NO₃⁻), 3) Assimilation (NO₃⁻ into organisms), 4) Ammonification (organic N→NH₃), 5) Denitrification (NO₃⁻→N₂)."
+  },
+  {
+    "id": 32,
+    "question": "Primary succession differs from secondary succession in that primary succession:",
+    "options": [
+      "Occurs faster",
+      "Starts with existing soil",
+      "Begins on bare rock",
+      "Has fewer stages"
+    ],
+    "correct": 2,
+    "explanation": "Primary succession begins on bare rock or sand with no soil present.",
+    "topic_explanation": "Primary succession starts on lifeless substrate (bare rock, lava, sand). Pioneer species like lichens break down rock to form soil. Secondary succession occurs after disturbance where soil remains."
+  },
+  {
+    "id": 33,
+    "question": "The Hardy-Weinberg principle assumes all EXCEPT:",
+    "options": [
+      "Random mating",
+      "No mutations",
+      "Natural selection occurring",
+      "Large population size"
+    ],
+    "correct": 2,
+    "explanation": "Hardy-Weinberg assumes no natural selection; selection would change allele frequencies.",
+    "topic_explanation": "Hardy-Weinberg equilibrium requires: 1) No mutations, 2) Random mating, 3) No gene flow, 4) Large population (no genetic drift), 5) No natural selection. It predicts allele frequencies remain constant."
+  },
+  {
+    "id": 34,
+    "question": "Convergent evolution results in:",
+    "options": [
+      "Homologous structures",
+      "Analogous structures",
+      "Vestigial structures",
+      "Identical DNA sequences"
+    ],
+    "correct": 1,
+    "explanation": "Convergent evolution produces analogous structures with similar functions but different origins.",
+    "topic_explanation": "Convergent evolution: unrelated species evolve similar traits due to similar environmental pressures (e.g., wings in birds and bats). Divergent evolution: related species evolve different traits."
+  },
+  {
+    "id": 35,
+    "question": "In a food pyramid, energy transfer between trophic levels is approximately:",
+    "options": [
+      "1%",
+      "10%",
+      "50%",
+      "90%"
+    ],
+    "correct": 1,
+    "explanation": "Only about 10% of energy transfers between trophic levels; 90% is lost.",
+    "topic_explanation": "The 10% rule: only ~10% of energy passes to the next trophic level. The rest is lost as heat (metabolism), waste, or remains in uneaten parts. This limits food chain length."
+  },
+  {
+    "id": 36,
+    "question": "Eutrophication is primarily caused by excess:",
+    "options": [
+      "Carbon dioxide",
+      "Heavy metals",
+      "Nitrogen and phosphorus",
+      "Pesticides"
+    ],
+    "correct": 2,
+    "explanation": "Excess N and P from fertilizers cause algal blooms and eutrophication.",
+    "topic_explanation": "Eutrophication process: 1) Excess nutrients (N, P) enter water, 2) Algal bloom occurs, 3) Algae die and decompose, 4) Decomposers use oxygen, 5) Oxygen depletion kills aquatic life."
+  },
+  {
+    "id": 37,
+    "question": "The founder effect is a type of:",
+    "options": [
+      "Natural selection",
+      "Gene flow",
+      "Genetic drift",
+      "Mutation"
+    ],
+    "correct": 2,
+    "explanation": "Founder effect is genetic drift when a small group establishes a new population.",
+    "topic_explanation": "Genetic drift is random change in allele frequencies, stronger in small populations. Founder effect: small group starts new population with limited genetic diversity. Bottleneck: population size drastically reduced."
+  },
+  {
+    "id": 38,
+    "question": "Keystone species are important because they:",
+    "options": [
+      "Are the most abundant",
+      "Are primary producers",
+      "Have disproportionate ecological impact",
+      "Are at the top of food chains"
+    ],
+    "correct": 2,
+    "explanation": "Keystone species have effects on community structure beyond their abundance.",
+    "topic_explanation": "Keystone species dramatically affect ecosystem structure despite low biomass/abundance. Examples: sea otters control sea urchins, preventing kelp forest destruction. Their removal causes ecosystem collapse."
+  },
+  {
+    "id": 39,
+    "question": "Carbon fixation in C4 plants first produces:",
+    "options": [
+      "3-phosphoglycerate",
+      "Oxaloacetate",
+      "RuBP",
+      "Glucose"
+    ],
+    "correct": 1,
+    "explanation": "C4 plants first fix CO₂ into oxaloacetate (4-carbon compound) via PEP carboxylase.",
+    "topic_explanation": "C4 photosynthesis: CO₂ + PEP → oxaloacetate (4C) in mesophyll cells. This concentrates CO₂ for Calvin cycle in bundle sheath cells, reducing photorespiration in hot climates."
+  },
+  {
+    "id": 40,
+    "question": "Allopatric speciation requires:",
+    "options": [
+      "Polyploidy",
+      "Geographic isolation",
+      "Behavioral differences",
+      "Temporal isolation"
+    ],
+    "correct": 1,
+    "explanation": "Allopatric speciation occurs when populations are geographically separated.",
+    "topic_explanation": "Speciation types: Allopatric (geographic separation), Sympatric (same area, often polyploidy), Peripatric (small peripheral population), Parapatric (adjacent populations with limited gene flow)."
+  },
+  {
+    "id": 41,
+    "question": "CRISPR-Cas9 system uses which type of RNA for targeting?",
+    "options": [
+      "mRNA",
+      "tRNA",
+      "rRNA",
+      "gRNA"
+    ],
+    "correct": 3,
+    "explanation": "Guide RNA (gRNA) directs Cas9 to specific DNA sequences for cutting.",
+    "topic_explanation": "CRISPR-Cas9 gene editing: gRNA contains ~20 nucleotides complementary to target DNA. Cas9 protein binds gRNA, finds matching DNA sequence, and creates double-strand break for editing."
+  },
+  {
+    "id": 42,
+    "question": "Apoptosis is triggered by release of which molecule from mitochondria?",
+    "options": [
+      "ATP",
+      "Cytochrome c",
+      "NADH",
+      "Pyruvate"
+    ],
+    "correct": 1,
+    "explanation": "Cytochrome c release from mitochondria activates caspases for apoptosis.",
+    "topic_explanation": "Apoptosis (programmed cell death) pathway: Cell stress → mitochondrial membrane permeabilization → cytochrome c release → apoptosome formation → caspase activation → cell dismantling."
+  },
+  {
+    "id": 43,
+    "question": "Which technique separates proteins by both charge and size?",
+    "options": [
+      "SDS-PAGE",
+      "Isoelectric focusing",
+      "2D gel electrophoresis",
+      "Western blotting"
+    ],
+    "correct": 2,
+    "explanation": "2D electrophoresis separates by isoelectric point (charge) then by size.",
+    "topic_explanation": "2D gel electrophoresis: First dimension - isoelectric focusing separates by pI (pH where protein has no net charge). Second dimension - SDS-PAGE separates by molecular weight."
+  },
+  {
+    "id": 44,
+    "question": "Monoclonal antibodies are produced by:",
+    "options": [
+      "T cells",
+      "Memory B cells",
+      "Hybridomas",
+      "Plasma cells only"
+    ],
+    "correct": 2,
+    "explanation": "Hybridomas (B cell + myeloma fusion) produce identical monoclonal antibodies.",
+    "topic_explanation": "Monoclonal antibody production: 1) Immunize animal, 2) Harvest B cells, 3) Fuse with immortal myeloma cells, 4) Select hybridomas, 5) Clone cells producing desired antibody."
+  },
+  {
+    "id": 45,
+    "question": "The wobble hypothesis explains why:",
+    "options": [
+      "DNA is antiparallel",
+      "There are fewer tRNAs than codons",
+      "Mutations occur",
+      "Proteins fold"
+    ],
+    "correct": 1,
+    "explanation": "Wobble base pairing allows one tRNA to recognize multiple codons.",
+    "topic_explanation": "Wobble hypothesis: The third codon position can vary without changing the amino acid. Non-Watson-Crick pairing at wobble position allows ~40 tRNAs to read 61 codons."
+  },
+  {
+    "id": 46,
+    "question": "Epigenetic changes involve:",
+    "options": [
+      "DNA sequence changes",
+      "DNA methylation and histone modification",
+      "Chromosome number changes",
+      "RNA sequence changes"
+    ],
+    "correct": 1,
+    "explanation": "Epigenetics involves heritable changes without altering DNA sequence.",
+    "topic_explanation": "Epigenetic mechanisms: 1) DNA methylation (usually silences genes), 2) Histone modifications (acetylation activates, methylation varies), 3) Non-coding RNAs. These regulate gene expression without changing DNA."
+  },
+  {
+    "id": 47,
+    "question": "In photosynthesis, oxygen is produced from:",
+    "options": [
+      "CO₂",
+      "H₂O",
+      "Glucose",
+      "ATP"
+    ],
+    "correct": 1,
+    "explanation": "O₂ comes from water splitting (photolysis) during light reactions.",
+    "topic_explanation": "Photosynthesis equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. Using isotope labeling proved O₂ comes from H₂O, not CO₂. Water splits at photosystem II."
+  },
+  {
+    "id": 48,
+    "question": "The enzyme reverse transcriptase:",
+    "options": [
+      "Synthesizes DNA from RNA",
+      "Synthesizes RNA from DNA",
+      "Replicates DNA",
+      "Translates RNA"
+    ],
+    "correct": 0,
+    "explanation": "Reverse transcriptase synthesizes DNA from RNA template (retroviruses).",
+    "topic_explanation": "Reverse transcriptase violates the central dogma (DNA→RNA→Protein). Found in retroviruses (HIV) and used in research for making cDNA from mRNA. Lacks proofreading, causing high mutation rates."
+  },
+  {
+    "id": 49,
+    "question": "In population genetics, if p = 0.7, what is the frequency of heterozygotes?",
+    "options": [
+      "0.21",
+      "0.42",
+      "0.49",
+      "0.09"
+    ],
+    "correct": 1,
+    "explanation": "If p = 0.7, then q = 0.3. Heterozygotes = 2pq = 2(0.7)(0.3) = 0.42",
+    "topic_explanation": "Hardy-Weinberg equation: p² + 2pq + q² = 1, where p² = homozygous dominant frequency, 2pq = heterozygote frequency, q² = homozygous recessive frequency. p + q = 1."
+  },
+  {
+    "id": 50,
+    "question": "The electron transport chain is located in the:",
+    "options": [
+      "Outer mitochondrial membrane",
+      "Inner mitochondrial membrane",
+      "Mitochondrial matrix",
+      "Intermembrane space"
+    ],
+    "correct": 1,
+    "explanation": "ETC complexes are embedded in the inner mitochondrial membrane.",
+    "topic_explanation": "The inner mitochondrial membrane contains ETC complexes I-IV and ATP synthase. Its folds (cristae) increase surface area. Protons pump from matrix to intermembrane space, creating gradient for ATP synthesis."
+  },
+  {
+    "id": 51,
+    "question": "Which structure prevents backflow of blood from ventricles to atria during systole?",
+    "options": [
+      "Semilunar valves",
+      "Atrioventricular valves",
+      "Coronary valves",
+      "Pulmonary valves"
+    ],
+    "correct": 1,
+    "explanation": "AV valves (tricuspid and mitral) close during ventricular systole to prevent backflow.",
+    "topic_explanation": "Heart valves ensure unidirectional flow. AV valves (tricuspid right, mitral left) prevent backflow to atria. Semilunar valves (pulmonary and aortic) prevent backflow from arteries to ventricles."
+  },
+  {
+    "id": 52,
+    "question": "The corpus luteum secretes:",
+    "options": [
+      "Estrogen only",
+      "Progesterone only",
+      "Both estrogen and progesterone",
+      "FSH and LH"
+    ],
+    "correct": 2,
+    "explanation": "Corpus luteum secretes both progesterone and estrogen to maintain the endometrium.",
+    "topic_explanation": "After ovulation, the follicle becomes corpus luteum. It secretes progesterone (maintains endometrium) and estrogen. If no pregnancy occurs, it degenerates into corpus albicans."
+  },
+  {
+    "id": 53,
+    "question": "Which enzyme catalyzes the rate-limiting step in glycolysis?",
+    "options": [
+      "Hexokinase",
+      "Phosphofructokinase",
+      "Pyruvate kinase",
+      "Aldolase"
+    ],
+    "correct": 1,
+    "explanation": "Phosphofructokinase (PFK) catalyzes the committed, rate-limiting step of glycolysis.",
+    "topic_explanation": "PFK converts fructose-6-phosphate to fructose-1,6-bisphosphate. It's highly regulated: inhibited by ATP and citrate (sufficient energy), activated by AMP and ADP (low energy)."
+  },
+  {
+    "id": 54,
+    "question": "CAM plants open their stomata:",
+    "options": [
+      "During the day only",
+      "At night only",
+      "Both day and night",
+      "Never"
+    ],
+    "correct": 1,
+    "explanation": "CAM plants open stomata at night to minimize water loss in hot climates.",
+    "topic_explanation": "Crassulacean Acid Metabolism: Stomata open at night to take in CO₂, which is stored as malic acid. During day, stomata close and stored CO₂ is released for Calvin cycle."
+  },
+  {
+    "id": 55,
+    "question": "Which immune cells are responsible for antibody production?",
+    "options": [
+      "T lymphocytes",
+      "Plasma cells",
+      "Neutrophils",
+      "Macrophages"
+    ],
+    "correct": 1,
+    "explanation": "Plasma cells (differentiated B cells) produce and secrete antibodies.",
+    "topic_explanation": "B cell activation: Antigen recognition → clonal expansion → differentiation into plasma cells (antibody factories) and memory B cells (long-term immunity). Each plasma cell produces one antibody type."
+  },
+  {
+    "id": 56,
+    "question": "The loop of Henle is primarily responsible for:",
+    "options": [
+      "Glucose reabsorption",
+      "Creating osmotic gradient",
+      "Secreting H+",
+      "Filtering blood"
+    ],
+    "correct": 1,
+    "explanation": "Loop of Henle creates medullary osmotic gradient for water reabsorption.",
+    "topic_explanation": "Countercurrent multiplication: Descending limb is permeable to water, ascending limb actively transports salt. This creates increasing osmolarity toward medulla, allowing concentrated urine formation."
+  },
+  {
+    "id": 57,
+    "question": "Which structure connects the two cerebral hemispheres?",
+    "options": [
+      "Pons",
+      "Corpus callosum",
+      "Medulla oblongata",
+      "Cerebellum"
+    ],
+    "correct": 1,
+    "explanation": "Corpus callosum is the large bundle of nerve fibers connecting left and right hemispheres.",
+    "topic_explanation": "The corpus callosum contains ~200 million axons enabling interhemispheric communication. Damage can cause split-brain syndrome where hemispheres function independently."
+  },
+  {
+    "id": 58,
+    "question": "Which vitamin is essential for blood clotting?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin E"
+    ],
+    "correct": 2,
+    "explanation": "Vitamin K is required for synthesis of clotting factors II, VII, IX, and X.",
+    "topic_explanation": "Vitamin K enables gamma-carboxylation of glutamate residues in clotting factors, allowing calcium binding. Deficiency causes bleeding. Warfarin antagonizes vitamin K to prevent clots."
+  },
+  {
+    "id": 59,
+    "question": "Sickle cell anemia results from a mutation causing substitution of:",
+    "options": [
+      "Valine for glutamate",
+      "Glutamate for valine",
+      "Leucine for valine",
+      "Alanine for glycine"
+    ],
+    "correct": 1,
+    "explanation": "Glutamate (hydrophilic) is replaced by valine (hydrophobic) at position 6 of beta-globin.",
+    "topic_explanation": "Single nucleotide change (GAG→GTG) causes Glu→Val substitution. Hydrophobic valine causes hemoglobin polymerization when deoxygenated, deforming red blood cells into sickle shape."
+  },
+  {
+    "id": 60,
+    "question": "Which gland is known as the 'master gland'?",
+    "options": [
+      "Thyroid",
+      "Pituitary",
+      "Pineal",
+      "Adrenal"
+    ],
+    "correct": 1,
+    "explanation": "Pituitary gland controls other endocrine glands through tropic hormones.",
+    "topic_explanation": "Anterior pituitary secretes: GH, TSH, ACTH, FSH, LH, prolactin. Posterior pituitary stores/releases ADH and oxytocin from hypothalamus. Hypothalamic-pituitary axis controls endocrine system."
+  },
+  {
+    "id": 61,
+    "question": "During muscle contraction, calcium binds to:",
+    "options": [
+      "Actin",
+      "Myosin",
+      "Troponin",
+      "Tropomyosin"
+    ],
+    "correct": 2,
+    "explanation": "Calcium binds to troponin C, causing conformational change that exposes myosin-binding sites.",
+    "topic_explanation": "Muscle contraction: Ca²⁺ binds troponin → tropomyosin moves → myosin binding sites exposed on actin → cross-bridge cycling occurs. Relaxation occurs when Ca²⁺ is pumped back into sarcoplasmic reticulum."
+  },
+  {
+    "id": 62,
+    "question": "Which process does NOT occur in the mitochondrial matrix?",
+    "options": [
+      "Krebs cycle",
+      "Beta oxidation",
+      "Glycolysis",
+      "Amino acid metabolism"
+    ],
+    "correct": 2,
+    "explanation": "Glycolysis occurs in the cytoplasm, not in mitochondria.",
+    "topic_explanation": "Cellular compartmentalization: Glycolysis (cytoplasm), Krebs cycle (matrix), ETC (inner membrane), fatty acid synthesis (cytoplasm), beta oxidation (matrix). This separation allows regulation."
+  },
+  {
+    "id": 63,
+    "question": "The universal blood donor type is:",
+    "options": [
+      "A positive",
+      "B positive",
+      "AB positive",
+      "O negative"
+    ],
+    "correct": 3,
+    "explanation": "O negative blood lacks A, B antigens and Rh factor, compatible with all blood types.",
+    "topic_explanation": "Blood compatibility: Recipients can't receive blood with antigens they lack (would cause immune reaction). O- has no antigens, so anyone can receive it. AB+ can receive any type (universal recipient)."
+  },
+  {
+    "id": 64,
+    "question": "Which molecule directly provides energy for muscle contraction?",
+    "options": [
+      "Glucose",
+      "ATP",
+      "Creatine phosphate",
+      "GTP"
+    ],
+    "correct": 1,
+    "explanation": "ATP hydrolysis directly powers the myosin head movement in muscle contraction.",
+    "topic_explanation": "ATP binding to myosin causes detachment from actin. ATP hydrolysis cocks the myosin head. Pi release triggers power stroke. Creatine phosphate rapidly regenerates ATP during intense exercise."
+  },
+  {
+    "id": 65,
+    "question": "The blind spot in the eye corresponds to:",
+    "options": [
+      "Fovea",
+      "Cornea",
+      "Optic disc",
+      "Lens"
+    ],
+    "correct": 2,
+    "explanation": "Optic disc where optic nerve exits has no photoreceptors, creating blind spot.",
+    "topic_explanation": "The optic disc lacks rods and cones because axons from ganglion cells converge here to form optic nerve. Brain fills in blind spot using information from other eye and surrounding area."
+  },
+  {
+    "id": 66,
+    "question": "Which hormone is produced by adipose tissue?",
+    "options": [
+      "Insulin",
+      "Glucagon",
+      "Leptin",
+      "Ghrelin"
+    ],
+    "correct": 2,
+    "explanation": "Leptin is produced by fat cells to signal satiety and regulate energy balance.",
+    "topic_explanation": "Leptin ('satiety hormone') levels correlate with fat stores. It suppresses appetite and increases energy expenditure. Leptin resistance in obesity impairs this feedback mechanism."
+  },
+  {
+    "id": 67,
+    "question": "The main function of the large intestine is:",
+    "options": [
+      "Protein digestion",
+      "Fat absorption",
+      "Water absorption",
+      "Carbohydrate digestion"
+    ],
+    "correct": 2,
+    "explanation": "Large intestine primarily absorbs water and electrolytes from remaining food matter.",
+    "topic_explanation": "Large intestine absorbs ~1.5L water daily, forming solid feces. Also houses gut microbiota that produce vitamins (K, B12, folate) and ferment undigested carbohydrates."
+  },
+  {
+    "id": 68,
+    "question": "Which cells produce myelin in the central nervous system?",
+    "options": [
+      "Schwann cells",
+      "Oligodendrocytes",
+      "Astrocytes",
+      "Microglia"
+    ],
+    "correct": 1,
+    "explanation": "Oligodendrocytes produce myelin in CNS; Schwann cells in PNS.",
+    "topic_explanation": "Myelination differences: One oligodendrocyte myelinates multiple axons in CNS. One Schwann cell myelinates one segment of one axon in PNS. This affects regeneration capabilities."
+  },
+  {
+    "id": 69,
+    "question": "The citric acid cycle produces how many NADH per glucose?",
+    "options": [
+      "2 NADH",
+      "4 NADH",
+      "6 NADH",
+      "8 NADH"
+    ],
+    "correct": 2,
+    "explanation": "Each turn produces 3 NADH; glucose yields 2 pyruvate = 2 turns = 6 NADH.",
+    "topic_explanation": "Per glucose: Glycolysis (2 NADH), Pyruvate oxidation (2 NADH), Krebs cycle (6 NADH), plus 2 FADH2 and 2 ATP/GTP from Krebs. Total: 10 NADH + 2 FADH2."
+  },
+  {
+    "id": 70,
+    "question": "Which immunoglobulin is pentameric?",
+    "options": [
+      "IgA",
+      "IgG",
+      "IgM",
+      "IgE"
+    ],
+    "correct": 2,
+    "explanation": "IgM exists as pentamer (5 units) joined by J chain, giving 10 antigen-binding sites.",
+    "topic_explanation": "IgM is first antibody in immune response. Pentameric structure provides high avidity despite low affinity. Large size restricts it to blood vessels. Indicates recent/acute infection."
+  },
+  {
+    "id": 71,
+    "question": "The enzyme that synthesizes RNA primers during DNA replication is:",
+    "options": [
+      "DNA polymerase I",
+      "DNA polymerase III",
+      "Primase",
+      "Helicase"
+    ],
+    "correct": 2,
+    "explanation": "Primase synthesizes short RNA primers needed for DNA polymerase to start synthesis.",
+    "topic_explanation": "DNA polymerases can only extend existing 3'-OH groups, not start new strands. Primase makes 10-12 nucleotide RNA primers. Leading strand needs one primer; lagging strand needs many."
+  },
+  {
+    "id": 72,
+    "question": "Which vessel carries the most oxygenated blood in fetal circulation?",
+    "options": [
+      "Umbilical artery",
+      "Umbilical vein",
+      "Pulmonary artery",
+      "Inferior vena cava"
+    ],
+    "correct": 1,
+    "explanation": "Umbilical vein carries oxygenated blood from placenta to fetus.",
+    "topic_explanation": "Fetal circulation bypasses lungs: Umbilical vein → ductus venosus → IVC → right atrium → foramen ovale → left atrium. Some blood goes through ductus arteriosus from pulmonary artery to aorta."
+  },
+  {
+    "id": 73,
+    "question": "Bile salts are synthesized from:",
+    "options": [
+      "Proteins",
+      "Carbohydrates",
+      "Cholesterol",
+      "Fatty acids"
+    ],
+    "correct": 2,
+    "explanation": "Bile salts are synthesized from cholesterol in the liver.",
+    "topic_explanation": "Cholesterol → primary bile acids (liver) → conjugated with glycine/taurine → bile salts. They emulsify fats for digestion and are recycled via enterohepatic circulation."
+  },
+  {
+    "id": 74,
+    "question": "Which cells are responsible for producing cerebrospinal fluid?",
+    "options": [
+      "Neurons",
+      "Ependymal cells",
+      "Choroid plexus cells",
+      "Oligodendrocytes"
+    ],
+    "correct": 2,
+    "explanation": "Choroid plexus epithelial cells in ventricles produce CSF.",
+    "topic_explanation": "CSF production: ~500mL/day by choroid plexus. Circulates through ventricles → subarachnoid space → absorbed by arachnoid villi. Functions: cushioning, nutrient delivery, waste removal."
+  },
+  {
+    "id": 75,
+    "question": "In which phase of the cell cycle does DNA replication occur?",
+    "options": [
+      "G1 phase",
+      "S phase",
+      "G2 phase",
+      "M phase"
+    ],
+    "correct": 1,
+    "explanation": "S (synthesis) phase is when DNA replication occurs.",
+    "topic_explanation": "Cell cycle: G1 (growth, preparation), S (DNA synthesis), G2 (growth, preparation for mitosis), M (mitosis). G0 is quiescent state. Checkpoints ensure proper progression."
+  },
+  {
+    "id": 76,
+    "question": "The resting membrane potential of a neuron is approximately:",
+    "options": [
+      "-30 mV",
+      "-50 mV",
+      "-70 mV",
+      "-90 mV"
+    ],
+    "correct": 2,
+    "explanation": "Resting potential is typically -70 mV, with inside negative relative to outside.",
+    "topic_explanation": "Resting potential results from: 1) Na+/K+ pump creating gradients, 2) K+ leak channels (main contributor), 3) Large negative proteins inside. Nernst equation calculates equilibrium potentials."
+  },
+  {
+    "id": 77,
+    "question": "Which enzyme adds nucleotides to the 3' end of DNA?",
+    "options": [
+      "DNA polymerase",
+      "RNA polymerase",
+      "Telomerase",
+      "Ligase"
+    ],
+    "correct": 0,
+    "explanation": "DNA polymerase adds nucleotides to 3'-OH of growing strand (5' to 3' synthesis).",
+    "topic_explanation": "DNA polymerase requires: 1) Template strand, 2) Primer with 3'-OH, 3) dNTPs. It reads template 3'→5' and synthesizes 5'→3'. Has 3'→5' exonuclease for proofreading."
+  },
+  {
+    "id": 78,
+    "question": "Gluconeogenesis primarily occurs in:",
+    "options": [
+      "Muscle",
+      "Liver",
+      "Brain",
+      "Adipose tissue"
+    ],
+    "correct": 1,
+    "explanation": "Liver is the main site of gluconeogenesis (90%); kidney contributes 10%.",
+    "topic_explanation": "Gluconeogenesis makes glucose from non-carbohydrate sources (lactate, amino acids, glycerol). Occurs during fasting. Four enzymes bypass irreversible glycolysis steps. Energy expensive: 6 ATP per glucose."
+  },
+  {
+    "id": 79,
+    "question": "Which cells are the primary target of HIV?",
+    "options": [
+      "B lymphocytes",
+      "CD4+ T cells",
+      "CD8+ T cells",
+      "Natural killer cells"
+    ],
+    "correct": 1,
+    "explanation": "HIV primarily infects CD4+ T helper cells, destroying immune coordination.",
+    "topic_explanation": "HIV binds CD4 receptor and CCR5/CXCR4 co-receptor. Destroys helper T cells that coordinate immune response. AIDS develops when CD4+ count drops below 200 cells/μL."
+  },
+  {
+    "id": 80,
+    "question": "The acrosome of a sperm contains:",
+    "options": [
+      "Mitochondria",
+      "DNA",
+      "Digestive enzymes",
+      "ATP"
+    ],
+    "correct": 2,
+    "explanation": "Acrosome contains enzymes to penetrate egg's protective layers.",
+    "topic_explanation": "Acrosome reaction: Sperm contacts zona pellucida → acrosome releases hyaluronidase and acrosin → digest path through corona radiata and zona pellucida → sperm-egg fusion."
+  },
+  {
+    "id": 81,
+    "question": "Which hormone inhibits gastric acid secretion?",
+    "options": [
+      "Gastrin",
+      "Secretin",
+      "Somatostatin",
+      "Cholecystokinin"
+    ],
+    "correct": 2,
+    "explanation": "Somatostatin inhibits gastric acid secretion and many other GI functions.",
+    "topic_explanation": "Gastric acid regulation: Stimulation by gastrin, histamine, acetylcholine. Inhibition by somatostatin (paracrine), secretin (from duodenum when pH low). Negative feedback maintains pH balance."
+  },
+  {
+    "id": 82,
+    "question": "The enzyme deficient in phenylketonuria (PKU) is:",
+    "options": [
+      "Tyrosinase",
+      "Phenylalanine hydroxylase",
+      "Homogentisate oxidase",
+      "Tyrosine aminotransferase"
+    ],
+    "correct": 1,
+    "explanation": "PKU results from deficiency of phenylalanine hydroxylase, preventing Phe→Tyr conversion.",
+    "topic_explanation": "PKU: Phenylalanine accumulates, causing intellectual disability if untreated. Detected by newborn screening. Treatment: low-phenylalanine diet. Demonstrates importance of early intervention in genetic diseases."
+  },
+  {
+    "id": 83,
+    "question": "Which structure secretes surfactant in the lungs?",
+    "options": [
+      "Type I pneumocytes",
+      "Type II pneumocytes",
+      "Clara cells",
+      "Goblet cells"
+    ],
+    "correct": 1,
+    "explanation": "Type II pneumocytes produce and secrete pulmonary surfactant.",
+    "topic_explanation": "Alveolar cells: Type I (95% surface area, gas exchange), Type II (5% surface, produce surfactant, stem cells). Surfactant reduces surface tension, prevents collapse, aids gas exchange."
+  },
+  {
+    "id": 84,
+    "question": "The main inhibitory neurotransmitter in the brain is:",
+    "options": [
+      "Glutamate",
+      "GABA",
+      "Dopamine",
+      "Serotonin"
+    ],
+    "correct": 1,
+    "explanation": "GABA (gamma-aminobutyric acid) is the primary inhibitory neurotransmitter in the brain.",
+    "topic_explanation": "GABA opens Cl- channels, hyperpolarizing neurons. Glutamate is main excitatory transmitter. Balance between excitation/inhibition crucial. Benzodiazepines enhance GABA, causing sedation."
+  },
+  {
+    "id": 85,
+    "question": "Which cells form the blood-brain barrier?",
+    "options": [
+      "Neurons",
+      "Astrocytes",
+      "Microglia",
+      "Ependymal cells"
+    ],
+    "correct": 1,
+    "explanation": "Astrocyte end-feet induce tight junctions in brain capillary endothelial cells.",
+    "topic_explanation": "Blood-brain barrier: Endothelial tight junctions (physical barrier) + astrocyte end-feet (induce barrier properties) + pericytes. Protects brain but complicates drug delivery."
+  },
+  {
+    "id": 86,
+    "question": "Vitamin D is converted to its active form in the:",
+    "options": [
+      "Skin",
+      "Liver",
+      "Kidney",
+      "Intestine"
+    ],
+    "correct": 2,
+    "explanation": "Kidney converts 25-hydroxyvitamin D to active 1,25-dihydroxyvitamin D (calcitriol).",
+    "topic_explanation": "Vitamin D pathway: Skin (UV converts 7-dehydrocholesterol → vitamin D3) → Liver (25-hydroxylation) → Kidney (1-α-hydroxylation → active calcitriol). Regulates calcium absorption and bone health."
+  },
+  {
+    "id": 87,
+    "question": "The rate-limiting enzyme in cholesterol synthesis is:",
+    "options": [
+      "HMG-CoA synthase",
+      "HMG-CoA reductase",
+      "Mevalonate kinase",
+      "Squalene synthase"
+    ],
+    "correct": 1,
+    "explanation": "HMG-CoA reductase is rate-limiting and the target of statin drugs.",
+    "topic_explanation": "Cholesterol synthesis: Acetyl-CoA → HMG-CoA → mevalonate (by HMG-CoA reductase) → cholesterol. Statins inhibit HMG-CoA reductase, lowering cholesterol. Enzyme regulated by cholesterol levels."
+  },
+  {
+    "id": 88,
+    "question": "Which process requires GTP in protein synthesis?",
+    "options": [
+      "tRNA charging",
+      "Elongation factor binding",
+      "Peptide bond formation",
+      "mRNA splicing"
+    ],
+    "correct": 1,
+    "explanation": "EF-Tu-GTP delivers aminoacyl-tRNA; EF-G-GTP promotes translocation.",
+    "topic_explanation": "Translation uses GTP: 1) EF-Tu-GTP brings aa-tRNA to ribosome, 2) EF-G-GTP moves tRNAs/mRNA after peptide bond, 3) RF3-GTP aids termination. GTP hydrolysis ensures accuracy."
+  },
+  {
+    "id": 89,
+    "question": "The main function of peroxisomes is:",
+    "options": [
+      "Protein synthesis",
+      "ATP production",
+      "Fatty acid oxidation",
+      "Glycolysis"
+    ],
+    "correct": 2,
+    "explanation": "Peroxisomes perform fatty acid beta-oxidation and detoxification reactions.",
+    "topic_explanation": "Peroxisomes: 1) Beta-oxidation of very long chain fatty acids, 2) Detoxify H2O2 using catalase, 3) Synthesize plasmalogens. Defects cause severe diseases (Zellweger syndrome)."
+  },
+  {
+    "id": 90,
+    "question": "Which cells are responsible for bone resorption?",
+    "options": [
+      "Osteoblasts",
+      "Osteoclasts",
+      "Osteocytes",
+      "Chondrocytes"
+    ],
+    "correct": 1,
+    "explanation": "Osteoclasts are multinucleated cells that break down bone tissue.",
+    "topic_explanation": "Bone remodeling: Osteoclasts (resorb bone) vs osteoblasts (form bone). Osteoclasts create acidic environment to dissolve mineral and release enzymes to digest matrix. Balance crucial for bone health."
+  },
+  {
+    "id": 91,
+    "question": "The enzyme that removes RNA primers during DNA replication is:",
+    "options": [
+      "DNA polymerase I",
+      "DNA polymerase III",
+      "Primase",
+      "Helicase"
+    ],
+    "correct": 0,
+    "explanation": "DNA polymerase I removes RNA primers and fills gaps in E. coli.",
+    "topic_explanation": "In prokaryotes: DNA pol III - main replication, DNA pol I - removes primers (5'→3' exonuclease) and fills gaps. In eukaryotes: Different polymerases, but similar primer removal process."
+  },
+  {
+    "id": 92,
+    "question": "Which lipoprotein has the highest protein content?",
+    "options": [
+      "Chylomicron",
+      "VLDL",
+      "LDL",
+      "HDL"
+    ],
+    "correct": 3,
+    "explanation": "HDL has ~50% protein content, highest among lipoproteins.",
+    "topic_explanation": "Lipoprotein composition: Chylomicrons (2% protein, transport dietary lipids), VLDL (10%, endogenous triglycerides), LDL (25%, cholesterol delivery), HDL (50%, cholesterol removal)."
+  },
+  {
+    "id": 93,
+    "question": "Gap junctions are formed by:",
+    "options": [
+      "Claudins",
+      "Occludins",
+      "Connexins",
+      "Cadherins"
+    ],
+    "correct": 2,
+    "explanation": "Connexins form connexons that create gap junction channels.",
+    "topic_explanation": "Gap junctions: 6 connexins → 1 connexon (hemichannel). Two connexons from adjacent cells → gap junction. Allow passage of small molecules (<1000 Da), enabling electrical/metabolic coupling."
+  },
+  {
+    "id": 94,
+    "question": "The vitamin required for carboxylation reactions is:",
+    "options": [
+      "Vitamin B1",
+      "Vitamin B12",
+      "Biotin",
+      "Folate"
+    ],
+    "correct": 2,
+    "explanation": "Biotin is the cofactor for carboxylase enzymes.",
+    "topic_explanation": "Biotin-dependent carboxylases: 1) Pyruvate carboxylase (gluconeogenesis), 2) Acetyl-CoA carboxylase (fatty acid synthesis), 3) Propionyl-CoA carboxylase. Biotin carries CO2 for transfer."
+  },
+  {
+    "id": 95,
+    "question": "Which organ has the highest metabolic rate per gram of tissue?",
+    "options": [
+      "Brain",
+      "Heart",
+      "Liver",
+      "Kidney"
+    ],
+    "correct": 1,
+    "explanation": "Heart has highest metabolic rate due to continuous contraction.",
+    "topic_explanation": "Metabolic rates (per gram): Heart > kidney > brain > liver. Heart works continuously, relies heavily on aerobic metabolism, uses fatty acids as primary fuel. Rich in mitochondria."
+  },
+  {
+    "id": 96,
+    "question": "The main buffer system in blood is:",
+    "options": [
+      "Phosphate buffer",
+      "Protein buffer",
+      "Bicarbonate buffer",
+      "Ammonia buffer"
+    ],
+    "correct": 2,
+    "explanation": "Bicarbonate buffer system (HCO3-/H2CO3) is primary blood buffer.",
+    "topic_explanation": "Blood pH regulation: CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3-. Lungs control CO2, kidneys control HCO3-. Normal blood pH: 7.35-7.45. Other buffers: proteins, phosphate."
+  },
+  {
+    "id": 97,
+    "question": "Which cells produce testosterone?",
+    "options": [
+      "Sertoli cells",
+      "Leydig cells",
+      "Spermatogonia",
+      "Granulosa cells"
+    ],
+    "correct": 1,
+    "explanation": "Leydig cells in testes produce testosterone in response to LH.",
+    "topic_explanation": "Testicular cells: Leydig (interstitial) - produce testosterone; Sertoli (in seminiferous tubules) - support spermatogenesis, produce inhibin. LH stimulates Leydig, FSH stimulates Sertoli."
+  },
+  {
+    "id": 98,
+    "question": "The molecule that acts as the final electron acceptor in aerobic respiration is:",
+    "options": [
+      "NAD+",
+      "FAD",
+      "Oxygen",
+      "Water"
+    ],
+    "correct": 2,
+    "explanation": "Oxygen accepts electrons at Complex IV, forming water.",
+    "topic_explanation": "Electron transport chain: NADH → Complex I → CoQ → Complex III → Cytochrome c → Complex IV → O2. Oxygen reduction: O2 + 4H+ + 4e- → 2H2O. Essential for aerobic life."
+  },
+  {
+    "id": 99,
+    "question": "Which structure produces CSF?",
+    "options": [
+      "Arachnoid villi",
+      "Choroid plexus",
+      "Pia mater",
+      "Dura mater"
+    ],
+    "correct": 1,
+    "explanation": "Choroid plexus in brain ventricles produces cerebrospinal fluid.",
+    "topic_explanation": "CSF circulation: Produced by choroid plexus → lateral ventricles → 3rd ventricle → 4th ventricle → subarachnoid space → absorbed by arachnoid villi. ~500mL produced daily."
+  },
+  {
+    "id": 100,
+    "question": "The condition caused by excess growth hormone in adults is:",
+    "options": [
+      "Gigantism",
+      "Acromegaly",
+      "Dwarfism",
+      "Cretinism"
+    ],
+    "correct": 1,
+    "explanation": "Acromegaly results from excess GH after growth plate closure in adults.",
+    "topic_explanation": "GH excess: Before puberty → gigantism (increased height). After puberty → acromegaly (enlarged hands, feet, facial features). Usually from pituitary adenoma. Treated with surgery/medications."
+  }
+]

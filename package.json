@@ -1,0 +1,11 @@
+{
+  "name": "dr-lala-study-app",
+  "version": "1.0.0",
+  "description": "GMU Medical Entrance Exam Study App",
+  "scripts": {
+    "start": "python app.py"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

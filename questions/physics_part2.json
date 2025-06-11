@@ -1,0 +1,327 @@
+[
+    {
+        "id": 26,
+        "question": "A block slides down a 30° incline with coefficient of friction 0.2. Its acceleration is:",
+        "options": [
+            "2.3 m/s²",
+            "3.3 m/s²",
+            "5.0 m/s²",
+            "8.7 m/s²"
+        ],
+        "correct": 1,
+        "explanation": "a = g(sin θ - μ cos θ) = 10(0.5 - 0.2×0.866) = 10(0.5 - 0.173) = 3.3 m/s²",
+        "topic_explanation": "Inclined plane: Component down = mg sin θ, normal = mg cos θ. Friction = μN = μmg cos θ. Net force down = mg(sin θ - μ cos θ). Without friction: a = g sin θ."
+    },
+    {
+        "id": 27,
+        "question": "Standing waves in a 2m string fixed at both ends. For 3rd harmonic, wavelength is:",
+        "options": [
+            "0.67 m",
+            "1.33 m",
+            "2 m",
+            "4 m"
+        ],
+        "correct": 1,
+        "explanation": "For nth harmonic: λ = 2L/n. For 3rd: λ = 2×2/3 = 4/3 = 1.33 m",
+        "topic_explanation": "Standing waves on string: L = nλ/2, so λ = 2L/n. Frequency f_n = nv/2L. Fundamental (n=1) lowest frequency. Harmonics at integer multiples. Nodes at ends for fixed string."
+    },
+    {
+        "id": 28,
+        "question": "Electric potential at distance r from point charge Q is V. At distance 2r, potential is:",
+        "options": [
+            "V/4",
+            "V/2",
+            "2V",
+            "4V"
+        ],
+        "correct": 1,
+        "explanation": "V = kQ/r. At 2r: V₂ = kQ/2r = V/2. Potential ∝ 1/r (not 1/r²)",
+        "topic_explanation": "Electric potential: V = kQ/r for point charge. Scalar quantity. Potential energy: U = qV. Work to bring charge from infinity: W = qV. Field E = -dV/dr."
+    },
+    {
+        "id": 29,
+        "question": "A convex mirror has focal length 20 cm. Object at 30 cm forms image at:",
+        "options": [
+            "-60 cm",
+            "-12 cm",
+            "12 cm",
+            "60 cm"
+        ],
+        "correct": 1,
+        "explanation": "1/f = 1/u + 1/v; 1/(-20) = 1/(-30) + 1/v; v = -12 cm (virtual, upright)",
+        "topic_explanation": "Mirror formula: 1/f = 1/u + 1/v. Sign convention: distances measured from pole. Convex mirror: f negative, always virtual upright diminished image behind mirror."
+    },
+    {
+        "id": 30,
+        "question": "Power dissipated in resistor R with current I is P. If current triples, power becomes:",
+        "options": [
+            "3P",
+            "6P",
+            "9P",
+            "27P"
+        ],
+        "correct": 2,
+        "explanation": "P = I²R. If I triples: P_new = (3I)²R = 9I²R = 9P",
+        "topic_explanation": "Power formulas: P = I²R = V²/R = VI. Choose based on known quantities. In resistor, all electrical energy converts to heat. Power rating important for component selection."
+    },
+    {
+        "id": 31,
+        "question": "A gas at pressure P, volume V, temperature T expands isothermally to 2V. Final pressure is:",
+        "options": [
+            "P/2",
+            "P",
+            "2P",
+            "4P"
+        ],
+        "correct": 0,
+        "explanation": "Isothermal: PV = constant. P₁V₁ = P₂V₂; P×V = P₂×2V; P₂ = P/2",
+        "topic_explanation": "Ideal gas processes: Isothermal (T constant, PV = const), Isobaric (P constant), Isochoric (V constant), Adiabatic (Q = 0, PVᵞ = const). Work in isothermal: W = nRT ln(V₂/V₁)."
+    },
+    {
+        "id": 32,
+        "question": "Two coherent sources have path difference λ/2. They produce:",
+        "options": [
+            "Constructive interference",
+            "Destructive interference",
+            "No interference",
+            "Partial interference"
+        ],
+        "correct": 1,
+        "explanation": "Path difference λ/2 = 180° phase difference, causing destructive interference",
+        "topic_explanation": "Interference condition: Constructive at path difference = nλ (phase 0°, 360°...), Destructive at (n+½)λ (phase 180°, 540°...). Coherent sources needed for stable pattern."
+    },
+    {
+        "id": 33,
+        "question": "EMF induced in coil of N turns when flux changes by Δφ in time Δt is:",
+        "options": [
+            "NΔφ/Δt",
+            "-NΔφ/Δt",
+            "Δφ/NΔt",
+            "-Δφ/NΔt"
+        ],
+        "correct": 1,
+        "explanation": "Faraday's law: ε = -N(dφ/dt). Negative sign indicates opposition (Lenz's law)",
+        "topic_explanation": "Electromagnetic induction: ε = -N(dφ/dt). Lenz's law: induced EMF opposes change causing it. Applications: generators, transformers, inductors. Flux φ = BA cos θ."
+    },
+    {
+        "id": 34,
+        "question": "Escape velocity from Earth's surface is v. From height R above surface (R = Earth radius), it is:",
+        "options": [
+            "v/4",
+            "v/2",
+            "v/√2",
+            "v"
+        ],
+        "correct": 2,
+        "explanation": "v_escape = √(2GM/r). At height R, r = 2R, so v_new = √(2GM/2R) = v/√2",
+        "topic_explanation": "Escape velocity: v = √(2GM/r). Independent of mass of object. At surface: ~11.2 km/s. Energy consideration: ½mv² = GMm/r. Decreases with altitude as 1/√r."
+    },
+    {
+        "id": 35,
+        "question": "Doppler shift for source moving toward stationary observer with speed v_s (sound speed v):",
+        "options": [
+            "f' = f(v/(v+v_s))",
+            "f' = f(v/(v-v_s))",
+            "f' = f((v+v_s)/v)",
+            "f' = f((v-v_s)/v)"
+        ],
+        "correct": 1,
+        "explanation": "Source approaching: wavelength compressed, frequency increases: f' = f(v/(v-v_s))",
+        "topic_explanation": "Doppler effect: Source approaching → higher frequency. Receding → lower. General: f' = f(v±v_o)/(v∓v_s). Upper signs for approach. Sonic boom when v_s = v."
+    },
+    {
+        "id": 36,
+        "question": "A thin film of thickness t and refractive index n shows constructive interference for wavelength λ. Minimum thickness is:",
+        "options": [
+            "λ/4n",
+            "λ/2n",
+            "λ/n",
+            "λn/2"
+        ],
+        "correct": 1,
+        "explanation": "For constructive interference: 2nt = mλ. Minimum when m = 1: t = λ/2n",
+        "topic_explanation": "Thin film interference: Path difference = 2nt (for normal incidence). Constructive: 2nt = mλ. Destructive: 2nt = (m+½)λ. Phase change at denser medium. Applications: anti-reflection coatings."
+    },
+    {
+        "id": 37,
+        "question": "Angular momentum of particle mass m, velocity v, at perpendicular distance r from axis:",
+        "options": [
+            "mv/r",
+            "mvr",
+            "mr²v",
+            "mv²r"
+        ],
+        "correct": 1,
+        "explanation": "L = r × p = r × mv. For perpendicular r and v: L = mvr",
+        "topic_explanation": "Angular momentum: L = r × p = Iω. Conserved when no external torque. For point mass: L = mvr sin θ. For rigid body: L = Iω. Vector perpendicular to r and v."
+    },
+    {
+        "id": 38,
+        "question": "In LC circuit, if L doubles and C halves, natural frequency:",
+        "options": [
+            "Stays same",
+            "Doubles",
+            "Halves",
+            "Becomes √2 times"
+        ],
+        "correct": 0,
+        "explanation": "f = 1/(2π√(LC)). If L doubles and C halves: √(2L × C/2) = √(LC), so f unchanged",
+        "topic_explanation": "LC oscillations: f = 1/(2π√(LC)). Energy oscillates between electric (capacitor) and magnetic (inductor). Analogous to mass-spring system. Used in tuning circuits."
+    },
+    {
+        "id": 39,
+        "question": "Coefficient of volume expansion is β. Coefficient of linear expansion is:",
+        "options": [
+            "β",
+            "β/2",
+            "β/3",
+            "3β"
+        ],
+        "correct": 2,
+        "explanation": "For isotropic materials: β = 3α, so α = β/3",
+        "topic_explanation": "Thermal expansion: Linear ΔL = αLΔT, Area ΔA = 2αAΔT, Volume ΔV = βVΔT where β = 3α. Different for anisotropic materials. Water anomalous: contracts 0-4°C."
+    },
+    {
+        "id": 40,
+        "question": "Binding energy per nucleon is maximum for:",
+        "options": [
+            "Hydrogen",
+            "Iron-56",
+            "Uranium-235",
+            "Lead-208"
+        ],
+        "correct": 1,
+        "explanation": "Fe-56 has highest binding energy per nucleon (~8.8 MeV), most stable nucleus",
+        "topic_explanation": "Nuclear binding energy curve peaks at Fe-56. Light nuclei: fusion releases energy. Heavy nuclei: fission releases energy. Both processes move toward Fe-56. Explains stellar nucleosynthesis."
+    },
+    {
+        "id": 41,
+        "question": "Polaroid reduces unpolarized light intensity I₀ to:",
+        "options": [
+            "I₀",
+            "I₀/2",
+            "I₀/4",
+            "0"
+        ],
+        "correct": 1,
+        "explanation": "Unpolarized light has equal intensity in all polarization directions. Polaroid transmits half: I₀/2",
+        "topic_explanation": "Malus's law: I = I₀cos²θ for polarized light. For unpolarized: average over all angles gives I₀/2. Two polaroids at 90°: no transmission. Applications: LCD screens, sunglasses."
+    },
+    {
+        "id": 42,
+        "question": "In hydrogen atom, electron jumps from n=3 to n=2. Emitted photon is in:",
+        "options": [
+            "Lyman series",
+            "Balmer series",
+            "Paschen series",
+            "Brackett series"
+        ],
+        "correct": 1,
+        "explanation": "Balmer series: transitions to n=2. This gives visible light (red line at 656 nm)",
+        "topic_explanation": "Hydrogen spectral series: Lyman (n→1, UV), Balmer (n→2, visible), Paschen (n→3, IR). Energy: E = -13.6/n² eV. Wavelength: 1/λ = R(1/n₁² - 1/n₂²)."
+    },
+    {
+        "id": 43,
+        "question": "Critical angle for total internal reflection from medium (n=1.5) to air is:",
+        "options": [
+            "41.8°",
+            "48.6°",
+            "60°",
+            "90°"
+        ],
+        "correct": 0,
+        "explanation": "sin θc = n₂/n₁ = 1/1.5 = 0.667; θc = sin⁻¹(0.667) = 41.8°",
+        "topic_explanation": "Total internal reflection occurs when light travels from denser to rarer medium at angle > critical angle. sin θc = n₂/n₁. Applications: optical fibers, prisms, diamonds sparkle."
+    },
+    {
+        "id": 44,
+        "question": "Two particles of equal mass undergo perfectly inelastic collision. If one was at rest, fraction of KE lost is:",
+        "options": [
+            "0",
+            "1/4",
+            "1/2",
+            "3/4"
+        ],
+        "correct": 2,
+        "explanation": "Initial KE = ½mv². Final: both move at v/2, KE = ½(2m)(v/2)² = ¼mv². Lost: 1/2",
+        "topic_explanation": "Inelastic collisions: momentum conserved, KE not. Maximum KE loss in perfectly inelastic (stick together). For equal masses, one at rest: always lose 50% of KE."
+    },
+    {
+        "id": 45,
+        "question": "Time period of compound pendulum about pivot at distance h from center of mass:",
+        "options": [
+            "2π√(h/g)",
+            "2π√(I/mgh)",
+            "2π√(mgh/I)",
+            "2π√(I/mg)"
+        ],
+        "correct": 1,
+        "explanation": "T = 2π√(I/mgh) where I is moment of inertia about pivot",
+        "topic_explanation": "Compound pendulum: any rigid body oscillating about pivot. T = 2π√(I/mgh). Reduces to simple pendulum when I = mh² (point mass). Used in gravimeters, clock pendulums."
+    },
+    {
+        "id": 46,
+        "question": "Capacitive reactance of 10 μF capacitor at 50 Hz is approximately:",
+        "options": [
+            "32 Ω",
+            "318 Ω",
+            "3180 Ω",
+            "31800 Ω"
+        ],
+        "correct": 1,
+        "explanation": "Xc = 1/(2πfC) = 1/(2π×50×10×10⁻⁶) = 1/(π×10⁻³) ≈ 318 Ω",
+        "topic_explanation": "Capacitive reactance: Xc = 1/(ωC) = 1/(2πfC). Decreases with frequency. At DC (f=0): infinite (blocks DC). At high f: acts as short. Phase: current leads voltage by 90°."
+    },
+    {
+        "id": 47,
+        "question": "Brewster's angle for glass-air interface (n_glass = 1.5) is:",
+        "options": [
+            "33.7°",
+            "48.6°",
+            "56.3°",
+            "73.7°"
+        ],
+        "correct": 2,
+        "explanation": "tan θB = n₂/n₁ = 1.5/1 = 1.5; θB = tan⁻¹(1.5) = 56.3°",
+        "topic_explanation": "Brewster's angle: reflected light completely polarized. tan θB = n₂/n₁. Reflected and refracted rays perpendicular. Used in polarizing filters, laser windows to minimize reflection."
+    },
+    {
+        "id": 48,
+        "question": "The mass defect in nuclear reactions is converted to energy according to:",
+        "options": [
+            "E = mc",
+            "E = ½mc²",
+            "E = mc²",
+            "E = 2mc²"
+        ],
+        "correct": 2,
+        "explanation": "Einstein's mass-energy relation: E = mc², where c is speed of light",
+        "topic_explanation": "Mass-energy equivalence: E = mc². Small mass converts to large energy (c² = 9×10¹⁶ m²/s²). Nuclear binding energy from mass defect. 1 amu = 931.5 MeV."
+    },
+    {
+        "id": 49,
+        "question": "In a step-down transformer, compared to primary coil, secondary coil has:",
+        "options": [
+            "More turns, higher current",
+            "More turns, lower current",
+            "Fewer turns, higher current",
+            "Fewer turns, lower current"
+        ],
+        "correct": 2,
+        "explanation": "Step-down: fewer turns, lower voltage, but higher current (power conserved)",
+        "topic_explanation": "Transformer relations: V₂/V₁ = N₂/N₁ = I₁/I₂. Step-down: N₂ < N₁, V₂ < V₁, I₂ > I₁. Power ideally conserved: P₁ = P₂. Efficiency affected by core losses, resistance."
+    },
+    {
+        "id": 50,
+        "question": "The SI unit of magnetic flux is:",
+        "options": [
+            "Tesla",
+            "Weber",
+            "Henry",
+            "Gauss"
+        ],
+        "correct": 1,
+        "explanation": "Magnetic flux φ is measured in Weber (Wb). 1 Wb = 1 T·m²",
+        "topic_explanation": "Magnetic units: Flux φ (Weber), Field B (Tesla), Flux density = B. φ = B·A = BA cos θ. EMF induced when flux changes. 1 Weber = 1 Volt·second = 10⁸ Maxwell."
+    }
+]

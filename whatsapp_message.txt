@@ -1,0 +1,24 @@
+💗 *Dr. Lala Study App* 💗
+━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 *GMU Medical Entrance Exam Prep*
+📚 *400 Practice Questions*
+
+Click here to start studying:
+👉 http://192.168.68.161:8888
+
+✨ *Features:*
+• Biology 🧬 (100 questions)
+• Chemistry ⚗️ (100 questions)  
+• Physics ⚡ (100 questions)
+• Mathematics 📐 (100 questions)
+
+📱 *Study Modes:*
+• Study Mode - Learn with explanations
+• Test Mode - Practice like real exam
+• Review Mode - Focus on mistakes
+
+💪 *Good luck with your exam tomorrow!*
+
+Made with love by Dad 💗
+━━━━━━━━━━━━━━━━━━━━━━

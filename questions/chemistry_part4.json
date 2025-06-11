@@ -1,0 +1,327 @@
+[
+    {
+        "id": 76,
+        "question": "Which crystal defect involves missing atoms in the lattice?",
+        "options": [
+            "Interstitial defect",
+            "Schottky defect",
+            "Frenkel defect",
+            "Edge dislocation"
+        ],
+        "correct": 1,
+        "explanation": "Schottky defect involves equal numbers of missing cations and anions to maintain neutrality.",
+        "topic_explanation": "Point defects: Schottky (paired vacancies), Frenkel (ion displaced to interstitial site), Interstitial (extra atom in void). Schottky common in ionic crystals with similar-sized ions (NaCl)."
+    },
+    {
+        "id": 77,
+        "question": "The pH at which an amino acid has no net charge is its:",
+        "options": [
+            "pKa",
+            "pKb",
+            "Isoelectric point",
+            "Equivalence point"
+        ],
+        "correct": 2,
+        "explanation": "Isoelectric point (pI) is the pH where amino acid exists as zwitterion with net charge zero.",
+        "topic_explanation": "At pI: NH3+ and COO- groups balance. For simple amino acids: pI = (pKa1 + pKa2)/2. Acidic amino acids have lower pI, basic have higher. Important for protein separation."
+    },
+    {
+        "id": 78,
+        "question": "Which law relates the rate constant to temperature?",
+        "options": [
+            "Henry's Law",
+            "Raoult's Law",
+            "Arrhenius equation",
+            "Beer's Law"
+        ],
+        "correct": 2,
+        "explanation": "Arrhenius equation: k = Ae^(-Ea/RT) shows exponential temperature dependence of rate.",
+        "topic_explanation": "Arrhenius equation components: k = rate constant, A = frequency factor, Ea = activation energy, R = gas constant, T = temperature (K). Plot ln k vs 1/T gives straight line with slope -Ea/R."
+    },
+    {
+        "id": 79,
+        "question": "In a galvanic cell, oxidation occurs at the:",
+        "options": [
+            "Cathode",
+            "Anode",
+            "Salt bridge",
+            "Both electrodes"
+        ],
+        "correct": 1,
+        "explanation": "Anode is where oxidation occurs; electrons are produced and flow to cathode.",
+        "topic_explanation": "Electrochemical cells: Anode (oxidation, negative in galvanic) → electrons flow through wire → Cathode (reduction, positive in galvanic). Salt bridge maintains electrical neutrality. AN OX, RED CAT mnemonic."
+    },
+    {
+        "id": 80,
+        "question": "The unit cell of a face-centered cubic structure contains how many atoms?",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+        ],
+        "correct": 2,
+        "explanation": "FCC: 8 corner atoms (1/8 each) + 6 face atoms (1/2 each) = 1 + 3 = 4 atoms.",
+        "topic_explanation": "Unit cell atom counting: Corner atoms shared by 8 cells (1/8), Face atoms by 2 cells (1/2), Edge atoms by 4 cells (1/4). FCC examples: Cu, Au, Al, Pb."
+    },
+    {
+        "id": 81,
+        "question": "Which quantum mechanical model explains chemical bonding?",
+        "options": [
+            "Bohr model",
+            "Valence bond theory",
+            "Rutherford model",
+            "Thomson model"
+        ],
+        "correct": 1,
+        "explanation": "Valence bond theory explains bonding through orbital overlap and electron pairing.",
+        "topic_explanation": "VB theory: Bonds form when atomic orbitals overlap and electrons pair with opposite spins. Explains hybridization, bond angles, and molecular shapes. Complemented by molecular orbital theory."
+    },
+    {
+        "id": 82,
+        "question": "The process of a solid converting directly to gas is:",
+        "options": [
+            "Evaporation",
+            "Condensation",
+            "Sublimation",
+            "Deposition"
+        ],
+        "correct": 2,
+        "explanation": "Sublimation is the direct transition from solid to gas phase, skipping liquid.",
+        "topic_explanation": "Phase transitions: Sublimation (solid→gas), Deposition (gas→solid), occur when vapor pressure of solid exceeds atmospheric pressure before melting point. Examples: dry ice, iodine, naphthalene."
+    },
+    {
+        "id": 83,
+        "question": "Which acid-base theory defines acids as proton donors?",
+        "options": [
+            "Arrhenius theory",
+            "Brønsted-Lowry theory",
+            "Lewis theory",
+            "Hard-soft theory"
+        ],
+        "correct": 1,
+        "explanation": "Brønsted-Lowry theory: acids are proton (H+) donors, bases are proton acceptors.",
+        "topic_explanation": "Acid-base theories: Arrhenius (H+/OH- in water), Brønsted-Lowry (proton transfer), Lewis (electron pair acceptor/donor). Each theory progressively broader in scope."
+    },
+    {
+        "id": 84,
+        "question": "The chelate effect results in:",
+        "options": [
+            "Decreased stability",
+            "Increased stability",
+            "Color change",
+            "Precipitation"
+        ],
+        "correct": 1,
+        "explanation": "Chelating ligands form more stable complexes than monodentate ligands due to entropy.",
+        "topic_explanation": "Chelate effect: Polydentate ligands form rings with metal, increasing complex stability. Entropy favors chelates (fewer particles in solution). EDTA classic example of hexadentate chelating agent."
+    },
+    {
+        "id": 85,
+        "question": "Which colligative property is used to determine molecular weight?",
+        "options": [
+            "Vapor pressure",
+            "Boiling point elevation",
+            "Osmotic pressure",
+            "All of the above"
+        ],
+        "correct": 3,
+        "explanation": "All colligative properties depend on particle number, so all can determine molecular weight.",
+        "topic_explanation": "Colligative properties: ΔTb = Kb·m, ΔTf = Kf·m, π = MRT. Osmotic pressure most sensitive for macromolecules. Van't Hoff factor accounts for dissociation."
+    },
+    {
+        "id": 86,
+        "question": "The Heisenberg uncertainty principle states that:",
+        "options": [
+            "Energy is quantized",
+            "Position and momentum cannot be simultaneously known exactly",
+            "Electrons have wave properties",
+            "Orbitals have specific shapes"
+        ],
+        "correct": 1,
+        "explanation": "Δx·Δp ≥ ℏ/2: uncertainty in position times uncertainty in momentum has a minimum value.",
+        "topic_explanation": "Uncertainty principle: Fundamental limit to precision of simultaneous measurements. Consequence of wave nature of matter. Important at atomic scale, negligible for macroscopic objects."
+    },
+    {
+        "id": 87,
+        "question": "Which type of isomerism occurs in [Co(NH3)4Cl2]Cl?",
+        "options": [
+            "Optical isomerism",
+            "Geometrical isomerism",
+            "Linkage isomerism",
+            "Ionization isomerism"
+        ],
+        "correct": 1,
+        "explanation": "Square planar [Co(NH3)4Cl2]+ can exist as cis (adjacent Cl) or trans (opposite Cl) isomers.",
+        "topic_explanation": "Coordination isomerism types: Geometrical (cis/trans), Optical (non-superimposable mirror images), Linkage (ambidentate ligands), Ionization (exchange between coordination sphere and counter ions)."
+    },
+    {
+        "id": 88,
+        "question": "The Clausius-Clapeyron equation relates:",
+        "options": [
+            "Pressure and volume",
+            "Temperature and volume",
+            "Vapor pressure and temperature",
+            "Pressure and moles"
+        ],
+        "correct": 2,
+        "explanation": "Clausius-Clapeyron equation describes how vapor pressure changes with temperature.",
+        "topic_explanation": "ln(P2/P1) = -ΔHvap/R(1/T2 - 1/T1). Used to find vapor pressure at different temperatures or heat of vaporization. Assumes ΔHvap constant over temperature range."
+    },
+    {
+        "id": 89,
+        "question": "Which spectroscopy uses nuclear spin?",
+        "options": [
+            "UV-Vis",
+            "IR",
+            "NMR",
+            "Mass spectrometry"
+        ],
+        "correct": 2,
+        "explanation": "NMR (Nuclear Magnetic Resonance) spectroscopy uses nuclear spin in magnetic field.",
+        "topic_explanation": "NMR principles: Nuclei with odd mass/atomic number have spin. In magnetic field, spins align with/against field. Radio waves cause transitions. Chemical shift depends on electron environment."
+    },
+    {
+        "id": 90,
+        "question": "The second law of thermodynamics states that:",
+        "options": [
+            "Energy is conserved",
+            "Entropy of universe increases",
+            "Enthalpy is constant",
+            "Temperature is absolute"
+        ],
+        "correct": 1,
+        "explanation": "The entropy of an isolated system (universe) always increases in spontaneous processes.",
+        "topic_explanation": "Second law: ΔSuniverse > 0 for spontaneous processes. Explains directionality of processes, heat engine efficiency limits, and why perpetual motion machines are impossible."
+    },
+    {
+        "id": 91,
+        "question": "Which catalyst type forms an intermediate with reactants?",
+        "options": [
+            "Heterogeneous catalyst",
+            "Homogeneous catalyst",
+            "Enzyme",
+            "Both B and C"
+        ],
+        "correct": 3,
+        "explanation": "Homogeneous catalysts and enzymes form intermediates; heterogeneous catalysts use surface adsorption.",
+        "topic_explanation": "Catalyst types: Homogeneous (same phase, forms complex), Heterogeneous (different phase, surface reaction), Enzymes (biological, highly specific). All lower activation energy without being consumed."
+    },
+    {
+        "id": 92,
+        "question": "The lanthanide elements are characterized by filling of:",
+        "options": [
+            "3d orbitals",
+            "4d orbitals",
+            "4f orbitals",
+            "5f orbitals"
+        ],
+        "correct": 2,
+        "explanation": "Lanthanides (Ce-Lu) involve progressive filling of 4f orbitals.",
+        "topic_explanation": "Lanthanides: 4f orbitals fill after 6s. Poor shielding by f electrons causes lanthanide contraction. Similar chemistry due to buried f electrons. Used in magnets, catalysts, phosphors."
+    },
+    {
+        "id": 93,
+        "question": "Which intermolecular force is weakest?",
+        "options": [
+            "Hydrogen bonding",
+            "Dipole-dipole",
+            "London dispersion",
+            "Ion-dipole"
+        ],
+        "correct": 2,
+        "explanation": "London dispersion forces are weakest, arising from temporary dipoles.",
+        "topic_explanation": "Intermolecular force strength: Ion-dipole > Hydrogen bonding > Dipole-dipole > London dispersion. All molecules have London forces. Strength increases with molecular size/polarizability."
+    },
+    {
+        "id": 94,
+        "question": "Buffer capacity is maximum when:",
+        "options": [
+            "pH = pKa",
+            "pH = 7",
+            "[acid] = 0",
+            "[base] = 0"
+        ],
+        "correct": 0,
+        "explanation": "Buffer capacity is maximum when pH = pKa, where [acid] = [conjugate base].",
+        "topic_explanation": "Buffer capacity: ability to resist pH change. Maximum when [HA] = [A-], giving equal capacity for added acid or base. Effective range: pKa ± 1. Choose buffer with pKa near desired pH."
+    },
+    {
+        "id": 95,
+        "question": "The first ionization energy generally increases:",
+        "options": [
+            "Down a group",
+            "From right to left in period",
+            "Across a period",
+            "With increasing atomic size"
+        ],
+        "correct": 2,
+        "explanation": "Ionization energy increases across period due to increasing nuclear charge.",
+        "topic_explanation": "IE trends: Increases across period (stronger nuclear attraction), decreases down group (electrons farther away). Exceptions: Be>B (s vs p orbital), N>O (half-filled p subshell stability)."
+    },
+    {
+        "id": 96,
+        "question": "Which reaction type has ΔS > 0?",
+        "options": [
+            "Gas condensation",
+            "Crystallization",
+            "Dissolution of gas",
+            "Solid dissolving in water"
+        ],
+        "correct": 3,
+        "explanation": "Solid dissolving increases disorder as ordered crystal becomes dispersed ions/molecules.",
+        "topic_explanation": "Entropy changes: Increase (solid→liquid→gas, mixing, dissolution of solids, increased moles of gas). Decrease (condensation, crystallization, gas dissolution, decreased moles of gas)."
+    },
+    {
+        "id": 97,
+        "question": "The magnetic moment of a complex depends on:",
+        "options": [
+            "Oxidation state only",
+            "Number of unpaired electrons",
+            "Coordination number",
+            "Ligand size"
+        ],
+        "correct": 1,
+        "explanation": "Magnetic moment μ = √[n(n+2)] BM, where n is number of unpaired electrons.",
+        "topic_explanation": "Magnetism in complexes: Paramagnetic (unpaired e-), Diamagnetic (all paired). Crystal field splitting determines pairing. Strong field ligands cause pairing (low spin), weak field gives high spin."
+    },
+    {
+        "id": 98,
+        "question": "Which technique separates based on boiling point?",
+        "options": [
+            "Crystallization",
+            "Distillation",
+            "Extraction",
+            "Chromatography"
+        ],
+        "correct": 1,
+        "explanation": "Distillation separates liquids based on different boiling points/volatilities.",
+        "topic_explanation": "Separation techniques: Distillation (boiling point), Crystallization (solubility), Extraction (partition coefficient), Chromatography (adsorption/partition). Fractional distillation for close boiling points."
+    },
+    {
+        "id": 99,
+        "question": "The rate law for elementary reactions can be determined from:",
+        "options": [
+            "Stoichiometry",
+            "Temperature",
+            "Catalyst presence",
+            "Product concentration"
+        ],
+        "correct": 0,
+        "explanation": "For elementary reactions only, rate law follows stoichiometry directly.",
+        "topic_explanation": "Elementary reactions occur in single step, so molecularity = order. For A + 2B → products: rate = k[A][B]². Complex reactions have multiple steps; rate law must be determined experimentally."
+    },
+    {
+        "id": 100,
+        "question": "Which noble gas compound was first synthesized?",
+        "options": [
+            "HeF2",
+            "XeF2",
+            "XePtF6",
+            "KrF2"
+        ],
+        "correct": 2,
+        "explanation": "XePtF6 was first noble gas compound synthesized by Bartlett in 1962.",
+        "topic_explanation": "Noble gas chemistry: Long thought inert. Bartlett noticed O2PtF6 existed and IE(Xe) ≈ IE(O2), so tried Xe + PtF6. Now many Xe compounds known (XeF2, XeF4, XeF6). Only heavy noble gases form compounds."
+    }
+]

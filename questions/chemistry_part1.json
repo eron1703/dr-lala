@@ -1,0 +1,237 @@
+[
+    {
+        "id": 1,
+        "question": "Calculate the pH of a 0.001 M HCl solution at 25°C.",
+        "options": ["pH = 1", "pH = 2", "pH = 3", "pH = 4"],
+        "correct": 2,
+        "explanation": "HCl is a strong acid, completely dissociates. [H+] = 0.001 M = 10⁻³ M, so pH = -log(10⁻³) = 3",
+        "topic_explanation": "pH = -log[H+]. Strong acids like HCl completely dissociate in water. For weak acids, use Ka to calculate [H+]. Remember: pH + pOH = 14 at 25°C."
+    },
+    {
+        "id": 2,
+        "question": "For the equilibrium N₂ + 3H₂ ⇌ 2NH₃, if pressure is increased, the equilibrium will:",
+        "options": [
+            "Shift left because there are more moles of gas on the left",
+            "Shift right because there are fewer moles of gas on the right",
+            "Not shift because pressure doesn't affect equilibrium",
+            "Shift to increase temperature"
+        ],
+        "correct": 1,
+        "explanation": "Left side has 4 moles of gas, right has 2. Increasing pressure favors the side with fewer gas moles (right).",
+        "topic_explanation": "Le Chatelier's principle: systems at equilibrium respond to minimize disturbance. For pressure changes, equilibrium shifts toward side with fewer gas molecules. Temperature changes favor endothermic (if heated) or exothermic (if cooled) direction."
+    },
+    {
+        "id": 3,
+        "question": "An element has the electron configuration [Ar]3d¹⁰4s²4p³. It belongs to:",
+        "options": ["Group 13", "Group 14", "Group 15", "Group 16"],
+        "correct": 2,
+        "explanation": "4s²4p³ = 5 valence electrons, which is Group 15 (nitrogen family).",
+        "topic_explanation": "Group number = valence electrons for main group elements. Group 15 elements (N, P, As, Sb, Bi) have ns²np³ configuration. Transition metals counted differently."
+    },
+    {
+        "id": 4,
+        "question": "Which has the largest atomic radius?",
+        "options": ["Na", "Mg", "K", "Ca"],
+        "correct": 2,
+        "explanation": "K is in period 4, while Na is in period 3. Atomic radius increases down a group.",
+        "topic_explanation": "Atomic radius trends: Increases down a group (more electron shells), decreases across a period (increasing nuclear charge pulls electrons closer). K > Na > Ca > Mg."
+    },
+    {
+        "id": 5,
+        "question": "The first ionization energy is highest for:",
+        "options": ["Na", "Mg", "Al", "Ar"],
+        "correct": 3,
+        "explanation": "Noble gases have highest ionization energy due to stable electron configuration.",
+        "topic_explanation": "Ionization energy: energy to remove outermost electron. Increases across period (stronger nuclear charge), decreases down group (electrons farther from nucleus). Noble gases highest, alkali metals lowest."
+    },
+    {
+        "id": 6,
+        "question": "How many unpaired electrons are in Fe³⁺? (Fe atomic number = 26)",
+        "options": ["3", "4", "5", "6"],
+        "correct": 2,
+        "explanation": "Fe³⁺ has configuration [Ar]3d⁵, with 5 unpaired electrons in d orbitals.",
+        "topic_explanation": "Fe: [Ar]3d⁶4s². Fe³⁺ loses 3e⁻ (2 from 4s, 1 from 3d): [Ar]3d⁵. According to Hund's rule, these 5 electrons occupy separate d orbitals with parallel spins."
+    },
+    {
+        "id": 7,
+        "question": "Which quantum number determines the shape of an orbital?",
+        "options": ["n", "l", "ml", "ms"],
+        "correct": 1,
+        "explanation": "The angular momentum quantum number (l) determines orbital shape.",
+        "topic_explanation": "Quantum numbers: n (principal, size), l (angular momentum, shape: s=0, p=1, d=2, f=3), ml (magnetic, orientation), ms (spin, ±½). l determines whether orbital is spherical (s), dumbbell (p), etc."
+    },
+    {
+        "id": 8,
+        "question": "The bond angle in NH₃ is less than 109.5° due to:",
+        "options": [
+            "sp² hybridization",
+            "Lone pair repulsion",
+            "Double bonds",
+            "Resonance"
+        ],
+        "correct": 1,
+        "explanation": "Lone pair on N causes greater repulsion, reducing bond angle from tetrahedral.",
+        "topic_explanation": "VSEPR theory: Lone pairs occupy more space than bonding pairs. NH₃ has tetrahedral electron geometry but pyramidal molecular shape. Lone pair compresses H-N-H angles to ~107°."
+    },
+    {
+        "id": 9,
+        "question": "Which molecule has the shortest C-C bond?",
+        "options": ["C₂H₆", "C₂H₄", "C₂H₂", "C₆H₆"],
+        "correct": 2,
+        "explanation": "C₂H₂ (acetylene) has a triple bond, which is the shortest C-C bond.",
+        "topic_explanation": "Bond order affects bond length: Triple bond < Double bond < Single bond. C≡C (~1.20 Å) < C=C (~1.34 Å) < C-C (~1.54 Å). Higher bond order means stronger, shorter bonds."
+    },
+    {
+        "id": 10,
+        "question": "For weak acid HA with Ka = 1.8 × 10⁻⁵, what is pKa?",
+        "options": ["4.24", "4.74", "5.26", "5.74"],
+        "correct": 1,
+        "explanation": "pKa = -log(1.8 × 10⁻⁵) = -log(1.8) - log(10⁻⁵) = -0.26 + 5 = 4.74",
+        "topic_explanation": "pKa = -log(Ka). Lower pKa means stronger acid. Useful for buffers: pH = pKa at half-neutralization point. Common to memorize: acetic acid pKa ≈ 4.76."
+    },
+    {
+        "id": 11,
+        "question": "A buffer solution contains equal concentrations of acetic acid and acetate. The pH equals:",
+        "options": ["0", "7", "pKa", "14"],
+        "correct": 2,
+        "explanation": "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). When [A⁻] = [HA], pH = pKa",
+        "topic_explanation": "Henderson-Hasselbalch equation: pH = pKa + log([conjugate base]/[weak acid]). When ratio = 1, log(1) = 0, so pH = pKa. This is the most effective buffer point."
+    },
+    {
+        "id": 12,
+        "question": "If Ksp of AgCl = 1.8 × 10⁻¹⁰, its solubility in mol/L is:",
+        "options": [
+            "1.34 × 10⁻⁵",
+            "1.8 × 10⁻¹⁰",
+            "9 × 10⁻⁶",
+            "3.24 × 10⁻²⁰"
+        ],
+        "correct": 0,
+        "explanation": "Ksp = [Ag⁺][Cl⁻] = s². So s = √(1.8 × 10⁻¹⁰) = 1.34 × 10⁻⁵",
+        "topic_explanation": "For AB type salts: Ksp = [A⁺][B⁻] = s². For A₂B or AB₂: account for stoichiometry. Common ion effect decreases solubility. Temperature usually increases solubility."
+    },
+    {
+        "id": 13,
+        "question": "The hybridization of sulfur in SF₆ is:",
+        "options": ["sp³", "sp³d", "sp³d²", "sp²"],
+        "correct": 2,
+        "explanation": "SF₆ is octahedral with 6 bond pairs, requiring sp³d² hybridization.",
+        "topic_explanation": "Hybridization from electron pairs: 2 (sp), 3 (sp²), 4 (sp³), 5 (sp³d), 6 (sp³d²). Count all electron pairs (bonding + lone). SF₆ has 6 bonds, no lone pairs → octahedral."
+    },
+    {
+        "id": 14,
+        "question": "Which has the highest lattice energy?",
+        "options": ["NaCl", "KCl", "MgO", "CaO"],
+        "correct": 2,
+        "explanation": "MgO has highest lattice energy due to small size and 2+ charges on both ions.",
+        "topic_explanation": "Lattice energy ∝ (charge product)/(ion size). MgO: both ions have 2+ charge and are small. Higher lattice energy means more stable crystal, higher melting point, lower solubility."
+    },
+    {
+        "id": 15,
+        "question": "In BF₃, the B-F bond has what character?",
+        "options": [
+            "Pure single bond",
+            "Some double bond character",
+            "Pure double bond",
+            "Triple bond character"
+        ],
+        "correct": 1,
+        "explanation": "Back-bonding from F lone pairs to empty B p-orbital gives partial double bond character.",
+        "topic_explanation": "BF₃: B has empty p-orbital, F has lone pairs. π back-bonding occurs, shortening B-F bonds. This stabilizes BF₃ and explains why it's weaker Lewis acid than expected."
+    },
+    {
+        "id": 16,
+        "question": "Which molecule is polar?",
+        "options": ["CO₂", "BF₃", "NH₃", "CH₄"],
+        "correct": 2,
+        "explanation": "NH₃ has pyramidal shape with lone pair, creating a dipole moment.",
+        "topic_explanation": "Polarity requires: 1) Polar bonds, 2) Asymmetric shape. CO₂ (linear), BF₃ (trigonal planar), CH₄ (tetrahedral) are symmetric. NH₃ pyramidal shape doesn't cancel dipoles."
+    },
+    {
+        "id": 17,
+        "question": "The strongest intermolecular force in HF is:",
+        "options": [
+            "London dispersion",
+            "Dipole-dipole",
+            "Hydrogen bonding",
+            "Ion-dipole"
+        ],
+        "correct": 2,
+        "explanation": "HF forms strong hydrogen bonds due to highly electronegative F.",
+        "topic_explanation": "Hydrogen bonding occurs with H bonded to N, O, or F. HF has strongest H-bonds due to F's high electronegativity. Order: Ion-dipole > H-bonding > Dipole-dipole > London."
+    },
+    {
+        "id": 18,
+        "question": "Which is the strongest acid?",
+        "options": ["HF", "HCl", "HBr", "HI"],
+        "correct": 3,
+        "explanation": "Acid strength increases down the group: HI > HBr > HCl > HF",
+        "topic_explanation": "For HX acids, bond strength decreases down group (larger atoms, weaker bonds). Easier to release H⁺. HF is weak due to strong H-F bond despite F's electronegativity."
+    },
+    {
+        "id": 19,
+        "question": "The conjugate base of HSO₄⁻ is:",
+        "options": ["H₂SO₄", "SO₄²⁻", "H₃O⁺", "OH⁻"],
+        "correct": 1,
+        "explanation": "Conjugate base forms when acid loses H⁺: HSO₄⁻ → SO₄²⁻ + H⁺",
+        "topic_explanation": "Conjugate acid-base pairs differ by one H⁺. Acid → Conjugate base + H⁺. Strong acids have weak conjugate bases. HSO₄⁻ can act as both acid (→SO₄²⁻) and base (→H₂SO₄)."
+    },
+    {
+        "id": 20,
+        "question": "At equivalence point in titration of weak acid with strong base, pH is:",
+        "options": ["< 7", "= 7", "> 7", "= pKa"],
+        "correct": 2,
+        "explanation": "At equivalence point, only conjugate base present, which hydrolyzes to give pH > 7",
+        "topic_explanation": "Weak acid + strong base → conjugate base (weak base) + water. Conjugate base hydrolyzes: A⁻ + H₂O ⇌ HA + OH⁻, producing OH⁻, making solution basic."
+    },
+    {
+        "id": 21,
+        "question": "Common ion effect causes:",
+        "options": [
+            "Increased solubility",
+            "Decreased solubility",
+            "No change in solubility",
+            "Increased Ksp"
+        ],
+        "correct": 1,
+        "explanation": "Common ion shifts equilibrium left, decreasing solubility.",
+        "topic_explanation": "Adding a common ion (from another source) shifts dissolution equilibrium left by Le Chatelier's principle. Example: AgCl less soluble in NaCl solution due to Cl⁻ common ion."
+    },
+    {
+        "id": 22,
+        "question": "For reaction with ΔG° > 0, the equilibrium constant K is:",
+        "options": ["K > 1", "K = 1", "K < 1", "K = 0"],
+        "correct": 2,
+        "explanation": "ΔG° = -RT ln K. If ΔG° > 0, then ln K < 0, so K < 1",
+        "topic_explanation": "Relationship: ΔG° = -RT ln K. Negative ΔG° means spontaneous forward reaction, K > 1. Positive ΔG° means non-spontaneous forward, K < 1, reactants favored at equilibrium."
+    },
+    {
+        "id": 23,
+        "question": "For an exothermic reaction, increasing temperature:",
+        "options": [
+            "Increases K",
+            "Decreases K",
+            "No effect on K",
+            "Increases activation energy"
+        ],
+        "correct": 1,
+        "explanation": "For exothermic reactions, heat is a product. Increasing T shifts equilibrium left, decreasing K.",
+        "topic_explanation": "Van't Hoff equation: ln(K₂/K₁) = -ΔH°/R(1/T₂ - 1/T₁). Exothermic: ΔH° < 0, so increasing T decreases K. Endothermic: ΔH° > 0, increasing T increases K."
+    },
+    {
+        "id": 24,
+        "question": "If reaction rate doubles when concentration doubles, the order is:",
+        "options": ["0", "1", "2", "3"],
+        "correct": 1,
+        "explanation": "Rate ∝ [A]ⁿ. If doubling [A] doubles rate: 2 = 2ⁿ, so n = 1",
+        "topic_explanation": "Rate = k[A]ⁿ. Order determines concentration effect: Zero order (rate independent), First order (linear), Second order (quadratic). Determine experimentally, not from stoichiometry."
+    },
+    {
+        "id": 25,
+        "question": "The half-life of a first-order reaction with k = 0.693 min⁻¹ is:",
+        "options": ["0.5 min", "1 min", "2 min", "0.693 min"],
+        "correct": 1,
+        "explanation": "For first-order: t₁/₂ = 0.693/k = 0.693/0.693 = 1 min",
+        "topic_explanation": "Half-life formulas: Zero order: t₁/₂ = [A]₀/2k. First order: t₁/₂ = 0.693/k (independent of concentration). Second order: t₁/₂ = 1/k[A]₀."
+    }
+]

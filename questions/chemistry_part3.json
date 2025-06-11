@@ -1,0 +1,272 @@
+[
+    {
+        "id": 51,
+        "question": "The effective nuclear charge (Zeff) increases:",
+        "options": [
+            "Down a group",
+            "From right to left in a period",
+            "From left to right in a period",
+            "With increasing atomic radius"
+        ],
+        "correct": 2,
+        "explanation": "Zeff increases across a period as protons increase but shielding remains similar.",
+        "topic_explanation": "Zeff = Z - S (nuclear charge - shielding). Across period: Z increases, inner electrons constant, so Zeff increases. Down group: both Z and shielding increase, Zeff increases slowly."
+    },
+    {
+        "id": 52,
+        "question": "Which element has the highest electronegativity?",
+        "options": ["F", "O", "Cl", "N"],
+        "correct": 0,
+        "explanation": "Fluorine has the highest electronegativity (3.98 on Pauling scale).",
+        "topic_explanation": "Electronegativity: atom's ability to attract electrons in a bond. Trends: increases across period, decreases down group. F > O > Cl = N. Used to predict bond polarity."
+    },
+    {
+        "id": 53,
+        "question": "The lanthanide contraction causes:",
+        "options": [
+            "Increased atomic radius",
+            "Similar sizes of 4d and 5d elements",
+            "Lower ionization energy",
+            "Decreased nuclear charge"
+        ],
+        "correct": 1,
+        "explanation": "Poor shielding by 4f electrons causes 5d elements to be similar in size to 4d.",
+        "topic_explanation": "Lanthanide contraction: 4f electrons shield poorly, so atoms contract more than expected. Result: 5d transition metals (Hf-Au) similar size to 4d (Zr-Ag), affecting properties."
+    },
+    {
+        "id": 54,
+        "question": "Which ion is isoelectronic with Ar?",
+        "options": ["Na⁺", "Mg²⁺", "Al³⁺", "S²⁻"],
+        "correct": 3,
+        "explanation": "S²⁻ has 18 electrons (16 + 2), same as Ar.",
+        "topic_explanation": "Isoelectronic species have same number of electrons. Ar has 18e⁻. Cations: K⁺, Ca²⁺ (lose to get 18). Anions: Cl⁻, S²⁻ (gain to get 18). Size: anions > neutral > cations."
+    },
+    {
+        "id": 55,
+        "question": "The number of radial nodes in a 3s orbital is:",
+        "options": ["0", "1", "2", "3"],
+        "correct": 2,
+        "explanation": "Number of radial nodes = n - l - 1 = 3 - 0 - 1 = 2",
+        "topic_explanation": "Nodes are regions of zero probability. Total nodes = n - 1. Angular nodes = l. Radial nodes = n - l - 1. For 3s: n=3, l=0, so 2 radial nodes, 0 angular nodes."
+    },
+    {
+        "id": 56,
+        "question": "Dipole moment is measured in:",
+        "options": ["Coulombs", "Debye", "Volts", "Amperes"],
+        "correct": 1,
+        "explanation": "Dipole moment is measured in Debye (D) units.",
+        "topic_explanation": "Dipole moment μ = charge × distance. SI unit: C·m, but Debye commonly used (1 D = 3.336 × 10⁻³⁰ C·m). Indicates molecular polarity. Water ~1.85 D, CO₂ = 0 D."
+    },
+    {
+        "id": 57,
+        "question": "Which crystal structure has the highest packing efficiency?",
+        "options": [
+            "Simple cubic",
+            "Body-centered cubic",
+            "Face-centered cubic",
+            "Hexagonal"
+        ],
+        "correct": 2,
+        "explanation": "FCC and HCP both have 74% packing efficiency, highest for spheres.",
+        "topic_explanation": "Packing efficiency: Simple cubic (52%), BCC (68%), FCC = HCP (74%). FCC has atoms at corners and face centers. Coordination numbers: SC(6), BCC(8), FCC(12)."
+    },
+    {
+        "id": 58,
+        "question": "The VSEPR shape of XeF₄ is:",
+        "options": ["Tetrahedral", "Square planar", "See-saw", "Square pyramidal"],
+        "correct": 1,
+        "explanation": "XeF₄ has 6 electron pairs (4 bonds, 2 lone pairs) arranged octahedrally, giving square planar shape.",
+        "topic_explanation": "VSEPR for AX₄E₂: Start with octahedral electron geometry. Two lone pairs go opposite (minimize repulsion), leaving 4 F atoms in square plane. Other examples: ICl₄⁻, BrF₄⁻."
+    },
+    {
+        "id": 59,
+        "question": "Which gas law relates pressure and temperature at constant volume?",
+        "options": ["Boyle's Law", "Charles's Law", "Gay-Lussac's Law", "Avogadro's Law"],
+        "correct": 2,
+        "explanation": "Gay-Lussac's Law: P₁/T₁ = P₂/T₂ at constant volume.",
+        "topic_explanation": "Gas laws: Boyle's (P₁V₁ = P₂V₂), Charles's (V₁/T₁ = V₂/T₂), Gay-Lussac's (P₁/T₁ = P₂/T₂), Combined (P₁V₁/T₁ = P₂V₂/T₂). Temperature must be in Kelvin."
+    },
+    {
+        "id": 60,
+        "question": "The van der Waals constant 'a' corrects for:",
+        "options": [
+            "Molecular volume",
+            "Intermolecular attractions",
+            "Temperature",
+            "Pressure"
+        ],
+        "correct": 1,
+        "explanation": "Constant 'a' corrects for intermolecular attractive forces.",
+        "topic_explanation": "Van der Waals equation: (P + a/V²)(V - b) = RT. 'a' corrects for attractions (reduces pressure), 'b' corrects for molecular volume. Real gases deviate from ideal at high P, low T."
+    },
+    {
+        "id": 61,
+        "question": "Which quantum number can have negative values?",
+        "options": ["n", "l", "ml", "ms"],
+        "correct": 2,
+        "explanation": "ml (magnetic quantum number) ranges from -l to +l.",
+        "topic_explanation": "Quantum number ranges: n = 1,2,3... (positive integers), l = 0 to n-1, ml = -l to +l (includes negative), ms = ±½. ml determines orbital orientation in space."
+    },
+    {
+        "id": 62,
+        "question": "The shape of dz² orbital is:",
+        "options": [
+            "Spherical",
+            "Dumbbell",
+            "Four-lobed",
+            "Dumbbell with torus"
+        ],
+        "correct": 3,
+        "explanation": "dz² has unique shape: dumbbell along z-axis with donut (torus) in xy-plane.",
+        "topic_explanation": "d orbitals: Four are cloverleaf-shaped (dxy, dxz, dyz, dx²-y²), one is unique (dz²). All have same energy in isolated atom. Crystal field splits energies based on ligand positions."
+    },
+    {
+        "id": 63,
+        "question": "Paramagnetism is due to:",
+        "options": [
+            "Paired electrons",
+            "Unpaired electrons",
+            "Nuclear spin",
+            "Electron pairs"
+        ],
+        "correct": 1,
+        "explanation": "Unpaired electrons have magnetic moments that align with external field.",
+        "topic_explanation": "Magnetism types: Diamagnetic (all paired, weakly repelled), Paramagnetic (unpaired electrons, weakly attracted), Ferromagnetic (unpaired + coupling, strongly attracted). O₂ is paramagnetic."
+    },
+    {
+        "id": 64,
+        "question": "In a bomb calorimeter, which is kept constant?",
+        "options": ["Temperature", "Pressure", "Volume", "Enthalpy"],
+        "correct": 2,
+        "explanation": "Bomb calorimeter operates at constant volume.",
+        "topic_explanation": "Calorimetry: Bomb (constant volume, measures ΔU), Coffee cup (constant pressure, measures ΔH). For reactions with gases: ΔH = ΔU + ΔnRT where Δn = moles gas products - reactants."
+    },
+    {
+        "id": 65,
+        "question": "The wavelength of maximum emission for blackbody radiation:",
+        "options": [
+            "Increases with temperature",
+            "Decreases with temperature",
+            "Is independent of temperature",
+            "Oscillates with temperature"
+        ],
+        "correct": 1,
+        "explanation": "Wien's law: λmax ∝ 1/T, so wavelength decreases as temperature increases.",
+        "topic_explanation": "Wien's displacement law: λmaxT = 2.898 × 10⁻³ m·K. Hotter objects emit shorter wavelengths. Sun (5800K) peaks in visible, room temperature objects emit infrared."
+    },
+    {
+        "id": 66,
+        "question": "Which intermolecular force is responsible for high boiling point of water?",
+        "options": [
+            "London dispersion",
+            "Dipole-dipole",
+            "Hydrogen bonding",
+            "Ionic bonding"
+        ],
+        "correct": 2,
+        "explanation": "Hydrogen bonding between water molecules requires significant energy to break.",
+        "topic_explanation": "Water's anomalies due to H-bonding: High boiling point (100°C vs -60°C expected), ice less dense than liquid, high specific heat, high surface tension. Each water can form 4 H-bonds."
+    },
+    {
+        "id": 67,
+        "question": "The ion product of water (Kw) at 25°C is:",
+        "options": ["1.0 × 10⁻⁷", "1.0 × 10⁻¹⁴", "1.0 × 10⁻¹⁰", "1.0 × 10⁻²¹"],
+        "correct": 1,
+        "explanation": "Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25°C.",
+        "topic_explanation": "Water autoionization: 2H₂O ⇌ H₃O⁺ + OH⁻. Kw increases with temperature (endothermic). At 25°C: [H⁺] = [OH⁻] = 10⁻⁷ M in pure water, pH = 7."
+    },
+    {
+        "id": 68,
+        "question": "Which indicator is suitable for strong acid-strong base titration?",
+        "options": [
+            "Methyl orange only",
+            "Phenolphthalein only",
+            "Either methyl orange or phenolphthalein",
+            "Neither"
+        ],
+        "correct": 2,
+        "explanation": "Strong acid-strong base has equivalence point at pH 7, sharp change allows either indicator.",
+        "topic_explanation": "Indicator selection: Choose indicator with color change near equivalence point. SA-SB: pH 7 (any), WA-SB: pH > 7 (phenolphthalein), SA-WB: pH < 7 (methyl orange)."
+    },
+    {
+        "id": 69,
+        "question": "The coordination number of Na⁺ in rock salt (NaCl) structure is:",
+        "options": ["4", "6", "8", "12"],
+        "correct": 1,
+        "explanation": "Each Na⁺ is surrounded by 6 Cl⁻ ions in octahedral arrangement.",
+        "topic_explanation": "Common structures: Rock salt (6:6 coordination), CsCl (8:8), Fluorite CaF₂ (8:4), Zinc blende ZnS (4:4). Coordination number depends on size ratio of ions."
+    },
+    {
+        "id": 70,
+        "question": "Which molecule has zero dipole moment despite having polar bonds?",
+        "options": ["H₂O", "NH₃", "CO₂", "HCl"],
+        "correct": 2,
+        "explanation": "CO₂ is linear, so two C=O dipoles cancel each other.",
+        "topic_explanation": "Molecular dipole = vector sum of bond dipoles. Zero dipole requires symmetry: linear (CO₂, BeF₂), trigonal planar (BF₃), tetrahedral (CH₄), octahedral (SF₆)."
+    },
+    {
+        "id": 71,
+        "question": "The critical temperature is the temperature above which:",
+        "options": [
+            "Solid cannot exist",
+            "Liquid cannot exist",
+            "Gas cannot be liquefied",
+            "Plasma forms"
+        ],
+        "correct": 2,
+        "explanation": "Above critical temperature, no amount of pressure can liquefy a gas.",
+        "topic_explanation": "Critical point: Temperature and pressure where liquid-gas boundary disappears. Above Tc, only supercritical fluid exists. Water: Tc = 374°C, Pc = 218 atm. CO₂: Tc = 31°C (supercritical CO₂ used as solvent)."
+    },
+    {
+        "id": 72,
+        "question": "In the Born-Haber cycle, lattice energy is:",
+        "options": [
+            "Energy to form gaseous ions from solid",
+            "Energy released when gaseous ions form solid",
+            "Energy to melt the solid",
+            "Energy to vaporize the solid"
+        ],
+        "correct": 1,
+        "explanation": "Lattice energy is energy released when gaseous ions combine to form solid crystal.",
+        "topic_explanation": "Born-Haber cycle uses Hess's law to find lattice energy. Steps: sublimation, dissociation, ionization, electron affinity, lattice formation. Higher charge and smaller size increase lattice energy."
+    },
+    {
+        "id": 73,
+        "question": "The Aufbau principle states that electrons:",
+        "options": [
+            "Pair with opposite spins",
+            "Occupy orbitals singly first",
+            "Fill lower energy orbitals first",
+            "Have wave-particle duality"
+        ],
+        "correct": 2,
+        "explanation": "Aufbau: electrons fill orbitals in order of increasing energy.",
+        "topic_explanation": "Three rules for electron configuration: 1) Aufbau - lowest energy first, 2) Pauli exclusion - max 2 electrons with opposite spins, 3) Hund's - maximize unpaired electrons in degenerate orbitals."
+    },
+    {
+        "id": 74,
+        "question": "Which compound shows optical isomerism?",
+        "options": [
+            "CH₃CH₂OH",
+            "CH₃CHClBr",
+            "CH₂Cl₂",
+            "CCl₄"
+        ],
+        "correct": 1,
+        "explanation": "CH₃CHClBr has chiral carbon with 4 different groups.",
+        "topic_explanation": "Optical isomerism requires chirality (non-superimposable mirror images). Usually needs carbon with 4 different groups. Enantiomers rotate plane-polarized light in opposite directions."
+    },
+    {
+        "id": 75,
+        "question": "The heat capacity at constant pressure (Cp) is greater than Cv because:",
+        "options": [
+            "Pressure is higher",
+            "Work is done during expansion",
+            "Temperature changes more",
+            "Volume is constant"
+        ],
+        "correct": 1,
+        "explanation": "At constant pressure, system does expansion work, requiring additional heat.",
+        "topic_explanation": "Cp - Cv = R for ideal gas. At constant P, heat goes to both internal energy change and expansion work. At constant V, all heat goes to internal energy. Cp/Cv = γ (heat capacity ratio)."
+    }
+]

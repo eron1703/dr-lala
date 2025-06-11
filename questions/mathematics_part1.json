@@ -1,0 +1,327 @@
+[
+    {
+        "id": 1,
+        "question": "Find the derivative of f(x) = x³sin(x)",
+        "options": [
+            "3x²sin(x) + x³cos(x)",
+            "3x²cos(x) + x³sin(x)",
+            "3x²sin(x) - x³cos(x)",
+            "x³cos(x) - 3x²sin(x)"
+        ],
+        "correct": 0,
+        "explanation": "Using product rule: (uv)' = u'v + uv'. Here u = x³, v = sin(x), so f'(x) = 3x²sin(x) + x³cos(x)",
+        "topic_explanation": "Product rule: For f(x) = g(x)h(x), derivative is f'(x) = g'(x)h(x) + g(x)h'(x). Essential for differentiating products of functions. Chain rule and quotient rule are other fundamental differentiation techniques."
+    },
+    {
+        "id": 2,
+        "question": "Evaluate ∫(2x + 1)/(x² + x + 1) dx",
+        "options": [
+            "ln|x² + x + 1| + C",
+            "2ln|x² + x + 1| + C",
+            "½ln|x² + x + 1| + C",
+            "(x² + x + 1)² + C"
+        ],
+        "correct": 0,
+        "explanation": "Notice numerator is derivative of denominator: d/dx(x² + x + 1) = 2x + 1. So integral is ln|x² + x + 1| + C",
+        "topic_explanation": "When integrand has form f'(x)/f(x), integral is ln|f(x)| + C. This is reverse of chain rule for derivatives. Recognition of patterns like this simplifies integration significantly."
+    },
+    {
+        "id": 3,
+        "question": "The general solution to differential equation dy/dx = y/x is:",
+        "options": [
+            "y = Cx",
+            "y = x + C",
+            "y = Ce^x",
+            "y = ln(x) + C"
+        ],
+        "correct": 0,
+        "explanation": "Separating variables: dy/y = dx/x. Integrating: ln|y| = ln|x| + ln|C|, so y = Cx",
+        "topic_explanation": "Separable differential equations: Form dy/dx = f(x)g(y). Separate as dy/g(y) = f(x)dx and integrate both sides. Method works when variables can be completely separated."
+    },
+    {
+        "id": 4,
+        "question": "Find the limit: lim(x→∞) (3x² - 2x + 1)/(x² + 5x - 3)",
+        "options": [
+            "0",
+            "1",
+            "3",
+            "∞"
+        ],
+        "correct": 2,
+        "explanation": "For rational functions as x→∞, divide by highest power: lim = 3/1 = 3",
+        "topic_explanation": "Limits at infinity for rational functions: Compare degrees. Same degree: ratio of leading coefficients. Higher degree in numerator: ±∞. Higher degree in denominator: 0."
+    },
+    {
+        "id": 5,
+        "question": "If matrix A = [[2,1],[3,2]], find det(A)",
+        "options": [
+            "-1",
+            "0",
+            "1",
+            "4"
+        ],
+        "correct": 2,
+        "explanation": "det(A) = (2)(2) - (1)(3) = 4 - 3 = 1",
+        "topic_explanation": "For 2×2 matrix [[a,b],[c,d]], determinant = ad - bc. Determinant measures how matrix scales area/volume. Zero determinant means matrix is singular (non-invertible)."
+    },
+    {
+        "id": 6,
+        "question": "The series Σ(n=1 to ∞) 1/n² converges to:",
+        "options": [
+            "e",
+            "π²/6",
+            "π/4",
+            "ln(2)"
+        ],
+        "correct": 1,
+        "explanation": "This is the Basel problem. The sum equals π²/6 ≈ 1.645",
+        "topic_explanation": "P-series Σ1/nᵖ converges if p > 1. The case p = 2 (Basel problem) was famously solved by Euler. Related to Riemann zeta function: ζ(2) = π²/6."
+    },
+    {
+        "id": 7,
+        "question": "Find the area between curves y = x² and y = 2x from x = 0 to x = 2",
+        "options": [
+            "2/3",
+            "4/3",
+            "8/3",
+            "10/3"
+        ],
+        "correct": 1,
+        "explanation": "Area = ∫₀² (2x - x²)dx = [x² - x³/3]₀² = 4 - 8/3 = 4/3",
+        "topic_explanation": "Area between curves: Integrate (upper curve - lower curve) over interval. Find intersection points first. If curves cross, split integral at crossing points."
+    },
+    {
+        "id": 8,
+        "question": "The Taylor series of e^x centered at x = 0 is:",
+        "options": [
+            "Σ xⁿ/n!",
+            "Σ xⁿ/n",
+            "Σ (-1)ⁿxⁿ/n!",
+            "Σ xⁿ"
+        ],
+        "correct": 0,
+        "explanation": "e^x = 1 + x + x²/2! + x³/3! + ... = Σ(n=0 to ∞) xⁿ/n!",
+        "topic_explanation": "Taylor series: f(x) = Σ f⁽ⁿ⁾(a)(x-a)ⁿ/n!. For e^x, all derivatives equal e^x, so at x=0, all equal 1. Series converges for all x. Used for approximations and defining e^x."
+    },
+    {
+        "id": 9,
+        "question": "If z = 3 + 4i, find |z|",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+        ],
+        "correct": 2,
+        "explanation": "|z| = √(3² + 4²) = √(9 + 16) = √25 = 5",
+        "topic_explanation": "Complex number modulus: |a + bi| = √(a² + b²). Represents distance from origin in complex plane. Properties: |z₁z₂| = |z₁||z₂|, |z|² = z·z̄ where z̄ is conjugate."
+    },
+    {
+        "id": 10,
+        "question": "The partial derivative ∂/∂x of f(x,y) = x²y + y³ is:",
+        "options": [
+            "2xy",
+            "x² + 3y²",
+            "2xy + 3y²",
+            "2x + y³"
+        ],
+        "correct": 0,
+        "explanation": "Treating y as constant: ∂f/∂x = 2xy + 0 = 2xy",
+        "topic_explanation": "Partial derivatives: Differentiate with respect to one variable, treating others as constants. For f(x,y): ∂f/∂x treats y as constant. Used in multivariable calculus, optimization, physics."
+    },
+    {
+        "id": 11,
+        "question": "Solve: log₂(x) + log₂(x-2) = 3",
+        "options": [
+            "x = 2",
+            "x = 3",
+            "x = 4",
+            "x = 8"
+        ],
+        "correct": 2,
+        "explanation": "log₂(x(x-2)) = 3, so x(x-2) = 8. x² - 2x - 8 = 0, (x-4)(x+2) = 0. Since x > 2, x = 4",
+        "topic_explanation": "Logarithm properties: log(a) + log(b) = log(ab). When solving, convert to exponential form and check domain restrictions. Here x > 2 for log₂(x-2) to be defined."
+    },
+    {
+        "id": 12,
+        "question": "Find the inverse of function f(x) = (2x + 1)/(x - 1)",
+        "options": [
+            "f⁻¹(x) = (x + 1)/(x - 2)",
+            "f⁻¹(x) = (x - 1)/(x + 2)",
+            "f⁻¹(x) = (2x - 1)/(x + 1)",
+            "f⁻¹(x) = (x + 1)/(2 - x)"
+        ],
+        "correct": 0,
+        "explanation": "Let y = (2x+1)/(x-1). Solve for x: y(x-1) = 2x+1, xy-y = 2x+1, x(y-2) = y+1, x = (y+1)/(y-2)",
+        "topic_explanation": "To find inverse: 1) Replace f(x) with y, 2) Solve for x in terms of y, 3) Swap x and y. Check: f(f⁻¹(x)) = x. Domain of f⁻¹ is range of f."
+    },
+    {
+        "id": 13,
+        "question": "The eigenvalues of matrix [[3,1],[1,3]] are:",
+        "options": [
+            "2 and 3",
+            "2 and 4",
+            "1 and 5",
+            "3 and 3"
+        ],
+        "correct": 1,
+        "explanation": "Characteristic equation: det(A - λI) = 0. (3-λ)² - 1 = 0, λ² - 6λ + 8 = 0, λ = 2, 4",
+        "topic_explanation": "Eigenvalues satisfy det(A - λI) = 0. For symmetric matrices, eigenvalues are real. Trace = sum of eigenvalues, determinant = product of eigenvalues."
+    },
+    {
+        "id": 14,
+        "question": "Evaluate ∫₀^(π/2) sin²(x) dx",
+        "options": [
+            "π/8",
+            "π/4",
+            "π/2",
+            "π"
+        ],
+        "correct": 1,
+        "explanation": "Using identity sin²(x) = (1 - cos(2x))/2. Integral = ∫₀^(π/2) (1/2 - cos(2x)/2)dx = π/4",
+        "topic_explanation": "Trigonometric integrals often use identities: sin²x = (1-cos(2x))/2, cos²x = (1+cos(2x))/2. Power reduction formulas simplify integration of even powers."
+    },
+    {
+        "id": 15,
+        "question": "The general term of arithmetic sequence 3, 7, 11, 15, ... is:",
+        "options": [
+            "aₙ = 4n - 1",
+            "aₙ = 4n + 1",
+            "aₙ = 3n + 4",
+            "aₙ = n + 3"
+        ],
+        "correct": 0,
+        "explanation": "First term a₁ = 3, common difference d = 4. General term: aₙ = a₁ + (n-1)d = 3 + 4(n-1) = 4n - 1",
+        "topic_explanation": "Arithmetic sequence: constant difference between terms. General term: aₙ = a₁ + (n-1)d. Sum of n terms: Sₙ = n(a₁ + aₙ)/2 = n(2a₁ + (n-1)d)/2."
+    },
+    {
+        "id": 16,
+        "question": "If P(A) = 0.6, P(B) = 0.4, and P(A∩B) = 0.3, find P(A∪B)",
+        "options": [
+            "0.7",
+            "0.8",
+            "0.9",
+            "1.0"
+        ],
+        "correct": 0,
+        "explanation": "P(A∪B) = P(A) + P(B) - P(A∩B) = 0.6 + 0.4 - 0.3 = 0.7",
+        "topic_explanation": "Inclusion-exclusion principle: P(A∪B) = P(A) + P(B) - P(A∩B). Avoids double-counting overlap. For independent events: P(A∩B) = P(A)P(B)."
+    },
+    {
+        "id": 17,
+        "question": "The gradient of f(x,y,z) = x²y + yz² at point (1,2,1) is:",
+        "options": [
+            "⟨4, 2, 4⟩",
+            "⟨2, 2, 4⟩",
+            "⟨4, 1, 2⟩",
+            "⟨2, 1, 2⟩"
+        ],
+        "correct": 0,
+        "explanation": "∇f = ⟨2xy, x² + z², 2yz⟩. At (1,2,1): ∇f = ⟨4, 2, 4⟩",
+        "topic_explanation": "Gradient vector: ∇f = ⟨∂f/∂x, ∂f/∂y, ∂f/∂z⟩. Points in direction of maximum increase. Magnitude gives rate of increase. Perpendicular to level surfaces."
+    },
+    {
+        "id": 18,
+        "question": "Solve the recurrence relation: aₙ = 3aₙ₋₁ - 2aₙ₋₂ with a₀ = 1, a₁ = 3",
+        "options": [
+            "aₙ = 2ⁿ",
+            "aₙ = 2ⁿ + 1",
+            "aₙ = 2ⁿ⁺¹ - 1",
+            "aₙ = 3ⁿ"
+        ],
+        "correct": 2,
+        "explanation": "Characteristic equation: r² - 3r + 2 = 0, (r-1)(r-2) = 0. General solution: aₙ = A(1)ⁿ + B(2)ⁿ. Using initial conditions: aₙ = 2ⁿ⁺¹ - 1",
+        "topic_explanation": "Linear recurrence relations: Find characteristic equation, solve for roots. If distinct roots r₁, r₂: aₙ = Ar₁ⁿ + Br₂ⁿ. Use initial conditions to find A, B."
+    },
+    {
+        "id": 19,
+        "question": "The volume of solid of revolution when y = √x from x = 0 to x = 4 is rotated about x-axis:",
+        "options": [
+            "4π",
+            "8π",
+            "16π",
+            "32π"
+        ],
+        "correct": 1,
+        "explanation": "V = π∫₀⁴ y² dx = π∫₀⁴ x dx = π[x²/2]₀⁴ = 8π",
+        "topic_explanation": "Volume by disk method: V = π∫[f(x)]² dx when rotating about x-axis. For rotation about y-axis: V = π∫[g(y)]² dy. Shell method alternative for some problems."
+    },
+    {
+        "id": 20,
+        "question": "Find the Laplace transform of f(t) = e^(2t)sin(3t)",
+        "options": [
+            "3/(s² - 4s + 13)",
+            "3/(s² + 4s + 13)",
+            "(s-2)/(s² - 4s + 13)",
+            "3/(s² - 4s + 9)"
+        ],
+        "correct": 0,
+        "explanation": "L{e^(at)sin(bt)} = b/((s-a)² + b²). Here a = 2, b = 3: L = 3/((s-2)² + 9) = 3/(s² - 4s + 13)",
+        "topic_explanation": "Laplace transforms convert differential equations to algebraic. First shifting theorem: L{e^(at)f(t)} = F(s-a). Used in control theory, circuit analysis."
+    },
+    {
+        "id": 21,
+        "question": "The equation x² + xy + y² = 3 represents:",
+        "options": [
+            "Circle",
+            "Ellipse",
+            "Parabola",
+            "Hyperbola"
+        ],
+        "correct": 1,
+        "explanation": "Check discriminant B² - 4AC where Ax² + Bxy + Cy² + ... = 0. Here: 1² - 4(1)(1) = -3 < 0, so ellipse",
+        "topic_explanation": "Conic sections: B² - 4AC determines type. <0: ellipse, =0: parabola, >0: hyperbola. Can rotate axes to eliminate xy term. Standard forms easier to analyze."
+    },
+    {
+        "id": 22,
+        "question": "How many ways can 5 distinct books be arranged on a shelf?",
+        "options": [
+            "25",
+            "60",
+            "120",
+            "125"
+        ],
+        "correct": 2,
+        "explanation": "This is a permutation: 5! = 5 × 4 × 3 × 2 × 1 = 120",
+        "topic_explanation": "Permutations count arrangements where order matters. n objects in n positions: n! ways. For r positions from n objects: P(n,r) = n!/(n-r)!."
+    },
+    {
+        "id": 23,
+        "question": "The sum of infinite geometric series 1 + 1/3 + 1/9 + 1/27 + ... is:",
+        "options": [
+            "3/2",
+            "2",
+            "5/2",
+            "3"
+        ],
+        "correct": 0,
+        "explanation": "First term a = 1, ratio r = 1/3. Sum = a/(1-r) = 1/(1-1/3) = 1/(2/3) = 3/2",
+        "topic_explanation": "Geometric series Σarⁿ converges if |r| < 1 to sum a/(1-r). Diverges if |r| ≥ 1. Partial sum of n terms: Sₙ = a(1-rⁿ)/(1-r)."
+    },
+    {
+        "id": 24,
+        "question": "The general solution to y'' + 4y = 0 is:",
+        "options": [
+            "y = c₁e^(2x) + c₂e^(-2x)",
+            "y = c₁cos(2x) + c₂sin(2x)",
+            "y = c₁e^(2ix) + c₂e^(-2ix)",
+            "y = c₁x + c₂"
+        ],
+        "correct": 1,
+        "explanation": "Characteristic equation: r² + 4 = 0, r = ±2i. For imaginary roots ±bi: y = c₁cos(bx) + c₂sin(bx)",
+        "topic_explanation": "Second-order linear ODEs: y'' + py' + qy = 0. Characteristic equation: r² + pr + q = 0. Real distinct roots: exponentials. Complex roots: exponentials with sines/cosines."
+    },
+    {
+        "id": 25,
+        "question": "Find ∬_R xy dA where R is the region bounded by y = x² and y = x",
+        "options": [
+            "1/30",
+            "1/20",
+            "1/15",
+            "1/12"
+        ],
+        "correct": 0,
+        "explanation": "Curves intersect at (0,0) and (1,1). ∬ = ∫₀¹ ∫_{x²}^x xy dy dx = ∫₀¹ x(x²-x⁴)/2 dx = 1/30",
+        "topic_explanation": "Double integrals over regions: 1) Find intersection points, 2) Determine order of integration, 3) Set up limits carefully. Can switch order if one way is easier."
+    }
+]

@@ -1,0 +1,327 @@
+[
+    {
+        "id": 51,
+        "question": "A carnot engine absorbs 1000 J from hot reservoir and rejects 600 J. Efficiency is:",
+        "options": [
+            "40%",
+            "60%",
+            "66.7%",
+            "150%"
+        ],
+        "correct": 0,
+        "explanation": "η = W/Qh = (Qh - Qc)/Qh = (1000 - 600)/1000 = 0.4 = 40%",
+        "topic_explanation": "Heat engine efficiency: η = W/Qh = 1 - Qc/Qh = 1 - Tc/Th (Carnot). Work output = heat absorbed - heat rejected. Carnot efficiency is maximum possible between two temperatures."
+    },
+    {
+        "id": 52,
+        "question": "For simple harmonic motion with amplitude A, maximum acceleration is:",
+        "options": [
+            "ωA",
+            "ω²A",
+            "A/ω",
+            "A/ω²"
+        ],
+        "correct": 1,
+        "explanation": "a = -ω²x. Maximum when x = A: a_max = ω²A",
+        "topic_explanation": "SHM equations: x = A sin(ωt), v = ωA cos(ωt), a = -ω²A sin(ωt). Maximum values: x_max = A, v_max = ωA, a_max = ω²A. Energy: E = ½kA² = ½mω²A²."
+    },
+    {
+        "id": 53,
+        "question": "A diffraction grating has 500 lines/mm. For 600 nm light, first-order maximum is at:",
+        "options": [
+            "17.5°",
+            "30°",
+            "36.9°",
+            "90°"
+        ],
+        "correct": 0,
+        "explanation": "d = 1/500 mm = 2×10⁻⁶ m. d sin θ = nλ; sin θ = 600×10⁻⁹/(2×10⁻⁶) = 0.3; θ = 17.5°",
+        "topic_explanation": "Diffraction grating: d sin θ = nλ for maxima. More lines → better resolution. Number of orders limited by d > nλ. Used in spectrometers for precise wavelength measurement."
+    },
+    {
+        "id": 54,
+        "question": "An electron is accelerated through 100 V. Its de Broglie wavelength is approximately:",
+        "options": [
+            "0.12 nm",
+            "1.2 nm",
+            "12 nm",
+            "120 nm"
+        ],
+        "correct": 0,
+        "explanation": "KE = eV = 100 eV. λ = h/√(2mE) ≈ 1.23/√V nm = 1.23/10 = 0.123 nm",
+        "topic_explanation": "Electron wavelength: λ = h/p = h/√(2mKE). For electrons: λ (nm) ≈ 1.23/√V. Used in electron microscopes for high resolution due to short wavelength."
+    },
+    {
+        "id": 55,
+        "question": "The work function of a metal is 2.3 eV. Threshold wavelength for photoelectric effect is:",
+        "options": [
+            "270 nm",
+            "540 nm",
+            "810 nm",
+            "1080 nm"
+        ],
+        "correct": 1,
+        "explanation": "λ₀ = hc/φ = 1240 eV·nm / 2.3 eV = 539 nm ≈ 540 nm",
+        "topic_explanation": "Photoelectric threshold: hf₀ = φ or λ₀ = hc/φ. Useful: hc = 1240 eV·nm. No emission for λ > λ₀ regardless of intensity. Different metals have different work functions."
+    },
+    {
+        "id": 56,
+        "question": "A uniform disk and a ring of same mass and radius roll down an incline. Which reaches bottom first?",
+        "options": [
+            "Ring",
+            "Disk",
+            "Both together",
+            "Depends on incline angle"
+        ],
+        "correct": 1,
+        "explanation": "Disk has smaller I (½MR²) than ring (MR²), so greater acceleration and reaches first",
+        "topic_explanation": "Rolling motion: a = g sin θ/(1 + I/MR²). Smaller I/MR² → greater acceleration. Sphere: 2/5, Disk: 1/2, Ring: 1. Order: sphere > disk > ring. Independent of mass and radius."
+    },
+    {
+        "id": 57,
+        "question": "In Young's modulus experiment, if load doubles and wire length doubles, extension becomes:",
+        "options": [
+            "Same",
+            "Double",
+            "Four times",
+            "Half"
+        ],
+        "correct": 2,
+        "explanation": "Extension = FL/AY. If F doubles and L doubles: extension becomes 4 times",
+        "topic_explanation": "Hooke's law: F = kx. For wire: Y = (F/A)/(ΔL/L) = FL/AΔL. Extension ΔL = FL/AY. Young's modulus Y is material property, independent of dimensions."
+    },
+    {
+        "id": 58,
+        "question": "Orbital velocity of satellite at Earth's surface (radius R) is v. At height R above surface:",
+        "options": [
+            "v/4",
+            "v/2",
+            "v/√2",
+            "2v"
+        ],
+        "correct": 2,
+        "explanation": "v = √(GM/r). At height R, r = 2R, so v' = √(GM/2R) = v/√2",
+        "topic_explanation": "Orbital mechanics: v = √(GM/r). Higher orbits → slower speed, longer period. Escape velocity = √2 × orbital velocity. Geosynchronous orbit at ~36,000 km altitude."
+    },
+    {
+        "id": 59,
+        "question": "In photoelectric effect, if frequency doubles (well above threshold), maximum KE of electrons:",
+        "options": [
+            "Doubles",
+            "More than doubles",
+            "Less than doubles",
+            "Quadruples"
+        ],
+        "correct": 1,
+        "explanation": "KE = hf - φ. If f doubles: KE' = 2hf - φ > 2(hf - φ) = 2KE",
+        "topic_explanation": "Einstein's photoelectric equation: KE_max = hf - φ. Linear relationship with frequency, not intensity. Slope of KE vs f graph gives Planck's constant."
+    },
+    {
+        "id": 60,
+        "question": "A solenoid has inductance L. If length doubles keeping same total turns, inductance becomes:",
+        "options": [
+            "L/4",
+            "L/2",
+            "L",
+            "2L"
+        ],
+        "correct": 1,
+        "explanation": "L = μ₀n²V = μ₀N²A/l. If l doubles with same N: L' = L/2",
+        "topic_explanation": "Solenoid inductance: L = μ₀n²V = μ₀N²A/l where n = N/l. Depends on turns per unit length squared. Energy stored: U = ½LI². Self-induced EMF: ε = -L(dI/dt)."
+    },
+    {
+        "id": 61,
+        "question": "The rms value of sinusoidal AC with peak value V₀ is:",
+        "options": [
+            "V₀/π",
+            "V₀/2",
+            "V₀/√2",
+            "V₀/√3"
+        ],
+        "correct": 2,
+        "explanation": "For sinusoidal AC: V_rms = V₀/√2 ≈ 0.707V₀",
+        "topic_explanation": "RMS (root mean square) values: For sine wave: V_rms = V₀/√2, I_rms = I₀/√2. Power calculations use RMS values. Household 220V is RMS; peak is 311V."
+    },
+    {
+        "id": 62,
+        "question": "Terminal velocity of a sphere falling in viscous fluid depends on:",
+        "options": [
+            "r² only",
+            "r only",
+            "r³ only",
+            "Independent of r"
+        ],
+        "correct": 0,
+        "explanation": "Terminal velocity v_t ∝ r² (from balancing weight, buoyancy, and Stokes drag)",
+        "topic_explanation": "Stokes' law: F = 6πηrv. Terminal velocity: mg = buoyancy + 6πηrv_t. For sphere: v_t = 2r²g(ρ_s - ρ_f)/9η. Proportional to r² and density difference."
+    },
+    {
+        "id": 63,
+        "question": "In hydrogen atom ground state, the probability of finding electron is maximum at:",
+        "options": [
+            "Nucleus",
+            "Bohr radius",
+            "2× Bohr radius",
+            "Infinity"
+        ],
+        "correct": 1,
+        "explanation": "Radial probability = 4πr²|ψ|². Maximum at r = a₀ (Bohr radius)",
+        "topic_explanation": "Wave function ψ vs probability density: |ψ|² maximum at nucleus, but radial probability 4πr²|ψ|² maximum at Bohr radius due to r² factor. Most probable radius ≠ average radius."
+    },
+    {
+        "id": 64,
+        "question": "A wheel rotates with constant angular acceleration. After 4s it has turned through 8 radians. After 8s, total angle is:",
+        "options": [
+            "16 rad",
+            "24 rad",
+            "32 rad",
+            "64 rad"
+        ],
+        "correct": 2,
+        "explanation": "θ = ½αt². At 4s: 8 = ½α(16), so α = 1 rad/s². At 8s: θ = ½×1×64 = 32 rad",
+        "topic_explanation": "Rotational kinematics: θ = ω₀t + ½αt² (like s = ut + ½at²). For constant α starting from rest: θ ∝ t². Angular quantities analogous to linear: θ↔s, ω↔v, α↔a."
+    },
+    {
+        "id": 65,
+        "question": "Maximum range of projectile on inclined plane (angle β upward) is achieved at angle:",
+        "options": [
+            "45°",
+            "45° - β/2",
+            "45° + β/2",
+            "90° - β"
+        ],
+        "correct": 2,
+        "explanation": "For inclined plane, maximum range at θ = 45° + β/2 to horizontal",
+        "topic_explanation": "Projectile on incline: Range along incline R = v₀²sin(2θ-β)/(g cos²β). Maximum when 2θ-β = 90°, giving θ = 45° + β/2. Reduces to 45° for horizontal plane (β = 0)."
+    },
+    {
+        "id": 66,
+        "question": "The quality factor (Q) of a resonant circuit is high when:",
+        "options": [
+            "Resistance is high",
+            "Resistance is low",
+            "Inductance is low",
+            "Capacitance is high"
+        ],
+        "correct": 1,
+        "explanation": "Q = ω₀L/R. Lower resistance gives higher Q (sharper resonance)",
+        "topic_explanation": "Quality factor: Q = ω₀L/R = 1/(ω₀RC) = (1/R)√(L/C). Measures sharpness of resonance. High Q: narrow bandwidth, low damping. Bandwidth = f₀/Q."
+    },
+    {
+        "id": 67,
+        "question": "A parallel beam of light is incident on a glass sphere. It focuses at:",
+        "options": [
+            "Center of sphere",
+            "Surface of sphere",
+            "Outside the sphere",
+            "Depends on refractive index"
+        ],
+        "correct": 3,
+        "explanation": "Focus position depends on n. For n = 2, focuses at back surface. For n < 2, outside.",
+        "topic_explanation": "Spherical lens: For parallel rays, focal length depends on refractive index. Glass sphere acts as thick lens. For n = 1.5, focuses beyond sphere. Ball lens applications in fiber optics."
+    },
+    {
+        "id": 68,
+        "question": "In Compton scattering, maximum wavelength shift occurs at scattering angle:",
+        "options": [
+            "0°",
+            "90°",
+            "180°",
+            "45°"
+        ],
+        "correct": 2,
+        "explanation": "Δλ = (h/mc)(1 - cos θ). Maximum when cos θ = -1, i.e., θ = 180° (backscattering)",
+        "topic_explanation": "Compton effect: Δλ = λc(1 - cos θ) where λc = h/mc = 0.0243 Å. Proves particle nature of light. Energy and momentum conserved. Important in X-ray and gamma ray scattering."
+    },
+    {
+        "id": 69,
+        "question": "The unit of Planck's constant is:",
+        "options": [
+            "J",
+            "J·s",
+            "J/s",
+            "s/J"
+        ],
+        "correct": 1,
+        "explanation": "h has dimensions of energy × time = J·s (also called action)",
+        "topic_explanation": "Planck's constant: h = 6.626×10⁻³⁴ J·s. Fundamental quantum of action. Appears in E = hf, p = h/λ, uncertainty principle. Reduced Planck constant ℏ = h/2π."
+    },
+    {
+        "id": 70,
+        "question": "A metal rod moves perpendicular to magnetic field B with velocity v. Induced EMF is:",
+        "options": [
+            "Bv",
+            "Blv",
+            "Bl²v",
+            "B²lv"
+        ],
+        "correct": 1,
+        "explanation": "Motional EMF: ε = Blv where l is length of rod perpendicular to both B and v",
+        "topic_explanation": "Motional EMF: Charges experience F = qv×B, creating potential difference. ε = Blv = rate of flux change. Basis of generators. Direction by right-hand rule or Lenz's law."
+    },
+    {
+        "id": 71,
+        "question": "Two coherent sources of intensity I produce maximum intensity:",
+        "options": [
+            "I",
+            "2I",
+            "3I",
+            "4I"
+        ],
+        "correct": 3,
+        "explanation": "I_max = (√I₁ + √I₂)² = (√I + √I)² = 4I for constructive interference",
+        "topic_explanation": "Interference: I = I₁ + I₂ + 2√(I₁I₂)cos φ. For equal intensities: I_max = 4I₀ (constructive), I_min = 0 (destructive). Amplitude adds, intensity proportional to amplitude squared."
+    },
+    {
+        "id": 72,
+        "question": "The Rydberg constant has dimensions of:",
+        "options": [
+            "Length",
+            "1/Length",
+            "Energy",
+            "Frequency"
+        ],
+        "correct": 1,
+        "explanation": "Rydberg formula: 1/λ = R(1/n₁² - 1/n₂²). R has dimensions of 1/length",
+        "topic_explanation": "Rydberg constant: R = 1.097×10⁷ m⁻¹. Relates to atomic constants: R = me⁴/8ε₀²h³c. Used for hydrogen spectrum. R∞ for infinite nuclear mass, adjusted for finite mass."
+    },
+    {
+        "id": 73,
+        "question": "Moment of inertia of thin rod of mass M, length L about perpendicular axis through center:",
+        "options": [
+            "ML²/3",
+            "ML²/6",
+            "ML²/12",
+            "ML²/2"
+        ],
+        "correct": 2,
+        "explanation": "For thin rod about perpendicular axis through center: I = ML²/12",
+        "topic_explanation": "Common moments of inertia: Rod (center): ML²/12, Rod (end): ML²/3, Disk: MR²/2, Sphere: 2MR²/5, Ring: MR². Parallel axis theorem: I = I_cm + Md²."
+    },
+    {
+        "id": 74,
+        "question": "The force between two parallel current-carrying wires is:",
+        "options": [
+            "Always attractive",
+            "Always repulsive",
+            "Attractive if currents same direction",
+            "Zero"
+        ],
+        "correct": 2,
+        "explanation": "Parallel currents attract, antiparallel repel. F/l = μ₀I₁I₂/2πd",
+        "topic_explanation": "Force between parallel wires: Each creates B-field affecting other. Same direction currents attract (definition of Ampere). Used to define μ₀ = 4π×10⁻⁷ N/A²."
+    },
+    {
+        "id": 75,
+        "question": "Stefan-Boltzmann law states that radiated power is proportional to:",
+        "options": [
+            "T",
+            "T²",
+            "T³",
+            "T⁴"
+        ],
+        "correct": 3,
+        "explanation": "P = σAT⁴ where σ is Stefan-Boltzmann constant",
+        "topic_explanation": "Blackbody radiation: P = εσAT⁴. Total power ∝ T⁴. Peak wavelength ∝ 1/T (Wien's law). Explains why hot objects glow and color changes with temperature."
+    }
+]
